@@ -5,7 +5,7 @@ export default function StoriesLayout() {
   return (
     <Stack>
       <Stack.Screen
-        name="[id]"
+        name="235degrees/index"
         options={{
           title: "Chi tiết truyện",
           headerShown: true,
@@ -13,10 +13,9 @@ export default function StoriesLayout() {
       />
 
       <Stack.Screen
-        name="[id]/[chapter]"
+        name="235degrees/chapter"
         options={{
-          title: "Đọc truyện",
-          headerShown: true,
+          headerShown: false,
         }}
       />
     </Stack>

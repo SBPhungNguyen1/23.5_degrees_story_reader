@@ -24,7 +24,7 @@ type Story = {
 
 // Dữ liệu mẫu — thay bằng dữ liệu thật (API / store) của bạn.
 const STORIES: Story[] = [
-  { id: "1", name: "Story name 1", info: "short about information" },
+  { id: "235degrees", name: "Story name 1", info: "short about information" },
   { id: "2", name: "Story name 2", info: "short about information" },
   { id: "3", name: "Story name 3", info: "short about information" },
   { id: "4", name: "Story name 4", info: "short about information" },
@@ -39,7 +39,7 @@ export default function Library() {
 
   const onPressStory = (story: Story) => {
     // TODO: điều hướng tới màn hình chi tiết truyện
-    router.push(`/stories/${story.id}`);
+    router.push(`/stories/${story.id}` as any);
     console.log("open story", story.id);
   };
 
