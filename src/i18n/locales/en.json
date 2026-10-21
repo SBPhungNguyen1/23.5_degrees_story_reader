@@ -1,0 +1,18 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "settings": "Settings",
+    "language": "Language",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "home": {
+    "title": "My Library",
+    "description": "Discover your favorite content"
+  },
+  "index": {
+    "home": "Home",
+    "explore": "Explore",
+    "library": "Library"
+  }
+}

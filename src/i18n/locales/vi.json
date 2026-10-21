@@ -1,0 +1,18 @@
+{
+  "common": {
+    "welcome": "Chào mừng bạn",
+    "settings": "Cài đặt",
+    "language": "Ngôn ngữ",
+    "save": "Lưu",
+    "cancel": "Hủy"
+  },
+  "home": {
+    "title": "Thư viện của tôi",
+    "description": "Khám phá những nội dung yêu thích"
+  },
+  "index": {
+    "home": "Trang chủ",
+    "explore": "Khám phá",
+    "library": "Thư viện"
+  }
+}
