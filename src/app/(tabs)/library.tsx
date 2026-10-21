@@ -2,6 +2,7 @@ import { ThemedView } from "@/components/themed-view";
 import { Spacing } from "@/constants/theme";
 import { THEME_COLORS } from "@/utils/color-utils";
 import { Ionicons } from "@expo/vector-icons";
+import { router } from "expo-router";
 import { useTranslation } from "react-i18next";
 import {
   FlatList,
@@ -38,7 +39,7 @@ export default function Library() {
 
   const onPressStory = (story: Story) => {
     // TODO: điều hướng tới màn hình chi tiết truyện
-    // router.push(`/story/${story.id}`);
+    router.push(`/stories/${story.id}`);
     console.log("open story", story.id);
   };
 
