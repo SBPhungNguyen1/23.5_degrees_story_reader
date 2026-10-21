@@ -48,12 +48,10 @@ const themeOptions: ThemeOptionItem[] = [
 
 export default function Settings() {
   const { t, i18n } = useTranslation();
-  // Bắt đầu với "system" để OS kiểm soát cho tới khi người dùng chọn.
   const [selectedTheme, setSelectedTheme] = useState<ThemeOption>("system");
 
   const selectTheme = (theme: ThemeOption) => {
     setSelectedTheme(theme);
-    // "unspecified" trả về việc theo giao diện hệ thống của thiết bị.
     Appearance.setColorScheme(theme === "system" ? "unspecified" : theme);
   };
 
@@ -251,7 +249,8 @@ export default function Settings() {
           </View>
 
           <Text style={styles.bottomNote}>
-            Made with care · Your preferences, your way
+            ©{new Date().getFullYear()} · All rights reserved · Developed by
+            BonKP
           </Text>
         </ScrollView>
       </SafeAreaView>
