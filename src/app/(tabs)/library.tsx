@@ -38,7 +38,7 @@ export default function Library() {
   const styles = createStyles(colors);
 
   const onPressStory = (story: Story) => {
-    // TODO: điều hướng tới màn hình chi tiết truyện
+    //
     router.push(`/stories/${story.id}` as any);
     console.log("open story", story.id);
   };
