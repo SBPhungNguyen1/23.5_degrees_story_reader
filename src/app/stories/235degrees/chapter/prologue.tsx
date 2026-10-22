@@ -1,5 +1,6 @@
 import { AudioPlayer } from "@/components/audio-player";
 import ButtonSwitchChapter from "@/components/button-switch-chapter";
+import MenuChapter from "@/components/menu-chapter";
 import { RichParagraph } from "@/components/rich-paragraph";
 import { ThemedView } from "@/components/themed-view";
 import { Spacing } from "@/constants/theme";
@@ -146,56 +147,13 @@ export default function StoriesDetail235Prologue() {
 
           {/* Menu chương nổi lên trên nội dung — đặt cuối cùng để nằm trên cùng */}
           {menuOpen && (
-            <>
-              {/* Chạm ra ngoài để đóng menu */}
-              <Pressable
-                accessibilityLabel={t("common.close", "Đóng")}
-                onPress={() => setMenuOpen(false)}
-                style={styles.backdrop}
-              />
-
-              <View style={[styles.menu, { top: barBottom + 8 }]}>
-                <ScrollView
-                  style={styles.menuScroll}
-                  showsVerticalScrollIndicator={false}
-                >
-                  {CHAPTERS.map((chapter) => {
-                    const isCurrent = chapter.slug === CURRENT_SLUG;
-                    return (
-                      <Pressable
-                        key={chapter.slug}
-                        accessibilityRole="button"
-                        onPress={() => goToChapter(chapter.slug)}
-                        style={({ pressed }) => [
-                          styles.menuItem,
-                          isCurrent && styles.menuItemCurrent,
-                          pressed && styles.pressed,
-                        ]}
-                      >
-                        <Text
-                          style={[
-                            styles.menuItemText,
-                            isCurrent && styles.menuItemTextCurrent,
-                          ]}
-                          numberOfLines={1}
-                        >
-                          {chapter.title
-                            ? `${chapter.label} · ${chapter.title}`
-                            : chapter.label}
-                        </Text>
-                        {isCurrent && (
-                          <Ionicons
-                            name="checkmark-circle"
-                            size={20}
-                            color={colors.primary}
-                          />
-                        )}
-                      </Pressable>
-                    );
-                  })}
-                </ScrollView>
-              </View>
-            </>
+            <MenuChapter
+              setMenuOpen={setMenuOpen}
+              goToChapter={goToChapter}
+              CHAPTERS={CHAPTERS_LIST}
+              CURRENT_SLUG={CURRENT_SLUG}
+              barBottom={barBottom}
+            />
           )}
         </View>
       </SafeAreaView>
@@ -241,49 +199,6 @@ const createStyles = (COLORS: ThemeColors) =>
       color: COLORS.muted,
       fontSize: 12,
     },
-    backdrop: {
-      ...StyleSheet.absoluteFill,
-      backgroundColor: "rgba(0, 0, 0, 0.18)",
-      marginTop: -28,
-    },
-    menu: {
-      position: "absolute",
-      left: Spacing.three,
-      right: Spacing.three,
-      borderRadius: 16,
-      borderWidth: 1,
-      borderColor: COLORS.border,
-      backgroundColor: COLORS.surface,
-      overflow: "hidden",
-      shadowColor: "#16382B",
-      shadowOffset: { width: 0, height: 8 },
-      shadowOpacity: 0.18,
-      shadowRadius: 16,
-      elevation: 8,
-    },
-    menuScroll: {
-      maxHeight: 280,
-    },
-    menuItem: {
-      flexDirection: "row",
-      alignItems: "center",
-      gap: 10,
-      paddingHorizontal: 16,
-      paddingVertical: 14,
-    },
-    menuItemCurrent: {
-      backgroundColor: COLORS.surfaceSelected,
-    },
-    menuItemText: {
-      flex: 1,
-      color: COLORS.text,
-      fontSize: 14,
-      fontWeight: "600",
-    },
-    menuItemTextCurrent: {
-      color: COLORS.primary,
-      fontWeight: "800",
-    },
     reader: {
       flex: 1,
     },
@@ -318,39 +233,6 @@ const createStyles = (COLORS: ThemeColors) =>
       fontSize: 17,
       lineHeight: 29,
     },
-    navRow: {
-      flexDirection: "row",
-      gap: 12,
-    },
-    navSpacer: {
-      flex: 1,
-    },
-    navButton: {
-      flex: 1,
-      height: 48,
-      borderRadius: 14,
-      borderWidth: 1,
-      borderColor: COLORS.border,
-      backgroundColor: COLORS.surface,
-      flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "center",
-      gap: 6,
-    },
-    navButtonPrimary: {
-      borderColor: COLORS.primary,
-      backgroundColor: COLORS.primary,
-    },
-    navText: {
-      color: COLORS.primary,
-      fontSize: 14,
-      fontWeight: "700",
-    },
-    navTextPrimary: {
-      color: "#FFFFFF",
-      fontSize: 14,
-      fontWeight: "700",
-    },
     player: {
       paddingHorizontal: Spacing.four,
       paddingTop: 14,
@@ -359,72 +241,6 @@ const createStyles = (COLORS: ThemeColors) =>
       borderTopWidth: 1,
       borderTopColor: COLORS.border,
       backgroundColor: COLORS.surface,
-    },
-    progressTrack: {
-      height: 4,
-      borderRadius: 2,
-      backgroundColor: COLORS.border,
-      justifyContent: "center",
-    },
-    progressFill: {
-      height: 4,
-      borderRadius: 2,
-      backgroundColor: COLORS.primary,
-    },
-    progressDot: {
-      position: "absolute",
-      width: 12,
-      height: 12,
-      borderRadius: 6,
-      marginLeft: -6,
-      backgroundColor: COLORS.primary,
-    },
-    timeRow: {
-      flexDirection: "row",
-      justifyContent: "space-between",
-    },
-    timeText: {
-      color: COLORS.muted,
-      fontSize: 11,
-      fontWeight: "600",
-    },
-    controls: {
-      flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "center",
-      gap: 36,
-      paddingTop: 2,
-    },
-    skipButton: {
-      width: 44,
-      height: 44,
-      alignItems: "center",
-      justifyContent: "center",
-    },
-    skipLabel: {
-      position: "absolute",
-      color: COLORS.text,
-      fontSize: 10,
-      fontWeight: "800",
-    },
-    flipX: {
-      transform: [{ scaleX: -1 }],
-    },
-    playButton: {
-      width: 56,
-      height: 56,
-      borderRadius: 28,
-      backgroundColor: COLORS.primary,
-      alignItems: "center",
-      justifyContent: "center",
-      shadowColor: COLORS.primary,
-      shadowOffset: { width: 0, height: 6 },
-      shadowOpacity: 0.3,
-      shadowRadius: 10,
-      elevation: 4,
-    },
-    playOffset: {
-      marginLeft: 3,
     },
     pressed: {
       opacity: 0.7,
