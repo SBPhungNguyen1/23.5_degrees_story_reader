@@ -1,7 +1,10 @@
 import { AudioPlayer } from "@/components/audio-player";
+import ButtonSwitchChapter from "@/components/button-switch-chapter";
 import { RichParagraph } from "@/components/rich-paragraph";
 import { ThemedView } from "@/components/themed-view";
 import { Spacing } from "@/constants/theme";
+import { Chapter } from "@/types/chapter-type";
+import { CHAPTERS_LIST } from "@/utils/chapter-utils";
 import { THEME_COLORS } from "@/utils/color-utils";
 import { Ionicons } from "@expo/vector-icons";
 import { router, type Href } from "expo-router";
@@ -16,12 +19,6 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-
-type Chapter = {
-  slug: string;
-  label: string; // "Prologue", "Chương 1", ...
-  title?: string; // tên chương (nếu có)
-};
 
 type RichTextPart = {
   text: string;
@@ -41,13 +38,6 @@ const STORY_SLUG = "235degrees";
 const CURRENT_SLUG = "prologue";
 const AUDIO_DURATION = 600; // giây
 
-const CHAPTERS: Chapter[] = [
-  { slug: "prologue", label: "Prologue", title: "Khởi đầu" },
-  { slug: "chapter-1", label: "Chương 1", title: "Cuộc gặp gỡ" },
-  { slug: "chapter-2", label: "Chương 2" },
-  { slug: "chapter-3", label: "Chương 3", title: "Ngã rẽ" },
-];
-
 const formatTime = (seconds: number) => {
   const m = Math.floor(seconds / 60);
   const s = Math.floor(seconds % 60);
@@ -56,6 +46,8 @@ const formatTime = (seconds: number) => {
 
 export default function StoriesDetail235Prologue() {
   const { t } = useTranslation();
+
+  const CHAPTERS: Chapter[] = CHAPTERS_LIST;
 
   const content = t("235_prologue_content", {
     returnObjects: true,
@@ -69,10 +61,6 @@ export default function StoriesDetail235Prologue() {
   // Vị trí đáy của thanh dropdown, dùng để đặt menu nổi ngay bên dưới nó.
   const [barBottom, setBarBottom] = useState(0);
 
-  // Âm thanh: mới chỉ là giao diện, chưa gắn player thật.
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [position, setPosition] = useState(0);
-
   const currentIndex = CHAPTERS.findIndex((c) => c.slug === CURRENT_SLUG);
   const current = CHAPTERS[currentIndex];
   const prev = CHAPTERS[currentIndex - 1];
@@ -83,11 +71,6 @@ export default function StoriesDetail235Prologue() {
     if (slug === CURRENT_SLUG) return;
     router.replace(`/stories/${STORY_SLUG}/chapter/${slug}` as Href);
   };
-
-  const skip = (delta: number) =>
-    setPosition((p) => Math.min(AUDIO_DURATION, Math.max(0, p + delta)));
-
-  const progress = position / AUDIO_DURATION;
 
   return (
     <ThemedView style={styles.container}>
@@ -146,122 +129,13 @@ export default function StoriesDetail235Prologue() {
             </View>
 
             {/* Chương trước / sau */}
-            <View style={styles.navRow}>
-              {prev ? (
-                <Pressable
-                  accessibilityRole="button"
-                  onPress={() => goToChapter(prev.slug)}
-                  style={({ pressed }) => [
-                    styles.navButton,
-                    pressed && styles.pressed,
-                  ]}
-                >
-                  <Ionicons
-                    name="chevron-back"
-                    size={18}
-                    color={colors.primary}
-                  />
-                  <Text style={styles.navText} numberOfLines={1}>
-                    {t("reader.previous", "Chương trước")}
-                  </Text>
-                </Pressable>
-              ) : (
-                <View style={styles.navSpacer} />
-              )}
-
-              {next ? (
-                <Pressable
-                  accessibilityRole="button"
-                  onPress={() => goToChapter(next.slug)}
-                  style={({ pressed }) => [
-                    styles.navButton,
-                    styles.navButtonPrimary,
-                    pressed && styles.pressed,
-                  ]}
-                >
-                  <Text style={styles.navTextPrimary} numberOfLines={1}>
-                    {t("reader.next", "Chương sau")}
-                  </Text>
-                  <Ionicons name="chevron-forward" size={18} color="#FFFFFF" />
-                </Pressable>
-              ) : (
-                <View style={styles.navSpacer} />
-              )}
-            </View>
+            <ButtonSwitchChapter
+              prev={prev}
+              next={next}
+              goToChapter={goToChapter}
+            />
           </ScrollView>
 
-          {/* Thanh âm thanh */}
-          {/* <View style={styles.player}>
-            <View style={styles.progressTrack}>
-              <View
-                style={[styles.progressFill, { width: `${progress * 100}%` }]}
-              />
-              <View
-                style={[styles.progressDot, { left: `${progress * 100}%` }]}
-              />
-            </View>
-
-            <View style={styles.timeRow}>
-              <Text style={styles.timeText}>{formatTime(position)}</Text>
-              <Text style={styles.timeText}>{formatTime(AUDIO_DURATION)}</Text>
-            </View>
-
-            <View style={styles.controls}>
-              <Pressable
-                accessibilityRole="button"
-                accessibilityLabel={t("reader.rewind", "Tua lại 10 giây")}
-                onPress={() => skip(-10)}
-                hitSlop={8}
-                style={({ pressed }) => [
-                  styles.skipButton,
-                  pressed && styles.pressed,
-                ]}
-              >
-                <Ionicons
-                  name="reload-outline"
-                  size={34}
-                  color={colors.text}
-                  style={styles.flipX}
-                />
-                <Text style={styles.skipLabel}>10</Text>
-              </Pressable>
-
-              <Pressable
-                accessibilityRole="button"
-                accessibilityLabel={
-                  isPlaying
-                    ? t("reader.pause", "Tạm dừng")
-                    : t("reader.play", "Phát")
-                }
-                onPress={() => setIsPlaying((playing) => !playing)}
-                style={({ pressed }) => [
-                  styles.playButton,
-                  pressed && styles.pressed,
-                ]}
-              >
-                <Ionicons
-                  name={isPlaying ? "pause" : "play"}
-                  size={26}
-                  color="#FFFFFF"
-                  style={!isPlaying && styles.playOffset}
-                />
-              </Pressable>
-
-              <Pressable
-                accessibilityRole="button"
-                accessibilityLabel={t("reader.forward", "Tua tới 15 giây")}
-                onPress={() => skip(15)}
-                hitSlop={8}
-                style={({ pressed }) => [
-                  styles.skipButton,
-                  pressed && styles.pressed,
-                ]}
-              >
-                <Ionicons name="reload-outline" size={34} color={colors.text} />
-                <Text style={styles.skipLabel}>15</Text>
-              </Pressable>
-            </View>
-          </View> */}
           {/* Thanh âm thanh */}
           <View style={styles.player}>
             <AudioPlayer

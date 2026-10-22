@@ -13,7 +13,9 @@
   "index": {
     "home": "Trang chủ",
     "explore": "Khám phá",
-    "library": "Thư viện"
+    "library": "Thư viện",
+    "previous_chapter": "Chương trước",
+    "next_chapter": "Chương sau"
   },
   "235_prologue_content": {
     "paragraph1": [
@@ -76,5 +78,161 @@
         "text": " cũng chẳng là gì! Đây là câu chuyện về một tình yêu trong sáng giữa những năm tháng tuổi teen đầy biến động, hứa hẹn sẽ khiến bạn mỉm cười từ trang đầu tiên cho đến tận trang cuối cùng."
       }
     ]
-  }
+  },
+
+  "235_intro_content": [
+    [
+      {
+        "text": "Ongsa, Sun tới rồi kìa."
+      }
+    ],
+    [
+      {
+        "text": "Kẻ thức thời mới là trang tuấn kiệt, người ngây thơ luôn là người chịu thiệt."
+      }
+    ],
+    [
+      {
+        "text": "Đâu?"
+      }
+    ],
+    [
+      {
+        "text": "Sau khi quay người đưa mắt kiếm tìm vẫn không thấy người vừa được nhắc tới, Ongsa thất vọng quay lại thì viên thịt trong khay đã không cánh mà bay."
+      }
+    ],
+    [
+      {
+        "text": "Thì ra có người đã lấy trộm viên thịt của cô."
+      },
+      {
+        "text": " Tinh, lại chôm thịt của bà hả? Thật là! Mau nhả ra ngay."
+      }
+    ],
+    [
+      {
+        "text": "Úi, úi, Ongsa, đừng bóp cổ mình nữa, khụ khụ."
+      },
+      {
+        "text": " Thành viên nam duy nhất trong nhóm la oai oái kêu cứu."
+      }
+    ],
+    [
+      {
+        "text": "Ai mượn, ác giả ác báo."
+      },
+      {
+        "text": " Charoen đã không giúp còn lên lớp cậu."
+      }
+    ],
+    [
+      {
+        "text": "Charoen, thứ bạn xấu xa. Ongsa, mình không thở được, khụ khụ."
+      }
+    ],
+    [
+      {
+        "text": "Cảnh tượng một nữ sinh mảnh khảnh bóp cổ cậu bạn mũm mĩm cùng với tiếng cười khúc khích tán thưởng của cô bạn ngồi kế bên nhìn có vẻ hơi bạo lực nhưng đó là chuyện thường thấy của nhóm bạn này."
+      }
+    ],
+    [
+      {
+        "text": "Tinh, Charoen và Ongsa là bạn thân của nhau từ hồi cấp hai. Giờ đã lên lớp 10, cả ba vẫn chung một lớp."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa, Sun tới rồi kìa."
+      },
+      {
+        "text": " Charoen lặp lại lời của Tinh khi nãy."
+      }
+    ],
+    [
+      {
+        "text": "Nhưng mà biết sao được..."
+      }
+    ],
+    [
+      {
+        "text": "Đâu?"
+      }
+    ],
+    [
+      {
+        "text": "Người ngây thơ mãi là người ngây thơ."
+      }
+    ],
+    [
+      {
+        "text": "Hahaha."
+      },
+      {
+        "text": " Hai đứa bạn thân chí cốt bật cười trước sự ngốc nghếch của cô."
+      }
+    ],
+    [
+      {
+        "text": "Bình thường, Ongsa không phải là người dễ bị dụ như vậy. Nhưng chuyện là, từ sáng tới giờ cô vẫn chưa thấy mặt người ta."
+      }
+    ],
+    [
+      {
+        "text": "Sun"
+      },
+      {
+        "text": "... cái tên này có sức ảnh hưởng cực lớn tới Ongsa. Sun cũng học lớp 10, giống như cô."
+      }
+    ],
+    [
+      {
+        "text": "Họ cũng giống như là bạn của nhau."
+      }
+    ],
+    [
+      {
+        "text": "Mà không..."
+      }
+    ],
+    [
+      {
+        "text": "Gọi là cũng có quen biết sơ sơ mới đúng."
+      }
+    ],
+    [
+      {
+        "text": "Mà cũng không phải..."
+      }
+    ],
+    [
+      {
+        "text": "Sự thật là, Ongsa biết Sun chứ còn Sun biết cô không thì Ongsa cũng không dám chắc."
+      }
+    ],
+    [
+      {
+        "text": "Nói cho đơn giản dễ hiểu thì..."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cảm nắng người ta."
+      }
+    ],
+    [
+      {
+        "text": "Cũng được một thời gian dài rồi."
+      }
+    ],
+    [
+      {
+        "text": "Tình cảm đó dạt dào không thể che giấu đến mức khiến hai người bạn của cô chú ý tới."
+      }
+    ],
+    [
+      {
+        "text": "Nhưng dù tình cảm ấy có mãnh liệt tới đâu, Ongsa vẫn không thể bày tỏ với đối phương. Cô là một người nhút nhát, không có đủ can đảm để làm điều đó. Và hơn hết, Ongsa là con gái. Làm sao cô có thể nói những chuyện như thế khi mà Sun... cũng là con gái kia chứ?"
+      }
+    ]
+  ]
 }

@@ -13,7 +13,9 @@
   "index": {
     "home": "Home",
     "explore": "Explore",
-    "library": "Library"
+    "library": "Library",
+    "previous_chapter": "Previous chapter",
+    "next_chapter": "Next chapter"
   },
   "235_prologue_content": {
     "paragraph1": [
@@ -61,5 +63,161 @@
         "text": ", Yuri's second work published by everY. It's not often that we come across this kind of work, but when we do, it's guaranteed to be fun. We should also start this by saying that this story is so beautiful (as much as a long trip to Neptune). A story about an innocent love in the turbulent teenage years that will make you smile as you read from the first page to the last page."
       }
     ]
-  }
+  },
+
+  "235_intro_content": [
+    [
+      {
+        "text": "Ongsa, Sun is here."
+      }
+    ],
+    [
+      {
+        "text": "The innocent, naive one is always the victim."
+      }
+    ],
+    [
+      {
+        "text": "Where?!"
+      }
+    ],
+    [
+      {
+        "text": "After turning around and not seeing the person mentioned, she turns her head back to her meatball vanishing as if getting stolen."
+      }
+    ],
+    [
+      {
+        "text": "Ah... someone did steal it."
+      },
+      {
+        "text": " Tinh, did you take my meatball again? Damn you! Spit it out."
+      }
+    ],
+    [
+      {
+        "text": "Ouch, ouch, Ongsa, don't strangle me. Cough, cough."
+      },
+      {
+        "text": " The only boy in the group cries for help."
+      }
+    ],
+    [
+      {
+        "text": "What goes around comes around."
+      },
+      {
+        "text": " Charoen lectures, not even helping."
+      }
+    ],
+    [
+      {
+        "text": "Charoen, you trashy friend. Ongsa, I can't breathe. Cough, cough."
+      }
+    ],
+    [
+      {
+        "text": "A slender female student is strangling a chubby male student with another female student laughing at the side. It might look like a violent scene, but it's common for these kids."
+      }
+    ],
+    [
+      {
+        "text": "Tinh, Charoen and Ongsa, three best friends, have been close since middle school. Now that they're in the tenth grade, they're still from the same class."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa, Sun is here."
+      },
+      {
+        "text": " Charoen repeats Tinh's words."
+      }
+    ],
+    [
+      {
+        "text": "... However..."
+      }
+    ],
+    [
+      {
+        "text": "Where?!"
+      }
+    ],
+    [
+      {
+        "text": "... A naive person is naive..."
+      }
+    ],
+    [
+      {
+        "text": "Hahahaha."
+      },
+      {
+        "text": " The two dear friends laugh at their best friend's silliness."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa wasn't usually easily fooled. The thing is, today, she hasn't seen someone's face since morning."
+      }
+    ],
+    [
+      {
+        "text": "Sun"
+      },
+      {
+        "text": "... this name has a particular impact on Ongsa. Sun is in the tenth grade, the same as her."
+      }
+    ],
+    [
+      {
+        "text": "They're like friends."
+      }
+    ],
+    [
+      {
+        "text": "... No..."
+      }
+    ],
+    [
+      {
+        "text": "They're acquaintances."
+      }
+    ],
+    [
+      {
+        "text": "... Also no..."
+      }
+    ],
+    [
+      {
+        "text": "The truth is, Ongsa knows Sun, but she's not sure if Sun knows her."
+      }
+    ],
+    [
+      {
+        "text": "... To put it simply..."
+      }
+    ],
+    [
+      {
+        "text": "... Ongsa has a crush on her..."
+      }
+    ],
+    [
+      {
+        "text": "For a long while now."
+      }
+    ],
+    [
+      {
+        "text": "The feelings were so strong that her gang began to notice."
+      }
+    ],
+    [
+      {
+        "text": "But no matter how strong the feelings are, Ongsa can't express them. She's a shy person. She doesn't have that much courage. More importantly, Ongsa is a girl. How can she ever say things like that when Sun... is also a girl?"
+      }
+    ]
+  ]
 }
