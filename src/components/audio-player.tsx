@@ -1,3 +1,4 @@
+import { useResponsive, webPointer } from "@/hooks/use-responsive";
 import { Ionicons } from "@expo/vector-icons";
 import Slider from "@react-native-community/slider";
 import { useAudioPlayer, useAudioPlayerStatus } from "expo-audio";
@@ -20,6 +21,13 @@ function formatTime(seconds: number) {
 }
 
 export function AudioPlayer({ source, colors }: AudioPlayerProps) {
+  const { isTablet } = useResponsive();
+
+  // Kích thước gọn hơn cho web/tablet, mobile giữ như cũ
+  const skipIconSize = isTablet ? 26 : 34;
+  const playSize = isTablet ? 42 : 54;
+  const playIconSize = isTablet ? 21 : 27;
+
   const player = useAudioPlayer(source);
   const status = useAudioPlayerStatus(player);
 
@@ -46,8 +54,10 @@ export function AudioPlayer({ source, colors }: AudioPlayerProps) {
     player.play();
   };
 
+  const playDisabled = !status.isLoaded || !!status.error;
+
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, isTablet && styles.containerCompact]}>
       {status.error ? (
         <Text style={[styles.message, { color: colors.text }]}>
           Không thể phát audio. Vui lòng thử lại.
@@ -61,7 +71,7 @@ export function AudioPlayer({ source, colors }: AudioPlayerProps) {
       ) : null}
 
       <Slider
-        style={styles.slider}
+        style={[styles.slider, isTablet && styles.sliderCompact]}
         minimumValue={0}
         maximumValue={Math.max(duration, 1)}
         value={Math.min(position, Math.max(duration, 1))}
@@ -83,18 +93,18 @@ export function AudioPlayer({ source, colors }: AudioPlayerProps) {
         </Text>
       </View>
 
-      <View style={styles.controls}>
+      <View style={[styles.controls, isTablet && styles.controlsCompact]}>
         <Pressable
           accessibilityRole="button"
           accessibilityLabel="Tua lùi 10 giây"
           disabled={!status.isLoaded}
           onPress={() => skip(-10)}
           hitSlop={10}
-          style={styles.skipButton}
+          style={[styles.skipButton, webPointer]}
         >
           <Ionicons
             name="reload-outline"
-            size={34}
+            size={skipIconSize}
             color={colors.text}
             style={styles.flipX}
           />
@@ -104,17 +114,23 @@ export function AudioPlayer({ source, colors }: AudioPlayerProps) {
         <Pressable
           accessibilityRole="button"
           accessibilityLabel={status.playing ? "Tạm dừng" : "Phát audio"}
-          disabled={!status.isLoaded || !!status.error}
+          disabled={playDisabled}
           onPress={togglePlayback}
           style={[
             styles.playButton,
-            { backgroundColor: colors.primary },
-            (!status.isLoaded || !!status.error) && styles.disabled,
+            {
+              width: playSize,
+              height: playSize,
+              borderRadius: playSize / 2,
+              backgroundColor: colors.primary,
+            },
+            webPointer,
+            playDisabled && styles.disabled,
           ]}
         >
           <Ionicons
             name={status.playing ? "pause" : "play"}
-            size={27}
+            size={playIconSize}
             color="#FFFFFF"
           />
         </Pressable>
@@ -125,10 +141,14 @@ export function AudioPlayer({ source, colors }: AudioPlayerProps) {
           disabled={!status.isLoaded}
           onPress={() => skip(15)}
           hitSlop={10}
-          style={styles.skipButton}
+          style={[styles.skipButton, webPointer]}
         >
           <Text style={[styles.skipLabel, { color: colors.text }]}>15s</Text>
-          <Ionicons name="reload-outline" size={34} color={colors.text} />
+          <Ionicons
+            name="reload-outline"
+            size={skipIconSize}
+            color={colors.text}
+          />
         </Pressable>
       </View>
     </View>
@@ -140,6 +160,9 @@ const styles = StyleSheet.create({
     width: "100%",
     paddingVertical: 12,
   },
+  containerCompact: {
+    paddingVertical: 2,
+  },
   message: {
     fontSize: 13,
     marginBottom: 8,
@@ -147,6 +170,9 @@ const styles = StyleSheet.create({
   slider: {
     width: "100%",
     height: 36,
+  },
+  sliderCompact: {
+    height: 28,
   },
   timeRow: {
     flexDirection: "row",
@@ -164,6 +190,10 @@ const styles = StyleSheet.create({
     gap: 30,
     marginTop: 18,
   },
+  controlsCompact: {
+    gap: 24,
+    marginTop: 4,
+  },
   skipButton: {
     flexDirection: "row",
     alignItems: "center",
@@ -175,9 +205,6 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   playButton: {
-    width: 54,
-    height: 54,
-    borderRadius: 27,
     alignItems: "center",
     justifyContent: "center",
   },

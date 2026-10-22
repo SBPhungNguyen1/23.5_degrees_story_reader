@@ -1,3 +1,4 @@
+import { webPointer } from "@/hooks/use-responsive";
 import { Chapter } from "@/types/chapter-type";
 import { THEME_COLORS } from "@/utils/color-utils";
 import { Ionicons } from "@expo/vector-icons";
@@ -33,7 +34,11 @@ export default function ButtonSwitchChapter({
         <Pressable
           accessibilityRole="button"
           onPress={() => goToChapter(prev.slug)}
-          style={({ pressed }) => [styles.navButton, pressed && styles.pressed]}
+          style={({ pressed }) => [
+            styles.navButton,
+            webPointer,
+            pressed && styles.pressed,
+          ]}
         >
           <Ionicons name="chevron-back" size={18} color={colors.primary} />
           <Text style={styles.navText} numberOfLines={1}>
@@ -51,6 +56,7 @@ export default function ButtonSwitchChapter({
           style={({ pressed }) => [
             styles.navButton,
             styles.navButtonPrimary,
+            webPointer,
             pressed && styles.pressed,
           ]}
         >

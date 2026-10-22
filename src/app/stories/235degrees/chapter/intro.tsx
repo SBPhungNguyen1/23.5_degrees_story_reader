@@ -76,10 +76,10 @@ export default function StoriesDetail235Intro() {
           >
             <View style={styles.chapterHeading}>
               <Text style={styles.chapterNumber}>
-                {current.label.toUpperCase()}
+                {t(current.label).toUpperCase()}
               </Text>
               {current.title ? (
-                <Text style={styles.chapterTitle}>{current.title}</Text>
+                <Text style={styles.chapterTitle}>{t(current.title)}</Text>
               ) : null}
             </View>
 
@@ -104,7 +104,7 @@ export default function StoriesDetail235Intro() {
           {/* Thanh âm thanh */}
           <View style={styles.player}>
             <AudioPlayer
-              source={require("../../../../../assets/audio/235degrees/prologue.mp3")}
+              source={require("../../../../../assets/audio/235degrees/intro.mp3")}
               colors={colors}
             />
           </View>

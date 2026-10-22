@@ -1,10 +1,12 @@
 import { Spacing } from "@/constants/theme";
+import { webPointer } from "@/hooks/use-responsive";
 import { Chapter } from "@/types/chapter-type";
 import { THEME_COLORS } from "@/utils/color-utils";
 import { Ionicons } from "@expo/vector-icons";
 import { Dispatch, SetStateAction } from "react";
 import { useTranslation } from "react-i18next";
 import {
+  Platform,
   Pressable,
   StyleSheet,
   Text,
@@ -41,14 +43,20 @@ export default function DropdownChapter({
         const { y, height } = e.nativeEvent.layout;
         setBarBottom(y + height);
       }}
-      style={styles.storyBar}
+      style={[styles.storyBar, webPointer]}
     >
       <View style={styles.storyBarCopy}>
         <Text style={styles.storyBarName} numberOfLines={1}>
           {STORY_NAME}
         </Text>
         <Text style={styles.storyBarChapter} numberOfLines={1}>
-          {t(current.label.split(" ")[0])} {current.label.split(" ")[1]}
+          {current.title
+            ? `${t(current.label.split(" ")[0])} ${t(
+                current.label.split(" ")[1]
+              )} · ${t(current.title)}`
+            : `${t(current.label.split(" ")[0])} ${t(
+                current.label.split(" ")[1]
+              )}`}
         </Text>
       </View>
       <Ionicons
@@ -73,7 +81,7 @@ const createStyles = (COLORS: ThemeColors) =>
       paddingVertical: 12,
       borderRadius: 12,
       backgroundColor: COLORS.primarySoft,
-      marginTop: -16,
+      marginTop: Platform.select({ web: 12, default: -16 }),
     },
     storyBarCopy: {
       flex: 1,
