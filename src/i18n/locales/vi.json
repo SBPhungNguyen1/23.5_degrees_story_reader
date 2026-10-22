@@ -856,7 +856,8 @@
     ],
     [
       {
-        "text": "KÍNH COONGGGGGGGGGGGGGGGGG!!!"
+        "text": "KÍNH COONGGGGGGGGGGGGGGGGG!!!",
+        "bold": true
       }
     ],
     [
@@ -1730,6 +1731,1246 @@
     [
       {
         "text": "☼☼☼☼☼☼☼☼☼☼☼",
+        "bold": false
+      }
+    ]
+  ],
+
+  "235_chapter3_title": "Kẻ khờ",
+  "235_chapter3_content": [
+    [
+      {
+        "text": "Đây là lần đầu tiên Ongsa tham gia một trại hè thiện nguyện kiểu này. Mọi thứ đều mới mẻ. Chị Pai, thành viên ban tổ chức, đã nói trước với mọi người rằng năm nay họ nhận rất nhiều người để phụ trách các nhiệm vụ khác nhau. Và đúng là thế thật. Khi cả đoàn đến Ayutthaya, đám đông di chuyển liên tục khiến Ongsa hoa cả mắt.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Tinh, Tinh, em cất hành lý chưa?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Dạ rồi. Có chuyện gì vậy chị Pai?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Em phát sổ ghi chép của trại cho mọi người giúp chị nhé.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“À, được ạ. Ongsa, Charoen, hai cậu cất hành lý xong chưa? Đi phát sổ ghi chép nào.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Nghe vậy, Ongsa bất giác mỉm cười, thầm tính sẽ tự tay đưa sổ cho Sun. Nhưng kế hoạch ấy nhanh chóng thất bại vì Sun đi vào nhà vệ sinh, còn một người bạn đã lấy sổ giúp cậu ấy. Đúng là thất bại mà.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Có phải Ongsa đã tự nguyền rủa mình trước khi rời khỏi nhà nên mới liên tục gặp xui xẻo thế này không?",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Dù cả hai đang ở cùng một nơi, Ongsa vẫn chẳng có lấy một cơ hội làm nhiệm vụ cùng Sun. Mà chuyện đó cũng chẳng có gì bất ngờ. Một người năng động như Sun và một người nhút nhát như Ongsa thì làm sao có thể làm việc cùng nhau được chứ? Suốt bốn ngày ở trại thiện nguyện, Ongsa liên tục thất bại. Mức độ này chẳng còn là thất bại bình thường nữa, mà phải gọi là thất bại vượt ngoài sức tưởng tượng. Người ta nói quá tam ba bận, còn cô thì thất bại không biết bao nhiêu bận rồi.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Rồi đêm cuối cùng ở trại cũng đến. Mọi người tổ chức một bữa tiệc trước giờ đi ngủ, kiểu tiệc lửa trại dành cho học sinh cấp hai. Ban tổ chức đã chuẩn bị các tiết mục văn nghệ để cảm ơn những trại viên đã dành bốn ngày qua tham gia công tác tình nguyện.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Tiếp theo, thành viên trẻ nhất trong đội sẽ biểu diễn cho mọi người thưởng thức. Hãy dành cho Sun một tràng pháo tay nào!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa lập tức rời mắt khỏi màn hình điện thoại ngay khi nghe chị Pai, người dẫn chương trình, giới thiệu tiết mục tiếp theo.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Mọi người vỗ tay và hú hét khi cô gái xinh đẹp của trại hè bước lên sân khấu. Ongsa cũng là một trong những người cổ vũ nhiệt tình nhất.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Hôm nay em sẽ biểu diễn tiết mục gì vậy, Sun?” Pai hỏi, đưa micro về phía cô.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Em định hát ạ.” Sun trả lời, nở nụ cười làm tan chảy trái tim của phân nửa số chàng trai có mặt ở đó, rồi nói tiếp: “Thật ra, em đã tập trước với một người bạn chơi guitar, nhưng bạn ấy có việc gấp nên không thể đến đây được. Có ai ở đây biết chơi guitar không ạ?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Nghe vậy, mọi người nhìn nhau. Rất nhiều cánh tay giơ lên, nhưng Ongsa ngạc nhiên khi nhận ra một trong số đó thuộc về người đang đứng ngay bên cạnh mình.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Charoen nhé!” chị Pai quyết định.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Charoen đứng dậy, nhận lấy cây guitar và miếng gảy đàn, rồi ngồi xuống bên cạnh Sun. Hai người bạn thân nhất của cô chỉ biết bối rối nhìn nhau.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Charoen biết chơi guitar à, Ongsa? Sao mình chẳng biết gì hết vậy?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Mình cũng có biết đâu.” Ongsa trả lời.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Được rồi, mọi người đã chờ lâu rồi. Xin mời thưởng thức màn trình diễn của Sun và Charoen!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Mọi người đồng loạt vỗ tay hưởng ứng.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Được rồi. Một, hai, ba, vô!” Charoen đếm nhịp rồi gảy đàn.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Sao cậu cứ phải mỉm cười mỗi khi chúng ta đi ngang qua nhau? Sao mỗi lời cậu nói lại ngọt ngào đến thế? Sao cậu cứ dịu dàng mỗi khi ánh mắt mình chạm nhau? Mình phát điên mất thôi...” Sun cất tiếng hát theo tiếng đàn guitar, giọng hát ngọt ngào vô cùng.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Cậu ấy đã dễ thương lắm rồi, vậy mà còn phải hát hay đến thế này nữa sao? Ongsa thầm cảm thán.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Cứ như cậu đã dùng bùa yêu khiến trái tim mình yếu mềm. Cậu có biết có người đang bối rối đến rối tung cả lòng không? Với cậu, mình chỉ là một kẻ ngốc nghếch, cứ mãi mơ mộng, chẳng màng ăn màng uống. Mình chỉ muốn một lần được nói với cậu điều này.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Xin cậu đấy, có thể nào đừng dễ thương đến vậy được không? Trái tim mình tan chảy mất rồi, hú hu...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Một người chẳng ưa nhìn như mình thì phải biết vị trí của mình. Đành giữ tình cảm ấy trong lòng, dù trái tim đang loạn nhịp. Mình chẳng dám mong một thiên thần như cậu phải yêu mến một người bình thường như mình.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Cứ như cậu đã dùng bùa yêu khiến trái tim mình yếu mềm. Cậu có biết có người đang bối rối đến rối tung cả lòng không? Với cậu, mình chỉ là một kẻ ngốc nghếch, cứ mãi mơ mộng, chẳng màng ăn màng uống. Mình chỉ muốn một lần được nói với cậu điều này.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Xin cậu đấy, có thể nào đừng dễ thương đến vậy được không? Trái tim mình tan chảy mất rồi, hú hu...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Mình nên làm gì với trái tim này đây? Mình nên làm gì với tình yêu thầm kín này? Cậu khiến mình suy nghĩ viển vông. Thật lòng thì mình đã hoàn toàn thua cậu mất rồi.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Trái tim mình như đang gào thét rằng mình thích cậu, nhưng mỗi lần nhìn thấy cậu, mình lại đứng đó lúng túng. Mình phải làm gì để vượt qua chuyện này đây? Mình đã yêu cậu bằng cả trái tim mình...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Bài hát: “แพ้ทาง” (Phai Thang) – LABANOON.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa nghĩ Sun không nên hát bài hát đó.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Người nên hát bài hát đó phải là Ongsa mới đúng.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Từng câu từng chữ như đang đánh thẳng vào cảm xúc của cô.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Lại còn quay phim nữa chứ. Đúng là quá thể...” Người đứng bên cạnh chế nhạo cô.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Mình quay Charoen mà.” Ongsa cố chống chế để cứu vãn tình hình, nhưng chẳng thành công.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ờ, quay bạn mình thôi nhỉ? Thế mà chỉ quay được nửa mặt Charoen, trông cậu ấy cứ như ma vậy. Cậu nghĩ mình ngốc lắm à, quý cô Ongsa?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Không thể cãi lại, Ongsa đành ngậm ngùi im lặng.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“À, em hát cùng được không ạ?” Charoen đột ngột hỏi, khiến mọi người nhìn nhau khó hiểu, đặc biệt là hai người bạn thân của cô. Họ chẳng biết Charoen đang định giở trò gì.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Charoen... em muốn hát à?” chị Pai hỏi lại cho chắc.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Vâng ạ.” Charoen tự tin trả lời, khiến đám đông càng thêm hào hứng trước màn trình diễn bất ngờ.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Được, mời em.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Sun cầm micro giúp mình được không? Mình sẽ chơi đàn.” Charoen hỏi.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ừ, được chứ.” Sun trả lời, kéo ghế lại gần để cầm micro cho Charoen.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Xin chào mọi người. Đằng nào mình cũng đang chơi đàn rồi, vậy nên mình sẽ hát tặng mọi người một bài nhé.” Charoen nói, rồi tiếp tục gảy đàn như một tay chơi chuyên nghiệp.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Mình đã mang trái tim này đến để cậu cân nhắc...”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Chỉ câu hát đầu tiên thôi đã khiến cả trại choáng váng.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Hãy kiểm tra trái tim mình, rồi cậu sẽ biết nó còn mới hay đã cũ. Xem thử nó đã vỡ nát hay được chắp vá ở đâu đó. Xem thử nó đã nứt vỡ hay bị dán lại để đánh lừa cậu.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Trái tim mình vẫn còn mới. Trái tim mình là hàng thật, không giả dối, không xảo quyệt cũng chẳng ma mãnh. Trong trái tim mình chỉ có tình yêu.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Mình rất vui khi trao nó cho cậu, vậy nên xin hãy cân nhắc. Khi nào cậu sẽ chấp nhận trái tim này? Khi nào cậu mới nhận ra tình cảm của mình?",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Cậu đã có người yêu chưa? Mau nói mình biết đi. Nếu vẫn còn độc thân, xin hãy rộng lượng dành chút thời gian để cân nhắc trái tim mình.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Mình sẽ trao trọn trái tim này và chờ đợi câu trả lời. Nếu cậu chịu cân nhắc, mình đã sẵn sàng trao cho cậu cả cuộc đời mình...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Bài hát: “โปรดพิจารณา” (Please Consider) – Damrong Wongthong.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Khi bài hát kết thúc, mọi người vỗ tay và hú hét tán thưởng. Nhưng điều điên rồ nhất là khi đám đông dần yên lặng, Charoen lại quay sang trò chuyện với người đang cầm micro giúp mình.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Mình hát bài vừa rồi tặng cậu đấy. Có người nhờ mình làm vậy. Người đó muốn biết hình mẫu người yêu lý tưởng của cậu là kiểu người thế nào.” Charoen nói, rồi trả lại cây guitar cho nhân viên sân khấu.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Sau đó, cô xuống ngồi cạnh Ongsa và Tinh như thể chẳng có chuyện gì xảy ra, trong khi mọi người đều nhìn chằm chằm vào bộ ba kỳ khôi này.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Đừng có nhìn tôi bằng ánh mắt đó. Không phải tôi đâu, tôi gay nha.” Tinh lẩm bẩm, nhưng cũng đủ lớn để mọi người ngừng nhìn chằm chằm vào cả ba.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Trong lúc đó, Ongsa cảm thấy mình sắp ốm đến nơi.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Bài hát vừa rồi khiến tất cả chúng ta cạn lời luôn. Sun à, có người muốn hỏi em về hình mẫu người yêu lý tưởng. Em có thể chia sẻ với mọi người không? Có người đang muốn em cân nhắc trái tim của họ đấy.” chị Pai trêu, vẫn cầm micro trên tay.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Sun không biết phải làm gì, chỉ biết cầm micro đứng đó.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“À... cảm ơn vì đã hỏi em. Nhưng em có thể suy nghĩ một chút được không ạ? Haha.” Sun đùa để chữa ngượng sau khi lấy lại bình tĩnh.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Nói cho bọn anh biết đi, Sun. Anh cũng muốn biết liệu mình có thể trở thành người đó không.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Húuuuuuu!!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Mọi người reo hò sau khi một đàn anh buông lời tán tỉnh.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Sun không có hình mẫu cụ thể nào cả. Trái tim Sun sẽ nói cho Sun biết người đó là ai.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Húuuuuuuuu!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Câu trả lời của cô một lần nữa khuấy động đám đông.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Trả lời cứ như người nổi tiếng ấy. Nhưng chị không đồng ý đâu nhé. Thật ra, bạn chị đã nhờ chị hỏi em chuyện này. Giờ hãy nói cho mọi người biết hình mẫu người yêu của em thế nào đi.” chị Pai quyết tâm tìm cho ra câu trả lời.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Em thật sự không có hình mẫu cụ thể nào đâu, chị Pai. Nếu em nói chuyện với ai đó mà thấy hợp thì cứ tiến tới thôi ạ. Nhưng hiện giờ em chưa muốn quen ai cả. Em cảm thấy vẫn chưa phải lúc.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ngầu quá! Em có thể nói cho mọi người biết em thích nói chuyện với kiểu người thế nào không?” Pai vẫn kiên trì với nhiệm vụ dẫn chương trình của mình.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Kiểu người em thích nói chuyện cùng ạ? Em thích một người thẳng thắn và trung thực. Một người lý trí, vì em vô tri lắm. Haha. Em cũng thích người hợp cạ với mình. Em không biết giải thích thế nào là hợp cạ nữa. Nói chung, chỉ cần trò chuyện với nhau là sẽ biết thôi ạ.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Chà, câu trả lời dài thật đấy, vậy mà vẫn chẳng có hình mẫu cụ thể nào. Sao cậu không phát tài khoản LINE cho tất cả mọi người ở đây luôn đi? Ái! Ongsa, sao cậu đánh mình?” Tinh hét lên.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Cậu nói nhiều quá.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Được rồi, đồ si tình. Miệng thì nói không thích người ta mà cứ chăm chăm bảo vệ người ta. Đúng là đồ nói dối.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Không phải việc của cậu.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Cuối cùng cũng đến ngày khởi hành trở về. Có thể hơi khó tin, nhưng bất chấp mọi nỗ lực tìm cơ hội làm quen với Sun trong bốn ngày ba đêm ở trại thiện nguyện, Ongsa chỉ mỉm cười với Sun được hai lần và nói “xin chào” đúng một lần.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Cuộc đời này sao mà khốn khổ quá!",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Hai cậu định về nhà thế nào?” Tinh hỏi sau khi xe đưa các trại viên về đến trường.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Bố mình sẽ đến đón. Ông ấy chỉ nhắn là sẽ chờ trước cổng thôi.” Ongsa trả lời.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Còn cậu thì sao, Charoen?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Đi Skytrain.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Vậy à? Thế mình cho cậu quá giang đến trạm. Cũng tiện đường về nhà mình.” Tinh nói.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Được.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Vậy chia tay ở đây nhé. Về nhà an toàn nha, Ongsa. Tới nhà thì nhắn tin cho mình.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ừ, hai cậu cũng về cẩn thận đấy.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Khi về đến nhà, Ongsa đã kiệt sức đến mức gần như bất tỉnh nhân sự. Dù đã gật gà gật gù trên xe suốt đường về, cô vẫn mệt rã rời. Nghĩ lại những thất bại ở trại thiện nguyện, cô lại càng thấy mệt hơn.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Thôi kệ. Ít nhất, cô cũng có bốn ngày được hít thở chung bầu không khí với người mình ngưỡng mộ, dù chỉ từ xa. Được gặp Sun bên ngoài trường học khiến Ongsa càng cảm thấy cậu ấy dễ thương hơn nữa.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa, đi tắm trước khi ngủ nhé con.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Dạ, mẹ!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Sau khi tắm xong, Ongsa lấy kem dưỡng da trong ba lô ra. Đang lục lọi thì có thứ gì đó rơi xuống.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Sổ ghi chép của trại thiện nguyện.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Đúng rồi!” Ongsa chợt nhận ra điều gì đó và vội vàng mở sổ. Cuối sổ có vài trang trống để các trại viên viết lời nhắn cho nhau. Ongsa cũng đã để lại một lời nhắn trong cuốn sổ của Sun.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Biết đâu được...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Quả nhiên, chỉ có ba người viết lời nhắn bày tỏ tình cảm với Ongsa.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Tinh.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Charoen.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Chị Pai.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa ném cuốn sổ đi, chẳng thèm quan tâm nó rơi xuống đâu.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Đúng là một cái kết hoàn hảo cho chuỗi thất bại hoành tráng của cô. Những thất bại đau lòng đến mức chẳng giống chuyện có thể xảy ra trên đời.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Những ngày nghỉ nhàm chán của Ongsa vẫn tiếp diễn. Cô đi học thêm ở lò luyện thi, về nhà nghỉ ngơi rồi lại tiếp tục đi học thêm. Cứ thế lặp đi lặp lại cho đến khi kỳ nghỉ ngắn ngủi kết thúc.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Một ngày trước khi năm học mới bắt đầu, Ongsa dọn dẹp căn phòng bừa bộn để chào đón học kỳ mới. Coi như lấy hên, xin vía may mắn đầu năm học vậy.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Trong lúc lôi hàng đống thứ bí ẩn dưới gầm giường ra, cứ như đang khám phá một chiều không gian thứ tư, Ongsa chợt nhận ra có thứ gì đó nằm giữa đống đồ linh tinh.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Sổ ghi chép của trại thiện nguyện.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Từ hôm trở về, Ongsa đã ném cuốn sổ xuống sàn rồi quên bẵng sự tồn tại của nó. Nghĩ đến cảm giác đau lòng và thất vọng khi biết những ai đã để lại lời nhắn cho mình, cô lại muốn vứt nó đi lần nữa.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Thế nhưng, ánh mắt cô vô tình dừng lại ở bìa sau cuốn sổ.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Tên và số của các thành viên trại thiện nguyện:\nNgười hỗ trợ sơ cứu:\nSun, lớp 10/6.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Áaaaaaaaaaaaaaaaaaa!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Chuyện gì thế, Ongsa?” Mẹ cô giật mình hỏi khi nghe tiếng con gái hét toáng lên.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“À... à... có con gián thôi mẹ.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Có được số điện thoại của Sun rồi thì nên làm gì đây? Gọi điện cho cậu ấy ư? Không đời nào...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa làm gì đủ can đảm để làm chuyện đó. Cô nàng khờ khạo chỉ dám kết bạn với Sun qua LINE mà thôi. Vậy mà nửa ngày đã trôi qua, cô vẫn chưa gom đủ can đảm để nhắn tin cho cậu ấy.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Chào cậu, mình là Ongsa...”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Không được. Mình còn chẳng biết cậu ấy có nhớ ra mình không nữa.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Này, sắp bắt đầu năm học mới rồi. Cậu có thấy hào hứng không...?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Nghe cứ như mình biết quá nhiều về cậu ấy ấy. Thôi xóa đi.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Cậu đang làm gì thế?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Nghe tọc mạch quá nhỉ? Nhắn thế này cũng không được.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cứ gõ được vài chữ lại xóa. Cô ước gì mình có thể biết Sun nhiều hơn bằng cách trò chuyện với cậu ấy, nhưng lại chẳng biết phải bắt đầu từ đâu.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Thôi, nhắn thế này vậy.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ngủ ngon nhé.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Bấm gửi...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Một phút trôi qua.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Năm phút trôi qua.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ba mươi phút trôi qua.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Hai tiếng trôi qua.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Chẳng có dấu hiệu vũ trụ nào cho thấy Sun sẽ trả lời tin nhắn, dù ngay từ phút đầu tiên màn hình đã hiện hai chữ “ĐÃ XEM”.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Người ta không trả lời tin nhắn của người lạ cũng là chuyện bình thường mà.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa phải chấp nhận và vượt qua chuyện này thôi.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Đúng là một thất bại thảm hại khi cậu ấy chẳng thèm trả lời tin nhắn...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa chẳng biết mình đã ngủ quên từ lúc nào. Cô tỉnh dậy khi chuông báo thức reo. Giống như những người nghiện mạng xã hội khác, việc đầu tiên cô làm sau khi vệ sinh cá nhân là kiểm tra điện thoại.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Và thứ khiến Ongsa tỉnh táo hơn cả việc nhìn thấy Tiffany Hwang chính là một tin nhắn.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ngủ ngon nhé.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "SUN_SUN: Chào buổi sáng.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Á á á áaaaaaaa!!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa, có chuyện gì thế con?” Mẹ cô hét vọng từ bên ngoài.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Có con gián ạ!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Chỉ một tin nhắn cũng đủ khiến cô gái thất bại đêm qua cười tươi cả ngày.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Kể từ khi kết bạn với Sun qua LINE, tối nào trước khi đi ngủ Ongsa cũng nhắn “ngủ ngon nhé”. Thỉnh thoảng, khi có cơ hội, cô còn nhắn thêm vài chuyện vu vơ. Đôi khi Sun trả lời, đôi khi lại chẳng buồn ngó ngàng đến tin nhắn của cô. Dù vậy, Ongsa vẫn cảm thấy hài lòng với mối quan hệ này.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ít nhất, cô cũng cảm thấy Sun biết đến sự tồn tại của mình, dù chỉ một chút thôi.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa, thật đấy, nếu cậu cứ đứng đơ như tượng thế này thì mình sẽ thay cậu bằng con bù nhìn ngoài ruộng mất.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ừ, Tinh nói chuẩn đấy. Cậu đứng bất động thế kia, mình còn tưởng cậu bị liệt cơ rồi.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Rồi còn cách cậu giao bóng nữa. Giao qua lưới thì không giao, lại nhắm thẳng vào đầu đồng đội. Chết tiệt! Cậu giao hỏng tận ba lần. Hai lần trúng đầu mình, còn một lần bay thẳng vào mặt trọng tài. Cậu cố tình đấy à?!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Xin lỗi mà...” Ongsa chân thành nhận lỗi.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Chịu khó vận động, tập thể dục thể thao nhiều lên đi, Ongsa. Cậu lười đến mức bọn này phát điên lên mất. Cũng may là đội mình thắng.” Charoen làu bàu, mệt rã rời sau trận bóng chuyền trong giờ thể dục vì đồng đội phá team mang tên Ongsa.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Charoen có thể khẳng định chắc chắn một điều: Ongsa ghét vận động. Cô chẳng có chút kỹ năng nào ở bất kỳ môn thể thao nào. Từ hồi học cấp hai, Ongsa chưa từng đạt điểm A môn thể dục. Tệ đến mức khó tin.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Con bé bị sao thế, Alpha? Sao nó lại như vậy?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Hôm nay nó có bài kiểm tra thể chất.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“À.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Bảo sao vừa lên xe sau buổi học thêm ở trung tâm, Ongsa đã chui tọt vào nằm dài trên băng ghế sau.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Latte, để chị yên nào. Chị đang ngủ đấy. Còn chọc nữa là chị cạp em luôn!” Ongsa hét lên từ băng ghế sau.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Alpha, đưa Latte lên đây đi con. Bố không muốn phải mua một chú chó mới đâu.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Sau khi kiệt sức vì tiết thể dục, Ongsa vẫn phải học hết buổi ở trường, rồi đến lò luyện thi học thêm mới được về nhà. Lại thêm một ngày cô ngủ quên trong bộ đồng phục của trường.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Sáng hôm sau...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Mẹ!!! Mẹ có thấy điện thoại của con ở đâu không?” Buổi sáng bắt đầu bằng tiếng hét thất thanh của cô con gái út.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Mẹ không thấy. Con thử gọi vào máy xem.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Con gọi rồi mà chẳng nghe thấy chuông. Chắc điện thoại hết pin rồi.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Thế con để nó ở đâu? Lần cuối con dùng điện thoại là khi nào?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ở trung tâm học thêm ạ.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Con thử xem có để quên ở đâu không. Đã kiểm tra trong phòng chưa?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Con kiểm tra rồi. Hôm qua về đến nhà là con ngủ luôn, chẳng dùng điện thoại nữa. Chắc con làm rơi ở trung tâm rồi.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Tìm kỹ lại đi. Mẹ nghĩ nó ở trong phòng con đấy. Thử tìm lần nữa xem.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa gần như lật tung cả nhà để tìm điện thoại, nhưng nó vẫn bặt vô âm tín. Nếu cô thật sự nghiện điện thoại thì có lẽ đã đến lúc phải cai nghiện rồi. Đã ba ngày kể từ khi cô làm mất máy. Chẳng có gì đau khổ hơn đối với một người nghiện mạng xã hội như Ongsa.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Nhìn chiếc Samsung Hero trên tay, Ongsa cảm thấy muốn khóc. Bố đưa nó cho cô dùng tạm trong lúc chờ mua điện thoại mới. Tất cả những gì cô có thể làm với chiếc máy này chỉ là bật lên rồi tắt đi.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Thẻ SIM không phải vấn đề. Cô đã mua một chiếc SIM ở cửa hàng tiện lợi trên phố để dùng tạm. Dù sao thì cũng chẳng có ai gọi cho cô đâu.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Một tuần sau, Ongsa và người bạn Hàn Quốc mới của mình, Samsung Hero, bắt đầu thân thiết hơn. Cô không biết bố mẹ thật sự bận rộn như họ nói hay đang muốn dạy cô một bài học vì không biết giữ gìn đồ đạc. Dù sao thì họ vẫn chưa đưa cô đi mua điện thoại mới.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cũng chẳng còn cảm giác gì nữa. Khóc.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa, đưa Latte đi dạo đi con.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Dạ, mẹ.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa ngoan ngoãn đáp lời. Dạo này cô phải làm một đứa con ngoan để bố mẹ thấy mình đã biết hối lỗi, rồi bỏ qua chuyện cũ và mua cho cô chiếc điện thoại mới.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa đã cố gắng làm một đứa con ngoan, nhưng Latte chẳng chịu hợp tác. Chú chó lì lợm nhất quyết không chịu ra khỏi xe. Ongsa gọi đến khàn cả giọng mà nó vẫn chẳng thèm quan tâm.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Đúng là cuộc đời của Ongsa. Ngay cả một con chó cũng phớt lờ cô.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Latte! Chị hỏi lần cuối. Em có chịu xuống xe không hả?!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Gâu!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Không à? Vậy tối nay xác định ngủ ngoài trời đi!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Gâu!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Đang thách thức chị đấy à? Được thôi!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Thế là cuộc chiến giữa người và chó bắt đầu. Ongsa tìm đủ mọi cách để bắt Latte, chú chó láo xược đang nhảy nhót khắp xe.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Đừng có chạy!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Cuối cùng, Ongsa cũng tóm được Latte đang nằm dưới băng ghế sau. Dù mệt bở hơi tai, cô vẫn tận hưởng cảm giác của một người chiến thắng.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Này, chị tưởng em phải giỏi hơn thế này chứ, đồ chó tí hon!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Gâu!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Tối nay ngủ ngoài nhé, cưng.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Gâu!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Đừng càu nhàu nữa. Khoan đã. Đó là...”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Trong lúc cãi nhau với chú chó, Ongsa vô tình nhìn thấy thứ gì đó nằm trong khe hẹp dưới băng ghế sau.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Điện thoại của cô...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Hú hu! Tìm thấy rồi! Mẹ ơi! Con tìm thấy điện thoại rồi!!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ngay ngày đầu tiên làm mất điện thoại, Ongsa đã tìm trong xe nhưng chẳng thấy gì. Cái khe dưới băng ghế sau là khoảng trống bình thường hay Tam giác Quỷ vậy?",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa vui vẻ mang điện thoại đi sạc. Cuối cùng cũng đến lúc nói lời tạm biệt với Samsung Hero! Annyeong!",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Khi pin đã đầy, Ongsa bật nguồn điện thoại. Ngay khi kết nối với Wi-Fi ở nhà, hàng loạt thông báo từ các ứng dụng hiện lên. Điện thoại rung liên tục như bị ma nhập.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cầm máy lên kiểm tra những thông báo mình đã bỏ lỡ trong suốt tuần qua, rồi bất chợt nhìn thấy một tin nhắn LINE.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "SUN_SUN: Cậu không chúc mình ngủ ngon nữa à?",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Á á áaaaaaaaa!!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa, có chuyện gì vậy con?” Giọng mẹ lại vang lên từ bên ngoài.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Có gián đó mẹ!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Trong bếp...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Anh à, em thấy nhà mình bừa bộn quá rồi. Ongsa cứ gặp gián suốt thôi.”",
         "bold": false
       }
     ]

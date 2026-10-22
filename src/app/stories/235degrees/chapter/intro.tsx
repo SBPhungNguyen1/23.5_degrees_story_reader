@@ -5,6 +5,7 @@ import MenuChapter from "@/components/menu-chapter";
 import { RichParagraph } from "@/components/rich-paragraph";
 import { ThemedView } from "@/components/themed-view";
 import { Spacing } from "@/constants/theme";
+import { MAX_CONTENT_WIDTH, useResponsive } from "@/hooks/use-responsive";
 import { Chapter } from "@/types/chapter-type";
 import { StoryContent } from "@/types/story-content-type";
 import { CHAPTERS_LIST } from "@/utils/chapter-utils";
@@ -30,6 +31,7 @@ const CHAPTERS: Chapter[] = CHAPTERS_LIST;
 
 export default function StoriesDetail235Intro() {
   const { t } = useTranslation();
+  const r = useResponsive();
 
   const content = t("235_intro_content", {
     returnObjects: true,
@@ -37,7 +39,7 @@ export default function StoriesDetail235Intro() {
 
   const colorScheme = useColorScheme();
   const colors = THEME_COLORS[colorScheme === "dark" ? "dark" : "light"];
-  const styles = createStyles(colors);
+  const styles = createStyles(colors, r);
 
   const [menuOpen, setMenuOpen] = useState(false);
   // Vị trí đáy của thanh dropdown, dùng để đặt menu nổi ngay bên dưới nó.
@@ -59,54 +61,59 @@ export default function StoriesDetail235Intro() {
       <SafeAreaView style={styles.safeArea} edges={["top", "bottom"]}>
         {/* View bọc ngoài để toạ độ của menu nổi tính từ cùng một gốc với thanh dropdown */}
         <View style={styles.content}>
-          {/* Dropdown chọn chương */}
-          <DropdownChapter
-            menuOpen={menuOpen}
-            STORY_NAME={STORY_NAME}
-            current={current}
-            setMenuOpen={setMenuOpen}
-            setBarBottom={setBarBottom}
-          />
-
-          {/* Nội dung chương */}
-          <ScrollView
-            style={styles.reader}
-            showsVerticalScrollIndicator={false}
-            contentContainerStyle={styles.readerContent}
-          >
-            <View style={styles.chapterHeading}>
-              <Text style={styles.chapterNumber}>
-                {t(current.label).toUpperCase()}
-              </Text>
-              {current.title ? (
-                <Text style={styles.chapterTitle}>{t(current.title)}</Text>
-              ) : null}
-            </View>
-
-            <View style={styles.body}>
-              {content.map((parts, index) => (
-                <RichParagraph
-                  key={`paragraph-${index}`}
-                  parts={parts}
-                  style={styles.paragraph}
-                />
-              ))}
-            </View>
-
-            {/* Chương trước / sau */}
-            <ButtonSwitchChapter
-              prev={prev}
-              next={next}
-              goToChapter={goToChapter}
+          {/* Cột nội dung: full width trên mobile, tối đa 720 trên web/tablet */}
+          <View style={styles.column}>
+            {/* Dropdown chọn chương */}
+            <DropdownChapter
+              menuOpen={menuOpen}
+              STORY_NAME={STORY_NAME}
+              current={current}
+              setMenuOpen={setMenuOpen}
+              setBarBottom={setBarBottom}
             />
-          </ScrollView>
+
+            {/* Nội dung chương */}
+            <ScrollView
+              style={styles.reader}
+              showsVerticalScrollIndicator={false}
+              contentContainerStyle={styles.readerContent}
+            >
+              <View style={styles.chapterHeading}>
+                <Text style={styles.chapterNumber}>
+                  {t(current.label).toUpperCase()}
+                </Text>
+                {current.title ? (
+                  <Text style={styles.chapterTitle}>{t(current.title)}</Text>
+                ) : null}
+              </View>
+
+              <View style={styles.body}>
+                {content.map((parts, index) => (
+                  <RichParagraph
+                    key={`paragraph-${index}`}
+                    parts={parts}
+                    style={styles.paragraph}
+                  />
+                ))}
+              </View>
+
+              {/* Chương trước / sau */}
+              <ButtonSwitchChapter
+                prev={prev}
+                next={next}
+                goToChapter={goToChapter}
+              />
+            </ScrollView>
+          </View>
 
           {/* Thanh âm thanh */}
-          <View style={styles.player}>
-            <AudioPlayer
-              source={require("../../../../../assets/audio/235degrees/intro.mp3")}
-              colors={colors}
-            />
+          <View style={styles.playerBar}>
+            <View style={styles.playerInner}>
+              <AudioPlayer
+                source={require("../../../../../assets/audio/235degrees/intro.mp3")}
+                colors={colors}
+              />
+            </View>
           </View>
 
           {/* Menu chương nổi lên trên nội dung — đặt cuối cùng để nằm trên cùng */}
@@ -126,8 +133,9 @@ export default function StoriesDetail235Intro() {
 }
 
 type ThemeColors = typeof THEME_COLORS.light;
+type Responsive = ReturnType<typeof useResponsive>;
 
-const createStyles = (COLORS: ThemeColors) =>
+const createStyles = (COLORS: ThemeColors, r: Responsive) =>
   StyleSheet.create({
     container: {
       flex: 1,
@@ -138,6 +146,12 @@ const createStyles = (COLORS: ThemeColors) =>
     },
     content: {
       flex: 1,
+    },
+    column: {
+      flex: 1,
+      width: "100%",
+      maxWidth: MAX_CONTENT_WIDTH,
+      alignSelf: "center",
     },
     reader: {
       flex: 1,
@@ -154,14 +168,14 @@ const createStyles = (COLORS: ThemeColors) =>
     },
     chapterNumber: {
       color: COLORS.primary,
-      fontSize: 22,
+      fontSize: r.chapterNumberSize,
       fontWeight: "800",
       letterSpacing: 0.5,
       textAlign: "center",
     },
     chapterTitle: {
       color: COLORS.text,
-      fontSize: 20,
+      fontSize: r.chapterTitleSize,
       fontWeight: "700",
       textAlign: "center",
     },
@@ -170,8 +184,22 @@ const createStyles = (COLORS: ThemeColors) =>
     },
     paragraph: {
       color: COLORS.text,
-      fontSize: 17,
-      lineHeight: 29,
+      fontSize: r.bodySize,
+      lineHeight: r.bodyLineHeight,
+    },
+    playerBar: {
+      borderTopWidth: 1,
+      borderTopColor: COLORS.border,
+      backgroundColor: COLORS.surface,
+    },
+    playerInner: {
+      width: "100%",
+      maxWidth: MAX_CONTENT_WIDTH,
+      alignSelf: "center",
+      paddingHorizontal: Spacing.four,
+      paddingTop: 6,
+      paddingBottom: r.isTablet ? 4 : 10,
+      gap: 6,
     },
     player: {
       paddingHorizontal: Spacing.four,

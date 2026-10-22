@@ -26,11 +26,11 @@ const STORY_NAME = "Story";
 const STORY_SLUG = "235degrees";
 const CURRENT_SLUG = "prologue";
 
+const CHAPTERS: Chapter[] = CHAPTERS_LIST;
+
 export default function StoriesDetail235Prologue() {
   const { t } = useTranslation();
   const r = useResponsive();
-
-  const CHAPTERS: Chapter[] = CHAPTERS_LIST;
 
   const content = t("235_prologue_content", {
     returnObjects: true,
