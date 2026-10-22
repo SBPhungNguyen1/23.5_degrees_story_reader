@@ -48,7 +48,7 @@ export default function DropdownChapter({
           {STORY_NAME}
         </Text>
         <Text style={styles.storyBarChapter} numberOfLines={1}>
-          {t(current.label)}
+          {t(current.label.split(" ")[0])} {current.label.split(" ")[1]}
         </Text>
       </View>
       <Ionicons
