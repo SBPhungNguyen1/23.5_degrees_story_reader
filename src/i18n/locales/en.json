@@ -17,13 +17,14 @@
     "previous_chapter": "Previous chapter",
     "next_chapter": "Next chapter"
   },
-  "235_prologue_content": {
-    "paragraph1": [
+  "prologue": "Prologue",
+  "235_prologue_content": [
+    [
       {
         "text": "Have you ever secretly admired someone? Admired their good looks. Admired their talents. Admired how cute they are. Anything that leads you to seek out and find out what they look like or what they do. Especially nowadays, in the age of social media, which makes it much easier for people to secretly admire someone."
       }
     ],
-    "paragraph2": [
+    [
       {
         "text": "If you have experienced this feeling, then you are like "
       },
@@ -46,12 +47,12 @@
         "bold": true
       }
     ],
-    "paragraph3": [
+    [
       {
         "text": "Questioning whether what she felt was simple “admiration” or not."
       }
     ],
-    "paragraph4": [
+    [
       {
         "text": "Meet "
       },
@@ -63,12 +64,12 @@
         "text": ", Yuri's second work published by everY. It's not often that we come across this kind of work, but when we do, it's guaranteed to be fun. We should also start this by saying that this story is so beautiful (as much as a long trip to Neptune). A story about an innocent love in the turbulent teenage years that will make you smile as you read from the first page to the last page."
       }
     ]
-  },
+  ],
 
   "235_intro_content": [
     [
       {
-        "text": "Ongsa, Sun is here."
+        "text": " - \"Ongsa, Sun is here.\""
       }
     ],
     [
@@ -78,7 +79,7 @@
     ],
     [
       {
-        "text": "Where?!"
+        "text": " - \"Where?!\""
       }
     ],
     [
@@ -88,31 +89,33 @@
     ],
     [
       {
-        "text": "Ah... someone did steal it."
-      },
-      {
-        "text": " Tinh, did you take my meatball again? Damn you! Spit it out."
+        "text": " - \"Ah... someone did steal it. (--\")\""
       }
     ],
     [
       {
-        "text": "Ouch, ouch, Ongsa, don't strangle me. Cough, cough."
-      },
-      {
-        "text": " The only boy in the group cries for help."
+        "text": " - \"Tinh, did you take my meatball again? Damn you! Spit it out.\""
       }
     ],
     [
       {
-        "text": "What goes around comes around."
+        "text": " - \"Ouch, ouch, Ongsa, don't strangle me. Cough, cough.\""
       },
       {
-        "text": " Charoen lectures, not even helping."
+        "text": " -- The only boy in the group cries for help."
       }
     ],
     [
       {
-        "text": "Charoen, you trashy friend. Ongsa, I can't breathe. Cough, cough."
+        "text": " - \"What goes around comes around.\""
+      },
+      {
+        "text": " -- Charoen lectures, not even helping."
+      }
+    ],
+    [
+      {
+        "text": " - \"Charoen, you trashy friend. Ongsa, I can't breathe. Cough, cough.\""
       }
     ],
     [
@@ -122,15 +125,19 @@
     ],
     [
       {
-        "text": "Tinh, Charoen and Ongsa, three best friends, have been close since middle school. Now that they're in the tenth grade, they're still from the same class."
+        "text": "Tinh, Charoen and Ongsa, ",
+        "bold": true
+      },
+      {
+        "text": "three best friends, have been close since middle school. Now that they're in the tenth grade, they're still from the same class."
       }
     ],
     [
       {
-        "text": "Ongsa, Sun is here."
+        "text": " - \"Ongsa, Sun is here.\""
       },
       {
-        "text": " Charoen repeats Tinh's words."
+        "text": " -- Charoen repeats Tinh's words."
       }
     ],
     [
@@ -140,7 +147,7 @@
     ],
     [
       {
-        "text": "Where?!"
+        "text": " - \"Where?!\""
       }
     ],
     [
@@ -150,7 +157,7 @@
     ],
     [
       {
-        "text": "Hahahaha."
+        "text": " - \"Hahahaha.\""
       },
       {
         "text": " The two dear friends laugh at their best friend's silliness."
@@ -163,7 +170,8 @@
     ],
     [
       {
-        "text": "Sun"
+        "text": "Sun",
+        "bold": "true"
       },
       {
         "text": "... this name has a particular impact on Ongsa. Sun is in the tenth grade, the same as her."
@@ -201,7 +209,8 @@
     ],
     [
       {
-        "text": "... Ongsa has a crush on her..."
+        "text": "... Ongsa has a crush on her...",
+        "bold": "true"
       }
     ],
     [
@@ -216,7 +225,825 @@
     ],
     [
       {
-        "text": "But no matter how strong the feelings are, Ongsa can't express them. She's a shy person. She doesn't have that much courage. More importantly, Ongsa is a girl. How can she ever say things like that when Sun... is also a girl?"
+        "text": "But no matter how strong the feelings are, Ongsa can't express them. She's a shy person. She doesn't have that much courage. More importantly, Ongsa is a girl. How can she ever say things like that when Sun..."
+      }
+    ],
+    [
+      {
+        "text": "...is also a girl...?"
+      }
+    ]
+  ],
+  "235_chapter1_title": "A Coincidence / A Small World / Destiny",
+  "235_chapter1_content": [
+    [
+      {
+        "text": "Starting a new semester with complaints, then getting bored out of your mind during the summer break, is perfectly normal for middle schoolers. Ongsa is one of them.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "When you're drowning in piles of schoolwork, only to suddenly have way too much free time during the break, it's hard to adjust.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Another reason this summer break feels more tedious than usual to Ongsa is that she has just been dumped.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Well, “dumped” isn't exactly accurate. It's more like she was forced to accept the truth that...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...Some good people are better off as friends, not lovers...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Usually, Ongsa gets sent to cram school during summer break, so she hardly ever has enough free time to get bored. But this is the break before tenth grade, and she has loads of things to prepare for.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Submitting documents.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Preparatory courses.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Other preparations.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Yada, yada, yada.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "That's why her family decided not to send her to cram school this summer. At first, Ongsa was happy that she could finally take a break instead of studying right away. She never expected staying home to be this boring.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "And this is only the first week.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“I'm boooooooooooooored!!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "She's home alone, so she can yell as loudly as she wants.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Woof!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Actually, she's not exactly alone.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“What's wrong, Latte?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Woof!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "She's alone with another creature, that's all.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Woof woof!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“I didn't want to yell. I was just bored.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Woof!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Would you stop complaining? Keep barking and I'll eat you!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "That's right. This is Ongsa's talent...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "She can have conversations with dogs.",
+        "bold": true
+      }
+    ],
+    [
+      {
+        "text": "“Wow, Gam's school just held its graduation ceremony? That's late.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa isn't usually much of a talker, but for some reason, she talks a lot when she's alone.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“She uploaded a ton of photos to Instagram. It's practically an exhibition.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Like other ninth graders, Gam—Ongsa's childhood friend from primary school, who attends a different school—has posted photos from her graduation day on Instagram, the popular social media app.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa scrolls through her feed, grumbling to her dog, until she comes across one particular photo.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...A group photo...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "At first glance, it looks like any ordinary middle school graduation group photo. But to Ongsa, who's mindlessly scrolling through her feed, there's one noticeable difference.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Instead of looking like a group of friends posing together, the people in the photo seem to be surrounding one person.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "When Ongsa reads the caption below...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“A photo with the most famous girl in our grade. #excited”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa assumes the girl in the center must be someone popular in her grade. Maybe Gam's friend asked to take a photo with her.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“She's cute, isn't she, Latte?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Woof!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Right? I think so too. Oh! Gam tagged her. Let me take a look.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Woof!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“What? I'm only taking a quick look. See? She's super cute!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "At last, Ongsa has found something to do on this long, boring day.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "That something is snooping around a stranger's Instagram account.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "And it ends with her following the account...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa, go upstairs and get Alpha.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Why don't you call her yourself? Why do I have to go up there?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“I texted your sister before we left, and she said her phone was about to die. I called her earlier, but she didn't answer, so I guess the battery's dead. Go get her so she'll know where we parked.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Send Latte up instead,” Ongsa bargains.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Then I'll give your dog's allowance to him.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ugggh, Dad! Fine, I'll go!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Defeated, Ongsa gets out of the car as her father orders.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "The family is having dinner at her grandfather's house today. Ongsa and her father have driven out with Latte to pick up her older sister from cram school before heading to Grandpa's place together.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa drags her feet toward the elevator. During summer break, every fiber of her body seems cursed with laziness.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Why didn't Dad ask Latte to go get Alpha? All he has to do is call her down. A genius dog like Latte could definitely handle that mission.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Alpha's classroom is on the seventh floor. Ongsa remembers it well because she usually waits there for her sister after class so they can go home together.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Now that she thinks about it, coming to cram school without having to study actually feels great. It's like she's been set free.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa steps into the elevator to go to the seventh floor and get her sister. Just as the doors are about to close, she spots someone running toward them from a distance.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Since she's in no hurry, Ongsa holds the elevator door open for the person.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Thank you!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "The girl thanks her, panting after running to the elevator.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa returns her smile, since she's not very good at talking to strangers. But when she gets a clear look at the girl's face...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "For a moment, the world seems to stop spinning.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...This person...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "By the time Ongsa comes to her senses, the elevator doors have opened on the fifth floor. The girl steps out, but turns back to smile at Ongsa one more time before leaving.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...She's freaking cute...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa keeps staring at the girl until the elevator doors close.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Have you ever felt this way?",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "You recognize someone because you see them every day on social media. You know what they do, know about their daily activities, and even feel as if you're close to them. But when you meet them in real life, you can't even say hello, no matter how much you want to.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "You know them...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "But they don't know you.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "After that day, Ongsa starts seriously looking through the girl's Instagram account. She checks every photo, reads every caption, and gathers quite a bit more information.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Her name is Sun.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "They're the same age.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "She likes cats.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "And she's unbelievably, ridiculously cute ><",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "It's a lot like becoming a fan of an artist. Once you fall for them, you want to learn more about them. The more you learn, the more you like them. And when you finally meet them, you just want to see them again.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa is just like that.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "She doesn't understand why she's suddenly feeling this way about someone her own age. To Ongsa, it's simple: Sun is just too cute. Sun's photos always put her in a good mood, and their encounter that day made her realize one thing...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Sun is a hundred times cuter in real life than in photos!",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Actually, Ongsa has tried visiting the cram school several times, hoping to run into Sun again. But they still haven't crossed paths.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Well, coincidences don't happen that easily...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ongsaaaaaaa!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Oh, Tinh! Hi. You're early.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Don't ‘hi’ me! You jerk! You didn't take the preparatory courses, and neither did that damn Charoen. Neither of you showed up anywhere. You both abandoned meeeee!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Sorry, sorry. My relatives suddenly got together and went on a trip, and my family joined them on a whim. By the time we got back, there was only one week of break left. I really couldn't be bothered to study anymore. Didn't I text you? Why did you go?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Easy for you to say! Where else was I supposed to go? Dad drove me straight to the school gate. If he could, he'd probably carry me all the way to the classroom. Where else could I possibly go? You were having fun with your family, while Charoen basically disappeared. I didn't even know whether she was enjoying her break or had died somewhere! I couldn't contact her. There are only three of us in this whole school. Who else am I supposed to hang out with, you little jerk Ongsa? Answer meeeee!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "A short question gets a ridiculously long answer, as if Tinh has been waiting ages to tell the whole story and complain.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa, Tinh!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Speak of the devil. The last member of their little gang has finally arrived.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Charooooooooen! Are you alive or dead?!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Wow... Screw you. Is that really how you greet me?” Charoen asks Tinh.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Yes, especially you! I couldn't contact you all summer, and you weren't active on social media either. I thought you'd vanished from the face of the earth!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Right. You didn't reply to my messages either,” Ongsa chimes in.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“I went on a pilgrimage to the border with my grandpa. He's a monk.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Huuuuuh?!!” both friends cry out in shock.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“A pilgrimage?” Ongsa repeats, making sure she heard correctly.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Yeah.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“But you're a girl. Why would your grandpa let you go with him?” Tinh asks.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "They both know Charoen's grandfather became a monk long before she was born, and that he's an extremely strict monk. How could he have allowed his granddaughter to go on a pilgrimage with him?",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Actually, I didn't go with my grandpa. I went with my dad.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Here's what happened: my family didn't want Grandpa to go on a pilgrimage because he's getting old, but he insisted. So Dad went along to keep an eye on him from a distance.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“And you followed your dad?” Tinh asks.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Yeah.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“And he let you go?” Ongsa asks.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“No. I secretly followed him and got caught by Dad in the woods. He couldn't make me go back because I didn't know the way. He also couldn't take me back himself because he was worried about Grandpa. In the end, I went on the pilgrimage with Grandpa.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Seriously?!!” Ongsa and Tinh exclaim together again.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“No! I made the whole thing up from the start. Are you two idiots? My grandpa is seventy. Who would let him go on a pilgrimage? Dad has a job too. He wouldn't have time to accompany Grandpa. Besides, if I'd really followed Dad into the woods like I said, he would've stomped me to death right there. You're both so easy to fool. Haha!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“You little jeeeeeerk!! You sounded so serious that we totally fell for it! I'm an innocent, naive person. How could I ever be suspicious of you, Charoen?!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“So where did you actually go? Tell us the truth this time,” Ongsa asks again.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“I went to practice Dharma with my grandma.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Is that true?”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Yes, Tinh. I stayed at a temple in the forest for a whole month. Phones weren't allowed there, so I couldn't contact you two.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Oh...” At last, her two friends understand.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Why have you buttoned your collar all the way up?” Tinh asks after looking Charoen's uniform over from top to bottom.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“It's a style.”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“Ugggh!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Ongsa, Tinh, and Charoen are considered the weird ones by the other students. Maybe that's why they've been close since middle school and even ended up in the same class in tenth grade.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Who knows whether it's fate sent down from heaven...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Or a curse delivered straight from hell.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "DINGGGGGGGGGGGGGGGGG!!!",
+        "bold": true
+      }
+    ],
+    [
+      {
+        "text": "The bell for the morning assembly rings, cutting off their conversation.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "They leave their schoolbags on the bench and head to the assembly area as usual.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "On the way, Ongsa's eyes land on a familiar face.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "Someone she never thought she'd see here.",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "At this very moment...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "The owner of the Instagram account Ongsa has been secretly stalking all summer...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...Sun...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...In a high school uniform...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...And attending the same school as her...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "“WHAT?!!!”",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...Coincidences rarely happen...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "...but they're not as rare as you think...",
+        "bold": false
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼",
+        "bold": false
       }
     ]
   ]

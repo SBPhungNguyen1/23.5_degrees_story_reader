@@ -1,4 +1,4 @@
-import { Chapter } from "@/app/stories/235degrees/chapter/intro";
+import { Chapter } from "@/types/chapter-type";
 import { THEME_COLORS } from "@/utils/color-utils";
 import { Ionicons } from "@expo/vector-icons";
 import { useTranslation } from "react-i18next";
@@ -21,7 +21,7 @@ export default function ButtonSwitchChapter({
   next,
   goToChapter,
 }: ButtonSwitchChapterProps) {
-  const { t } = useTranslation("index");
+  const { t } = useTranslation();
 
   const colorScheme = useColorScheme();
   const colors = THEME_COLORS[colorScheme === "dark" ? "dark" : "light"];
@@ -37,7 +37,7 @@ export default function ButtonSwitchChapter({
         >
           <Ionicons name="chevron-back" size={18} color={colors.primary} />
           <Text style={styles.navText} numberOfLines={1}>
-            {t("previous_chapter", "Chương trước")}
+            {t("index.previous_chapter", "Chương trước")}
           </Text>
         </Pressable>
       ) : (
@@ -55,7 +55,7 @@ export default function ButtonSwitchChapter({
           ]}
         >
           <Text style={styles.navTextPrimary} numberOfLines={1}>
-            {t("next_chapter", "Chương sau")}
+            {t("index.next_chapter", "Chương sau")}
           </Text>
           <Ionicons name="chevron-forward" size={18} color="#FFFFFF" />
         </Pressable>

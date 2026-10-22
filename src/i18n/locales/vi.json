@@ -17,13 +17,14 @@
     "previous_chapter": "Chương trước",
     "next_chapter": "Chương sau"
   },
-  "235_prologue_content": {
-    "paragraph1": [
+  "prologue": "Khởi đầu",
+  "235_prologue_content": [
+    [
       {
         "text": "Bạn đã bao giờ thầm ngưỡng mộ một người chưa? Ngưỡng mộ vẻ ngoài của người ấy, ngưỡng mộ tài năng, hay đơn giản là vì người ấy quá đỗi dễ thương. Bất cứ điều gì cũng có thể khiến bạn tò mò, muốn tìm hiểu xem người ấy trông như thế nào, làm những gì. Đặc biệt là trong thời đại mạng xã hội phát triển như hiện nay, việc âm thầm ngưỡng mộ một ai đó lại càng trở nên dễ dàng hơn bao giờ hết."
       }
     ],
-    "paragraph2": [
+    [
       {
         "text": "Nếu bạn từng trải qua cảm giác ấy, vậy thì bạn cũng giống như "
       },
@@ -42,7 +43,7 @@
         "text": ", nữ sinh nổi tiếng trong trường, mà chẳng bao giờ dám mong rằng mình sẽ lọt vào mắt xanh của người ấy. Chỉ cần được lướt điện thoại, nhìn thấy gương mặt Sun thôi cũng đủ khiến Ongsa vui vẻ cả ngày."
       }
     ],
-    "paragraph3": [
+    [
       {
         "text": "Ongsa chưa bao giờ dám nghĩ rằng sẽ có một ngày, độ nghiêng 23,5 độ của trục Trái Đất lại có thể đưa cô đến gần với "
       },
@@ -54,7 +55,7 @@
         "text": " của mình hơn. Để rồi cô phải tự hỏi, liệu cảm giác mà mình dành cho Sun chỉ đơn thuần là sự “ngưỡng mộ”, hay còn điều gì khác nữa?"
       }
     ],
-    "paragraph4": [
+    [
       {
         "text": "Hãy cùng đến với "
       },
@@ -66,7 +67,7 @@
         "text": ", tác phẩm thứ hai của Yuri được xuất bản bởi everY nhé! Không phải lúc nào chúng ta cũng có cơ hội bắt gặp một câu chuyện như thế này, nhưng một khi đã đọc thì chắc chắn sẽ có những phút giây thật vui vẻ."
       }
     ],
-    "paragraph5": [
+    [
       {
         "text": "Và phải nói trước rằng, câu chuyện này đẹp đẽ đến mức có lẽ bạn sẽ thấy chuyến đi dài đến tận "
       },
@@ -78,12 +79,12 @@
         "text": " cũng chẳng là gì! Đây là câu chuyện về một tình yêu trong sáng giữa những năm tháng tuổi teen đầy biến động, hứa hẹn sẽ khiến bạn mỉm cười từ trang đầu tiên cho đến tận trang cuối cùng."
       }
     ]
-  },
+  ],
 
   "235_intro_content": [
     [
       {
-        "text": "Ongsa, Sun tới rồi kìa."
+        "text": " - \"Ongsa, Sun tới rồi kìa.\""
       }
     ],
     [
@@ -93,7 +94,7 @@
     ],
     [
       {
-        "text": "Đâu?"
+        "text": " - \"Đâu?\""
       }
     ],
     [
@@ -103,31 +104,33 @@
     ],
     [
       {
-        "text": "Thì ra có người đã lấy trộm viên thịt của cô."
-      },
-      {
-        "text": " Tinh, lại chôm thịt của bà hả? Thật là! Mau nhả ra ngay."
+        "text": " - \"Thì ra có người đã lấy trộm viên thịt của cô. (--\")\""
       }
     ],
     [
       {
-        "text": "Úi, úi, Ongsa, đừng bóp cổ mình nữa, khụ khụ."
-      },
-      {
-        "text": " Thành viên nam duy nhất trong nhóm la oai oái kêu cứu."
+        "text": " - \"Tinh, lại chôm thịt của bà hả? Thật là! Mau nhả ra ngay.\""
       }
     ],
     [
       {
-        "text": "Ai mượn, ác giả ác báo."
+        "text": " - \"Úi, úi, Ongsa, đừng bóp cổ mình nữa, khụ khụ.\""
       },
       {
-        "text": " Charoen đã không giúp còn lên lớp cậu."
+        "text": " -- Thành viên nam duy nhất trong nhóm la oai oái kêu cứu."
       }
     ],
     [
       {
-        "text": "Charoen, thứ bạn xấu xa. Ongsa, mình không thở được, khụ khụ."
+        "text": " - \"Ai mượn, ác giả ác báo.\""
+      },
+      {
+        "text": " -- Charoen đã không giúp còn lên lớp cậu."
+      }
+    ],
+    [
+      {
+        "text": " - \"Charoen, thứ bạn xấu xa. Ongsa, mình không thở được, khụ khụ.\""
       }
     ],
     [
@@ -137,15 +140,19 @@
     ],
     [
       {
-        "text": "Tinh, Charoen và Ongsa là bạn thân của nhau từ hồi cấp hai. Giờ đã lên lớp 10, cả ba vẫn chung một lớp."
+        "text": "Tinh, Charoen và Ongsa ",
+        "bold": true
+      },
+      {
+        "text": "là bạn thân của nhau từ hồi cấp hai. Giờ đã lên lớp 10, cả ba vẫn chung một lớp."
       }
     ],
     [
       {
-        "text": "Ongsa, Sun tới rồi kìa."
+        "text": " - \"Ongsa, Sun tới rồi kìa.\""
       },
       {
-        "text": " Charoen lặp lại lời của Tinh khi nãy."
+        "text": " -- Charoen lặp lại lời của Tinh khi nãy."
       }
     ],
     [
@@ -155,17 +162,17 @@
     ],
     [
       {
-        "text": "Đâu?"
+        "text": " - \"Đâu?\""
       }
     ],
     [
       {
-        "text": "Người ngây thơ mãi là người ngây thơ."
+        "text": "Người ngây thơ mãi là người ngây thơ..."
       }
     ],
     [
       {
-        "text": "Hahaha."
+        "text": " - \"Hahaha.\""
       },
       {
         "text": " Hai đứa bạn thân chí cốt bật cười trước sự ngốc nghếch của cô."
@@ -178,7 +185,8 @@
     ],
     [
       {
-        "text": "Sun"
+        "text": "Sun",
+        "bold": true
       },
       {
         "text": "... cái tên này có sức ảnh hưởng cực lớn tới Ongsa. Sun cũng học lớp 10, giống như cô."
@@ -191,7 +199,7 @@
     ],
     [
       {
-        "text": "Mà không..."
+        "text": "...Mà không..."
       }
     ],
     [
@@ -201,7 +209,7 @@
     ],
     [
       {
-        "text": "Mà cũng không phải..."
+        "text": "...Mà cũng không phải..."
       }
     ],
     [
@@ -211,12 +219,13 @@
     ],
     [
       {
-        "text": "Nói cho đơn giản dễ hiểu thì..."
+        "text": "...Nói cho đơn giản dễ hiểu thì..."
       }
     ],
     [
       {
-        "text": "Ongsa cảm nắng người ta."
+        "text": "...Ongsa cảm nắng người ta...",
+        "bold": true
       }
     ],
     [
@@ -231,7 +240,681 @@
     ],
     [
       {
-        "text": "Nhưng dù tình cảm ấy có mãnh liệt tới đâu, Ongsa vẫn không thể bày tỏ với đối phương. Cô là một người nhút nhát, không có đủ can đảm để làm điều đó. Và hơn hết, Ongsa là con gái. Làm sao cô có thể nói những chuyện như thế khi mà Sun... cũng là con gái kia chứ?"
+        "text": "Nhưng dù tình cảm ấy có mãnh liệt tới đâu, Ongsa vẫn không thể bày tỏ với đối phương. Cô là một người nhút nhát, không có đủ can đảm để làm điều đó. Và hơn hết, Ongsa là con gái. Làm sao cô có thể nói những chuyện như thế khi mà Sun... "
+      }
+    ],
+    [{ "text": "...cũng là con gái kia chứ...?" }]
+  ],
+  "235_chapter1_title": "Tình cờ / Thế giới thật nhỏ / Định mệnh",
+  "235_chapter1_content": [
+    [
+      {
+        "text": "Bắt đầu một học kỳ mới với đủ thứ lời than vãn, rồi lại chán muốn chết trong kỳ nghỉ hè là chuyện quá đỗi bình thường đối với học sinh cấp hai. Và Ongsa chính là một trong số đó."
+      }
+    ],
+    [
+      {
+        "text": "Khi còn đi học, bài vở chất thành núi, làm mãi chẳng hết. Vậy mà vừa đến kỳ nghỉ, đột nhiên có cả đống thời gian rảnh rỗi đến phát ngán. Muốn thích nghi cũng chẳng dễ dàng gì."
+      }
+    ],
+    [
+      {
+        "text": "Một chuyện khác khiến Ongsa cảm thấy kỳ nghỉ hè năm nay còn chán hơn mọi năm chính là cô vừa bị đá."
+      }
+    ],
+    [
+      {
+        "text": "Nói bị đá thì cũng không chính xác lắm. Đúng hơn là cô bị ép phải chấp nhận sự thật rằng..."
+      }
+    ],
+    [
+      {
+        "text": "...Có những người tốt nhất chỉ nên làm bạn, chứ đừng làm người yêu..."
+      }
+    ],
+    [
+      {
+        "text": "Thông thường, cứ đến kỳ nghỉ hè là Ongsa lại bị tống đến trung tâm luyện thi, chẳng có mấy thời gian rảnh rỗi để mà chán. Nhưng năm nay lại là kỳ nghỉ trước khi lên lớp 10, có cả đống thứ phải chuẩn bị."
+      }
+    ],
+    [
+      {
+        "text": "Nộp hồ sơ."
+      }
+    ],
+    [
+      {
+        "text": "Học các khóa dự bị."
+      }
+    ],
+    [
+      {
+        "text": "Chuẩn bị đủ thứ linh tinh khác."
+      }
+    ],
+    [
+      {
+        "text": "Blah blah blah."
+      }
+    ],
+    [
+      {
+        "text": "Thế nên gia đình quyết định không cho Ongsa đến trung tâm luyện thi trong kỳ nghỉ này. Ban đầu, Ongsa vui vẻ lắm vì cuối cùng cũng được nghỉ ngơi, không phải học hành ngay từ đầu. Nhưng cô nào có ngờ ở nhà lại chán đến mức này."
+      }
+    ],
+    [
+      {
+        "text": "Mà đây mới chỉ là tuần đầu tiên thôi đấy."
+      }
+    ],
+    [
+      {
+        "text": "“Chánnnnnnnnnnn chết mất thôi!!!”"
+      }
+    ],
+    [
+      {
+        "text": "Cô đang ở nhà một mình nên muốn hét to đến đâu cũng chẳng sao."
+      }
+    ],
+    [
+      {
+        "text": "“Gâu!”"
+      }
+    ],
+    [
+      {
+        "text": "Thật ra cũng không hẳn là một mình."
+      }
+    ],
+    [
+      {
+        "text": "“Có chuyện gì thế, Latte?”"
+      }
+    ],
+    [
+      {
+        "text": "“Gâu!!”"
+      }
+    ],
+    [
+      {
+        "text": "Cô chỉ ở một mình với một sinh vật khác thôi."
+      }
+    ],
+    [
+      {
+        "text": "“Gâu gâu!!”"
+      }
+    ],
+    [
+      {
+        "text": "“Chị có muốn hét đâu. Tại chán quá mà.”"
+      }
+    ],
+    [
+      {
+        "text": "“Gâu!!”"
+      }
+    ],
+    [
+      {
+        "text": "“Thôi đừng có cằn nhằn nữa được không? Còn sủa nữa là chị ăn thịt em đấy!”"
+      }
+    ],
+    [
+      {
+        "text": "Đúng vậy. Đây chính là tài năng của Ongsa..."
+      }
+    ],
+    [
+      {
+        "text": "Cô có thể trò chuyện với chó."
+      }
+    ],
+    [
+      {
+        "text": "“Wow, trường Gam vừa tổ chức lễ tốt nghiệp à? Muộn thế nhỉ?”"
+      }
+    ],
+    [
+      {
+        "text": "Bình thường Ongsa không phải kiểu người nói nhiều, nhưng chẳng hiểu sao cứ ở một mình là cô lại lắm mồm đến lạ."
+      }
+    ],
+    [
+      {
+        "text": "“Đăng cả đống ảnh lên Instagram luôn. Cứ như mở triển lãm ấy.”"
+      }
+    ],
+    [
+      {
+        "text": "Cũng giống như những học sinh lớp 9 khác, Gam — cô bạn thân từ hồi tiểu học của Ongsa nhưng học khác trường — vừa đăng ảnh ngày tốt nghiệp lên Instagram, một ứng dụng mạng xã hội nổi tiếng."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa vừa lướt bảng tin vừa lẩm bẩm than thở với chú chó nhà mình, cho đến khi cô bắt gặp một bức ảnh đặc biệt."
+      }
+    ],
+    [
+      {
+        "text": "...Một tấm ảnh chụp nhóm..."
+      }
+    ],
+    [
+      {
+        "text": "Thoạt nhìn, đây chẳng khác gì những tấm ảnh tốt nghiệp cấp hai bình thường khác. Nhưng đối với Ongsa, người đang lướt bảng tin trong vô thức, có một điểm khác biệt rất đáng chú ý."
+      }
+    ],
+    [
+      {
+        "text": "Thay vì là một nhóm bạn đứng sát bên nhau tạo dáng chụp ảnh, những người trong ảnh trông giống như đang vây quanh một người nào đó hơn."
+      }
+    ],
+    [
+      {
+        "text": "Khi đọc dòng chú thích bên dưới..."
+      }
+    ],
+    [
+      {
+        "text": "“Chụp ảnh cùng cô gái nổi tiếng nhất khối của chúng ta. #háohức”"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa đoán cô gái đứng giữa chắc hẳn là một nhân vật nổi tiếng trong khối. Có lẽ bạn của Gam đã xin chụp ảnh cùng cô ấy."
+      }
+    ],
+    [
+      {
+        "text": "“Dễ thương nhỉ, Latte?”"
+      }
+    ],
+    [
+      {
+        "text": "“Gâu!!”"
+      }
+    ],
+    [
+      {
+        "text": "“Đúng không? Chị cũng thấy thế. À! Gam có gắn thẻ cô ấy này. Để chị xem thử.”"
+      }
+    ],
+    [
+      {
+        "text": "“Gâu!”"
+      }
+    ],
+    [
+      {
+        "text": "“Gì chứ? Chị chỉ xem một chút thôi mà. Nhìn này, dễ thương quá trời luôn!”"
+      }
+    ],
+    [
+      {
+        "text": "Cuối cùng, Ongsa cũng tìm được việc để làm trong ngày dài buồn chán này."
+      }
+    ],
+    [
+      {
+        "text": "Đó chính là lén lút vào Instagram của một người xa lạ để hóng chuyện."
+      }
+    ],
+    [
+      {
+        "text": "Và kết quả là cô bấm theo dõi tài khoản của người ta..."
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa, lên gọi Alpha xuống đi con.”"
+      }
+    ],
+    [
+      {
+        "text": "“Bố tự gọi chị ấy đi. Sao cứ bắt con lên đó thế?”"
+      }
+    ],
+    [
+      {
+        "text": "“Bố nhắn tin cho chị con trước khi đi rồi. Chị con bảo điện thoại sắp hết pin. Bố gọi lúc nãy mà không thấy nghe máy, chắc hết pin thật rồi. Con lên gọi chị xuống đi, để chị biết xe mình đỗ ở đâu.”"
+      }
+    ],
+    [
+      {
+        "text": "“Bố gửi Latte lên thay con đi.” Ongsa mặc cả."
+      }
+    ],
+    [
+      {
+        "text": "“Vậy bố cho con tiền tiêu vặt của con chó nhé.”"
+      }
+    ],
+    [
+      {
+        "text": "“Trờiiii ơi, bố! Được rồi, con đi là được chứ gì!”"
+      }
+    ],
+    [
+      {
+        "text": "Bị đánh bại hoàn toàn, Ongsa đành mở cửa xe bước xuống theo lệnh của bố."
+      }
+    ],
+    [
+      {
+        "text": "Hôm nay cả nhà sẽ đến nhà ông ngoại ăn tối. Ongsa cùng bố và chú chó Latte lái xe ra khỏi nhà để đón chị gái ở trung tâm luyện thi, sau đó cả nhà sẽ cùng nhau đến nhà ông."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa lê từng bước chân về phía thang máy. Cứ đến kỳ nghỉ hè là toàn thân cô lại như bị một lời nguyền lười biếng ám vào."
+      }
+    ],
+    [
+      {
+        "text": "Tại sao bố không nhờ Latte đi gọi Alpha nhỉ? Chỉ là gọi chị cô xuống thôi mà. Với trí thông minh của mình, một chú chó thiên tài như Latte chắc chắn thừa sức hoàn thành nhiệm vụ này."
+      }
+    ],
+    [
+      {
+        "text": "Lớp học của Alpha nằm ở tầng bảy. Ongsa nhớ rõ lắm, vì bình thường sau giờ học cô vẫn thường đến đây đợi chị gái để hai chị em cùng về nhà."
+      }
+    ],
+    [
+      {
+        "text": "Nghĩ lại thì, được đến trung tâm luyện thi mà không phải học hành gì cũng có cảm giác tuyệt vời thật. Cứ như vừa được giải phóng khỏi xiềng xích vậy."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa bước vào thang máy, chuẩn bị lên tầng bảy tìm chị gái. Ngay khi cửa thang máy sắp đóng lại, cô chợt nhìn thấy một người đang chạy vội từ phía xa đến."
+      }
+    ],
+    [
+      {
+        "text": "Dù chẳng có gì phải gấp gáp, Ongsa vẫn đưa tay giữ cửa thang máy cho người đó."
+      }
+    ],
+    [
+      {
+        "text": "“Cảm ơn cậu nhé!”"
+      }
+    ],
+    [
+      {
+        "text": "Cô gái vừa chạy đến vừa thở hổn hển, sau đó mỉm cười cảm ơn Ongsa."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cũng nở một nụ cười đáp lại vì vốn chẳng giỏi giao tiếp với người lạ. Nhưng ngay khi nhìn rõ gương mặt cô gái ấy..."
+      }
+    ],
+    [
+      {
+        "text": "Thế giới bỗng chốc như ngừng quay trong một khoảnh khắc."
+      }
+    ],
+    [
+      {
+        "text": "...Người này..."
+      }
+    ],
+    [
+      {
+        "text": "Đến khi Ongsa kịp hoàn hồn, cửa thang máy đã mở ra ở tầng năm. Cô gái bước ra ngoài, nhưng trước khi đi còn quay lại mỉm cười với Ongsa một lần nữa."
+      }
+    ],
+    [
+      {
+        "text": "...Dễ thương chết mất thôi..."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cứ nhìn chằm chằm theo cô gái ấy cho đến khi cửa thang máy đóng lại."
+      }
+    ],
+    [
+      {
+        "text": "Bạn đã bao giờ trải qua cảm giác này chưa?"
+      }
+    ],
+    [
+      {
+        "text": "Bạn biết một người vì ngày nào cũng nhìn thấy họ trên mạng xã hội. Bạn biết họ làm gì, biết những hoạt động thường ngày của họ, thậm chí còn cảm thấy như mình đã rất thân thiết với họ. Nhưng đến khi gặp người ta ngoài đời thật, dù có muốn đến đâu, bạn cũng chẳng thể mở miệng chào một câu."
+      }
+    ],
+    [
+      {
+        "text": "Bạn biết người ta..."
+      }
+    ],
+    [
+      {
+        "text": "Nhưng người ta chẳng biết bạn là ai."
+      }
+    ],
+    [
+      {
+        "text": "Sau ngày hôm đó, Ongsa bắt đầu nghiêm túc tìm hiểu tài khoản Instagram của cô gái ấy. Cô xem từng bức ảnh, đọc từng dòng chú thích và thu thập thêm được kha khá thông tin."
+      }
+    ],
+    [
+      {
+        "text": "Tên cô ấy là Sun."
+      }
+    ],
+    [
+      {
+        "text": "Hai người bằng tuổi nhau."
+      }
+    ],
+    [
+      {
+        "text": "Cô ấy thích mèo."
+      }
+    ],
+    [
+      {
+        "text": "Và cô ấy dễ thương siêu cấp vô địch ><"
+      }
+    ],
+    [
+      {
+        "text": "Cảm giác này chẳng khác gì khi bạn trở thành fan của một nghệ sĩ. Khi đã thích một người, bạn sẽ muốn tìm hiểu thêm về họ. Càng biết nhiều, bạn lại càng thích họ hơn. Đến khi gặp được họ ngoài đời, bạn chỉ muốn có thêm cơ hội gặp lại."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cũng giống như vậy."
+      }
+    ],
+    [
+      {
+        "text": "Cô chẳng hiểu tại sao bản thân đột nhiên lại có cảm giác kỳ lạ với một người bằng tuổi mình. Trong suy nghĩ của Ongsa, đơn giản chỉ là Sun quá dễ thương mà thôi. Những bức ảnh của Sun luôn khiến tâm trạng cô vui vẻ, còn cuộc gặp gỡ hôm ấy lại giúp cô nhận ra một sự thật..."
+      }
+    ],
+    [
+      {
+        "text": "Sun ngoài đời còn dễ thương hơn trong ảnh gấp cả trăm lần!"
+      }
+    ],
+    [
+      {
+        "text": "Thật ra, Ongsa đã thử ghé qua trung tâm luyện thi vài lần, chỉ với hy vọng có thể gặp Sun thêm một lần nữa. Nhưng hai người vẫn chẳng có duyên chạm mặt nhau."
+      }
+    ],
+    [
+      {
+        "text": "Ừ thì, đâu phải lúc nào tình cờ cũng dễ xảy ra..."
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
+    ],
+    [
+      {
+        "text": "“Ongsaaaaaaa!”"
+      }
+    ],
+    [
+      {
+        "text": "“Ơ, Tinh! Chào cậu. Cậu đến sớm thế.”"
+      }
+    ],
+    [
+      {
+        "text": "“Chào cái đầu cậu ấy! Đồ khốn! Cậu không đi học dự bị, cái con Charoen chết tiệt kia cũng thế. Chẳng thấy mặt mũi hai người đâu cả. Hai người bỏ rơi mình rồi đấyyyyyy!”"
+      }
+    ],
+    [
+      {
+        "text": "“Xin lỗi, xin lỗi mà. Tự nhiên họ hàng nhà mình tụ tập rồi rủ nhau đi du lịch, thế là cả nhà mình cũng đi theo luôn. Đến lúc về thì chỉ còn một tuần nữa là hết kỳ nghỉ. Mình thật sự chẳng còn tâm trạng học hành gì nữa. Mình có nhắn tin cho cậu mà, sao cậu vẫn đi học thế?”"
+      }
+    ],
+    [
+      {
+        "text": "“Nói nghe dễ quá ha! Vậy chứ mình còn biết đi đâu bây giờ? Bố mình chở thẳng đến cổng trường luôn. Nếu có thể, chắc bố còn vác mình lên tận lớp học ấy chứ. Mình biết đi đâu được nữa? Cậu thì vui vẻ đi chơi với gia đình, còn Charoen thì mất tích không dấu vết. Mình còn chẳng biết cậu ta đang tận hưởng kỳ nghỉ hay đã chết ở xó nào rồi nữa! Mình không liên lạc được với cậu ta. Cả trường này chỉ có ba đứa mình chơi với nhau thôi. Thế cậu bảo mình phải đi giao lưu với ai hả, đồ khốn Ongsa? Trả lời điiii!”"
+      }
+    ],
+    [
+      {
+        "text": "Một câu hỏi ngắn ngủi lại nhận được cả một tràng trả lời dài ngoằng, cứ như Tinh đã chờ ngày này từ lâu lắm rồi để trút hết nỗi lòng vậy."
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa, Tinh!”"
+      }
+    ],
+    [
+      {
+        "text": "Nhắc Tào Tháo, Tào Tháo đến. Thành viên cuối cùng của nhóm cuối cùng cũng xuất hiện."
+      }
+    ],
+    [
+      {
+        "text": "“Charooooooooen! Cậu còn sống hay đã chết thế hả?”"
+      }
+    ],
+    [
+      {
+        "text": "“Wow... Cậu bị điên à? Đó là lời chào của cậu dành cho mình đấy hả?” Charoen hỏi Tinh."
+      }
+    ],
+    [
+      {
+        "text": "“Ừ, đúng rồi. Đặc biệt là dành cho cậu đấy! Suốt kỳ nghỉ hè mình chẳng liên lạc được với cậu, trên mạng xã hội cũng chẳng thấy cậu hoạt động. Mình còn tưởng cậu bốc hơi khỏi thế giới này rồi cơ!”"
+      }
+    ],
+    [
+      {
+        "text": "“Đúng đó. Cậu cũng chẳng thèm trả lời tin nhắn của mình.” Ongsa chen vào."
+      }
+    ],
+    [
+      {
+        "text": "“Mình đi hành hương đến vùng biên giới với ông mình. Ông là nhà sư ấy.”"
+      }
+    ],
+    [
+      {
+        "text": "“Hảảảảả?!!” Hai người bạn đồng thanh hét lên."
+      }
+    ],
+    [
+      {
+        "text": "“Hành hương á?” Ongsa hỏi lại, không chắc mình có nghe nhầm hay không."
+      }
+    ],
+    [
+      {
+        "text": "“Ừ.”"
+      }
+    ],
+    [
+      {
+        "text": "“Nhưng cậu là con gái mà. Sao ông cậu lại cho cậu đi cùng?” Tinh thắc mắc."
+      }
+    ],
+    [
+      {
+        "text": "Cả hai đều biết ông của Charoen đã xuất gia từ rất lâu, trước cả khi cô ra đời. Ông còn là một nhà sư cực kỳ nghiêm khắc. Vậy thì làm sao ông có thể cho cô cháu gái của mình đi hành hương cùng được chứ?"
+      }
+    ],
+    [
+      {
+        "text": "“Thật ra mình đâu có đi với ông. Mình đi với bố.”"
+      }
+    ],
+    [
+      {
+        "text": "“Chuyện là thế này, gia đình mình không muốn ông đi hành hương vì ông đã lớn tuổi rồi. Nhưng ông cứ khăng khăng đòi đi, thế nên bố mình phải đi cùng để trông chừng ông từ xa.”"
+      }
+    ],
+    [
+      {
+        "text": "“Rồi cậu đi theo bố cậu luôn á?” Tinh hỏi."
+      }
+    ],
+    [
+      {
+        "text": "“Ừ.”"
+      }
+    ],
+    [
+      {
+        "text": "“Và bố cậu đồng ý cho cậu đi cùng?” Ongsa hỏi."
+      }
+    ],
+    [
+      {
+        "text": "“Không. Mình lén đi theo, sau đó bị bố bắt gặp trong rừng. Bố không thể bắt mình quay về vì mình chẳng biết đường về. Bố cũng không thể tự mình đưa mình về vì còn phải lo cho ông. Cuối cùng, mình đành đi hành hương cùng ông.”"
+      }
+    ],
+    [
+      {
+        "text": "“Thật luôn á?!!” Ongsa và Tinh lại đồng thanh hét lên."
+      }
+    ],
+    [
+      {
+        "text": "“Không! Mình bịa từ đầu đến cuối đấy. Hai cậu bị ngốc à? Ông mình đã bảy mươi tuổi rồi, ai mà cho ông đi hành hương chứ? Bố mình còn phải đi làm, lấy đâu ra thời gian đi theo ông? Với cả, nếu mình thật sự lẽo đẽo theo bố vào rừng như lời mình kể, chắc bố đã đạp mình chết ngay tại chỗ rồi. Hai cậu dễ lừa thật đấy! Haha!”"
+      }
+    ],
+    [
+      {
+        "text": "“Đồ khốnnnnnnnnn!!! Cậu kể nghiêm túc đến mức bọn mình tin sái cổ luôn! Mình là người ngây thơ trong sáng, làm sao mà đề phòng cậu được chứ, Charoen?!”"
+      }
+    ],
+    [
+      {
+        "text": "“Thế rốt cuộc cậu đã đi đâu? Lần này nói thật đi.” Ongsa hỏi lại."
+      }
+    ],
+    [
+      {
+        "text": "“Mình đi tu tập với bà.”"
+      }
+    ],
+    [
+      {
+        "text": "“Thật không đấy?”"
+      }
+    ],
+    [
+      {
+        "text": "“Thật mà, Tinh. Mình ở trong chùa giữa rừng suốt một tháng. Ở đó cấm sử dụng điện thoại nên mình mới không liên lạc với hai cậu được.”"
+      }
+    ],
+    [
+      {
+        "text": "“À...” Lúc này, hai người bạn mới chịu hiểu ra."
+      }
+    ],
+    [
+      {
+        "text": "“Sao cậu lại cài hết cúc áo cổ thế?” Tinh hỏi sau khi quan sát bộ đồng phục của Charoen từ trên xuống dưới."
+      }
+    ],
+    [
+      {
+        "text": "“Phong cách ấy mà.”"
+      }
+    ],
+    [
+      {
+        "text": "“Trờiiii ơiiii!!”"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa, Tinh và Charoen vốn được xem là ba đứa kỳ quặc trong mắt các học sinh khác. Có lẽ vì thế mà họ đã chơi thân với nhau từ hồi cấp hai, thậm chí còn học chung lớp khi lên lớp 10."
+      }
+    ],
+    [
+      {
+        "text": "Không biết đây là duyên trời định..."
+      }
+    ],
+    [
+      {
+        "text": "Hay là nghiệp chướng do địa ngục gửi lên nữa."
+      }
+    ],
+    [
+      {
+        "text": "KÍNH COONGGGGGGGGGGGGGGGGG!!!"
+      }
+    ],
+    [
+      {
+        "text": "Tiếng chuông báo hiệu giờ tập trung buổi sáng vang lên, cắt ngang cuộc trò chuyện của cả ba."
+      }
+    ],
+    [
+      {
+        "text": "Họ để cặp sách lại trên ghế rồi cùng nhau đi đến khu vực tập trung như mọi ngày."
+      }
+    ],
+    [
+      {
+        "text": "Trên đường đi, ánh mắt Ongsa chợt dừng lại ở một gương mặt quen thuộc."
+      }
+    ],
+    [
+      {
+        "text": "Một người mà cô chưa bao giờ nghĩ rằng mình sẽ gặp ở đây."
+      }
+    ],
+    [
+      {
+        "text": "Vào lúc này..."
+      }
+    ],
+    [
+      {
+        "text": "Chủ nhân tài khoản Instagram mà Ongsa đã lén lút theo dõi suốt cả kỳ nghỉ hè..."
+      }
+    ],
+    [
+      {
+        "text": "...Sun..."
+      }
+    ],
+    [
+      {
+        "text": "...Trong bộ đồng phục cấp ba..."
+      }
+    ],
+    [
+      {
+        "text": "...Và học cùng trường với cô..."
+      }
+    ],
+    [
+      {
+        "text": "“CÁI GÌ CƠ?!!!”"
+      }
+    ],
+    [
+      {
+        "text": "...Tình cờ hiếm khi xảy ra thật..."
+      }
+    ],
+    [
+      {
+        "text": "...Nhưng cũng chẳng hiếm đến mức bạn nghĩ đâu..."
       }
     ]
   ]

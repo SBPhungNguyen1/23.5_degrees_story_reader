@@ -67,8 +67,8 @@ export default function MenuChapter({
                   numberOfLines={1}
                 >
                   {chapter.title
-                    ? `${chapter.label} · ${chapter.title}`
-                    : chapter.label}
+                    ? `${t(chapter.label)} · ${t(chapter.title)}`
+                    : `${t(chapter.label)}`}
                 </Text>
                 {isCurrent && (
                   <Ionicons

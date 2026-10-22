@@ -1,18 +1,18 @@
 import { AudioPlayer } from "@/components/audio-player";
 import ButtonSwitchChapter from "@/components/button-switch-chapter";
+import DropdownChapter from "@/components/dropdown-chapter";
 import MenuChapter from "@/components/menu-chapter";
 import { RichParagraph } from "@/components/rich-paragraph";
 import { ThemedView } from "@/components/themed-view";
 import { Spacing } from "@/constants/theme";
 import { Chapter } from "@/types/chapter-type";
+import { StoryContent } from "@/types/story-content-type";
 import { CHAPTERS_LIST } from "@/utils/chapter-utils";
 import { THEME_COLORS } from "@/utils/color-utils";
-import { Ionicons } from "@expo/vector-icons";
 import { router, type Href } from "expo-router";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
-  Pressable,
   ScrollView,
   StyleSheet,
   Text,
@@ -21,29 +21,9 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-type RichTextPart = {
-  text: string;
-  bold?: boolean;
-};
-
-type PrologueContent = {
-  paragraph1: RichTextPart[];
-  paragraph2: RichTextPart[];
-  paragraph3: RichTextPart[];
-  paragraph4: RichTextPart[];
-};
-
-// Dữ liệu mẫu — thay bằng dữ liệu thật (API / store) của bạn.
 const STORY_NAME = "Story";
 const STORY_SLUG = "235degrees";
 const CURRENT_SLUG = "prologue";
-const AUDIO_DURATION = 600; // giây
-
-const formatTime = (seconds: number) => {
-  const m = Math.floor(seconds / 60);
-  const s = Math.floor(seconds % 60);
-  return `${m}:${s.toString().padStart(2, "0")}`;
-};
 
 export default function StoriesDetail235Prologue() {
   const { t } = useTranslation();
@@ -52,7 +32,7 @@ export default function StoriesDetail235Prologue() {
 
   const content = t("235_prologue_content", {
     returnObjects: true,
-  }) as PrologueContent;
+  }) as StoryContent;
 
   const colorScheme = useColorScheme();
   const colors = THEME_COLORS[colorScheme === "dark" ? "dark" : "light"];
@@ -79,30 +59,13 @@ export default function StoriesDetail235Prologue() {
         {/* View bọc ngoài để toạ độ của menu nổi tính từ cùng một gốc với thanh dropdown */}
         <View style={styles.content}>
           {/* Dropdown chọn chương */}
-          <Pressable
-            accessibilityRole="button"
-            accessibilityState={{ expanded: menuOpen }}
-            onPress={() => setMenuOpen((open) => !open)}
-            onLayout={(e) => {
-              const { y, height } = e.nativeEvent.layout;
-              setBarBottom(y + height);
-            }}
-            style={styles.storyBar}
-          >
-            <View style={styles.storyBarCopy}>
-              <Text style={styles.storyBarName} numberOfLines={1}>
-                {STORY_NAME}
-              </Text>
-              <Text style={styles.storyBarChapter} numberOfLines={1}>
-                {current.label}
-              </Text>
-            </View>
-            <Ionicons
-              name={menuOpen ? "chevron-up" : "chevron-down"}
-              size={20}
-              color={colors.primary}
-            />
-          </Pressable>
+          <DropdownChapter
+            menuOpen={menuOpen}
+            STORY_NAME={STORY_NAME}
+            current={current}
+            setMenuOpen={setMenuOpen}
+            setBarBottom={setBarBottom}
+          />
 
           {/* Nội dung chương */}
           <ScrollView
@@ -112,7 +75,7 @@ export default function StoriesDetail235Prologue() {
           >
             <View style={styles.chapterHeading}>
               <Text style={styles.chapterNumber}>
-                {current.label.toUpperCase()}
+                {t(current.label).toUpperCase()}
               </Text>
               {current.title ? (
                 <Text style={styles.chapterTitle}>{current.title}</Text>
@@ -174,30 +137,6 @@ const createStyles = (COLORS: ThemeColors) =>
     },
     content: {
       flex: 1,
-    },
-    storyBar: {
-      flexDirection: "row",
-      alignItems: "center",
-      gap: 12,
-      marginHorizontal: Spacing.three,
-      paddingHorizontal: 16,
-      paddingVertical: 12,
-      borderRadius: 12,
-      backgroundColor: COLORS.primarySoft,
-      marginTop: -16,
-    },
-    storyBarCopy: {
-      flex: 1,
-      gap: 2,
-    },
-    storyBarName: {
-      color: COLORS.text,
-      fontSize: 15,
-      fontWeight: "700",
-    },
-    storyBarChapter: {
-      color: COLORS.muted,
-      fontSize: 12,
     },
     reader: {
       flex: 1,
