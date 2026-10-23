@@ -9727,8 +9727,8 @@
     ],
     [{ "text": "☼☼☼☼☼☼☼☼☼☼☼" }]
   ],
-  "chapter7_title": "Chương 7: Càng lún sâu",
-  "chapter7_content": [
+  "235_chapter7_title": "Càng lún sâu",
+  "235_chapter7_content": [
     [
       {
         "text": "Chúng ta làm những chuyện ngốc nghếch hết lần này đến lần khác. Chẳng hạn như… đi đến những nơi mình không nên đến."
@@ -10553,5 +10553,884 @@
     [{ "text": "…" }],
     [{ "text": "“Chào cậu… Tớ là Ongsa.”" }],
     [{ "text": "“Rất vui được gặp cậu.”" }]
+  ],
+  "235_chapter8_title": "Cậu sẽ cùng tớ bước tiếp chứ?",
+  "235_chapter8_content": [
+    [
+      {
+        "text": "“Chúng ta từng gặp nhau trước đây chưa nhỉ? Trông cậu quen quen.” Sun hỏi điều cô vẫn luôn thắc mắc. Cô quyết định đuổi theo cô gái này vì cảm thấy có gì đó kỳ lạ, đồng thời cũng thấy cô ấy rất quen thuộc."
+      }
+    ],
+    [{ "text": "“Chúng ta học cùng trường mà.”" }],
+    [{ "text": "“Hả?”" }],
+    [{ "text": "“Ừ.”" }],
+    [{ "text": "“Cậu học lớp mấy?”" }],
+    [{ "text": "“Lớp 10.”" }],
+    [{ "text": "“Lớp nào?”" }],
+    [{ "text": "“Lớp 3.”" }],
+    [{ "text": "“Cậu cùng lớp với Tinh à? Thảo nào tớ thấy cậu quen quen.”" }],
+    [{ "text": "“Ừ… Thật ra chúng ta đã tình cờ gặp nhau nhiều lần rồi.”" }],
+    [
+      {
+        "text": "“Vậy mà cậu chẳng chịu nói với tớ đó là cậu. Quá đáng thật đấy!”"
+      }
+    ],
+    [{ "text": "“Tớ xin lỗi.”" }],
+    [
+      {
+        "text": "Điện thoại Sun đột nhiên đổ chuông, cắt ngang cuộc trò chuyện của hai người."
+      }
+    ],
+    [
+      {
+        "text": "“Vâng, Pa… Con đang ở ngoài ạ. Bố đến rồi sao…? Được rồi, con ra ngay đây. Tạm biệt nhé.”"
+      }
+    ],
+    [
+      {
+        "text": "Sun bỏ điện thoại vào túi rồi quay sang Ongsa với vẻ mặt nghiêm túc."
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa… Chúng ta có thể bắt đầu lại từ đầu, nhưng cậu phải hứa với tớ rằng sẽ không bao giờ biến mất mà chẳng nói với tớ lời nào nữa.”"
+      }
+    ],
+    [{ "text": "“Tớ… hứa.” Ongsa khẽ thì thầm." }],
+    [{ "text": "“Tốt lắm… Vậy tớ đi đây. Bố tớ gọi rồi.”" }],
+    [{ "text": "“Ừ.”" }],
+    [
+      {
+        "text": "Sau khi vật lộn với tình trạng kẹt xe rồi cuối cùng cũng về đến nhà, cô nàng xinh đẹp của thế hệ nằm vật ra giường công chúa Disney trong phòng mình, mệt đến mức chẳng buồn nhúc nhích."
+      }
+    ],
+    [
+      {
+        "text": "Giờ đây, khi chỉ còn một mình trong không gian yên tĩnh, Sun bắt đầu suy ngẫm lại tất cả mọi chuyện."
+      }
+    ],
+    [
+      {
+        "text": "Cô không thể tin nổi những chuyện như thế này lại có thể xảy ra ngoài đời thật. Cô cứ tưởng chúng chỉ xuất hiện trong tiểu thuyết hoặc phim truyền hình mà thôi."
+      }
+    ],
+    [{ "text": "…Một cô gái sao?" }],
+    [
+      {
+        "text": "Suốt thời gian qua, người cô trò chuyện cùng lại là một cô gái."
+      }
+    ],
+    [{ "text": "Người khiến trái tim cô đập loạn nhịp là một cô gái." }],
+    [
+      {
+        "text": "Người khiến cô phát điên suốt cả tháng trời cũng là một cô gái."
+      }
+    ],
+    [
+      {
+        "text": "Nếu Sun thật sự thích Ongsa, chẳng phải điều đó có nghĩa là cô thích con gái sao?"
+      }
+    ],
+    [{ "text": "Chẳng lẽ cô sắp trở thành lesbian rồi…?" }],
+    [{ "text": "Chuyện này điên rồ quá!!" }],
+    [{ "text": "Cô phải làm sao đây?" }],
+    [
+      {
+        "text": "Có nên thành thật nói với Ongsa rằng mình không thích con gái không… sau khi chính miệng cô đã nói rằng giới tính chẳng quan trọng sao?"
+      }
+    ],
+    [{ "text": "Điên mất thôi!" }],
+    [{ "text": "Rõ ràng Ongsa thích cô đến mức nào mà." }],
+    [
+      {
+        "text": "Nếu Sun nói ra điều đó, có lẽ hai người sẽ chẳng thể nhìn mặt nhau được nữa. Rồi Ongsa sẽ biến mất khỏi cuộc đời cô mãi mãi."
+      }
+    ],
+    [{ "text": "Mà Sun không thể để chuyện đó xảy ra." }],
+    [{ "text": "Cô đã suýt phát điên sau một tháng không có Ongsa bên cạnh." }],
+    [
+      {
+        "text": "Dù không hẳn thích ý tưởng trở thành lesbian cho lắm, cô vẫn không muốn sống thiếu Ongsa."
+      }
+    ],
+    [{ "text": "Mà khoan đã…" }],
+    [{ "text": "Tại sao Ongsa vẫn chưa nhắn tin cho cô?" }],
+    [{ "text": "Chẳng phải cậu ấy đã hứa sẽ không biến mất nữa sao?" }],
+    [{ "text": "☼☼☼☼☼☼☼☼☼☼☼" }],
+    [
+      {
+        "text": "Kết quả là Sun mất ngủ cả đêm vì nghĩ về Ongsa, mãi đến gần sáng mới thiếp đi."
+      }
+    ],
+    [{ "text": "Đúng là điên thật!" }],
+    [
+      {
+        "text": "Trước đây, khi Ongsa biến mất, Sun đã suy nghĩ quá nhiều. Bây giờ hai người gặp lại nhau rồi, cô còn nghĩ ngợi nhiều hơn nữa."
+      }
+    ],
+    [{ "text": "Tại sao Ongsa lại có ảnh hưởng lớn đến cô như vậy chứ?" }],
+    [
+      {
+        "text": "Ongsa vẫn chưa nhắn tin cho cô, còn Sun thì chẳng dám chủ động nhắn trước."
+      }
+    ],
+    [
+      {
+        "text": "Thật lòng mà nói, tối qua Sun đã thừa nhận với chính mình rằng cô muốn Ongsa tiếp tục ở trong cuộc sống của mình."
+      }
+    ],
+    [
+      {
+        "text": "Còn mối quan hệ vượt xa tình bạn kia thì lại là chuyện lớn, cần có thời gian để suy nghĩ."
+      }
+    ],
+    [{ "text": "Sun muốn nói chuyện với Ongsa, nhưng cô không dám nhắn tin." }],
+    [
+      {
+        "text": "Cô sợ rằng nếu bản thân vẫn chưa thể chấp nhận được một mối quan hệ như thế này, những hành động của mình sẽ làm tổn thương người mà cô quan tâm…"
+      }
+    ],
+    [{ "text": "Ting!" }],
+    [{ "text": "- O -:", "bold": true }, { "text": " Chào buổi sáng." }],
+    [{ "text": "Ongsa nhắn tin cho Sun trên đường đến trường." }],
+    [
+      {
+        "text": "Tin nhắn ngắn gọn, chẳng có ý nghĩa gì đặc biệt, vậy mà chẳng hiểu sao trái tim Sun lại đập thình thịch."
+      }
+    ],
+    [
+      {
+        "text": "Khi nhận được tin nhắn của một người mà tim mình đập nhanh hơn bình thường…"
+      }
+    ],
+    [{ "text": "Nếu không phải vì nội dung tin nhắn…" }],
+    [{ "text": "…thì chính là vì người gửi quan trọng đến nhường nào." }],
+    [{ "text": "SUN_SUN:", "bold": true }, { "text": " Chào buổi sáng." }],
+    [{ "text": "Sun trả lời bằng chính câu nói ấy." }],
+    [
+      {
+        "text": "Không phải cô trả lời qua loa hay chỉ vì phép lịch sự. Cô đơn giản là chẳng biết nên cư xử thế nào mà thôi."
+      }
+    ],
+    [
+      {
+        "text": "Tuy nhiên, có một điều Sun chắc chắn: Ongsa quan trọng đến mức cô không thể để người ấy biến mất khỏi cuộc đời mình."
+      }
+    ],
+    [
+      {
+        "text": "Trước đây, khi không nhận được tin nhắn của Ongsa, cô đã lo lắng đến mức nào."
+      }
+    ],
+    [
+      {
+        "text": "Nếu bây giờ vừa mất đi những tin nhắn ấy, vừa mất luôn cả người gửi…"
+      }
+    ],
+    [{ "text": "…thì cô sẽ sống tiếp thế nào đây?" }],
+    [
+      {
+        "text": "Dù chắc chắn không muốn để Ongsa biến mất thêm lần nào nữa, Sun vẫn cảm thấy mối quan hệ như thế này là một chuyện vô cùng lớn lao."
+      }
+    ],
+    [
+      {
+        "text": "Cô chẳng biết liệu mình có bao giờ có thể nhìn Ongsa theo cách ấy hay không."
+      }
+    ],
+    [{ "text": "Thật sự khó xử quá đi mất…" }],
+    [
+      {
+        "text": "Trong lúc chờ Ongsa trả lời, Sun mở lại những cuộc trò chuyện trước đây của hai người."
+      }
+    ],
+    [
+      {
+        "text": "Suốt khoảng thời gian họ nhắn tin cho nhau, tình cảm giữa hai người, những kỷ niệm đã có, những điều vui vẻ mà cô từng chia sẻ với Earth — người mà giờ đây cô biết chính là Ongsa — tất cả nhiều đến mức chẳng thể đếm xuể."
+      }
+    ],
+    [{ "text": "Sun chậm rãi đọc từng tin nhắn." }],
+    [
+      {
+        "text": "Những câu nói từng khiến cô cười nghiêng ngả ngày trước giờ vẫn làm cô bật cười."
+      }
+    ],
+    [
+      {
+        "text": "Những câu trả lời đáng ghét của Ongsa cũng vẫn khiến cô bực mình y như cũ, cứ như chẳng có gì thay đổi."
+      }
+    ],
+    [
+      {
+        "text": "Chỉ có điều, một vài câu hỏi của Sun cuối cùng cũng đã có lời giải đáp."
+      }
+    ],
+    [{ "text": "SUN_SUN:", "bold": true }, { "text": " Earth." }],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      {
+        "text": " Chúng ta nói chuyện với nhau cũng được một thời gian rồi nhỉ?"
+      }
+    ],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      { "text": " Cậu có muốn gặp nhau không?" }
+    ],
+    [{ "text": "- O -:", "bold": true }, { "text": " Cậu muốn gặp tớ sao?" }],
+    [{ "text": "SUN_SUN:", "bold": true }, { "text": " Ừ." }],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      { "text": " Cậu không muốn gặp tớ à?" }
+    ],
+    [{ "text": "- O -:", "bold": true }, { "text": " Có chứ." }],
+    [
+      { "text": "- O -:", "bold": true },
+      { "text": " Nhưng tớ vẫn chưa sẵn sàng, Sun." }
+    ],
+    [{ "text": "SUN_SUN:", "bold": true }, { "text": " Tớ sẽ nói thật nhé." }],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      { "text": " Tớ biết cậu đang lo lắng." }
+    ],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      { "text": " Nhưng tớ không muốn cậu suy nghĩ quá nhiều." }
+    ],
+    [{ "text": "SUN_SUN:", "bold": true }, { "text": " Dù cậu là ai đi nữa…" }],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      { "text": " Chỉ cần cậu vẫn là Earth mà tớ biết…" }
+    ],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      { "text": " Thì tớ đều có thể chấp nhận." }
+    ],
+    [{ "text": "- O -:", "bold": true }, { "text": " Sun." }],
+    [
+      { "text": "- O -:", "bold": true },
+      { "text": " Không phải tớ không muốn gặp cậu." }
+    ],
+    [
+      { "text": "- O -:", "bold": true },
+      {
+        "text": " Cũng không phải tớ không thấy khó chịu khi chẳng thể nói cho cậu biết mình là ai."
+      }
+    ],
+    [
+      { "text": "- O -:", "bold": true },
+      {
+        "text": " Tớ chỉ sợ rằng khi cậu biết tớ là ai, mối quan hệ của chúng ta sẽ không còn như trước nữa."
+      }
+    ],
+    [
+      { "text": "- O -:", "bold": true },
+      { "text": " Tớ chẳng phải người tốt đẹp gì đâu." }
+    ],
+    [
+      { "text": "- O -:", "bold": true },
+      {
+        "text": " Tớ muốn giữ hình ảnh đẹp đẽ của mình trong trí tưởng tượng của cậu."
+      }
+    ],
+    [
+      { "text": "- O -:", "bold": true },
+      { "text": " Tớ chưa bao giờ muốn phá hỏng hình ảnh ấy cả." }
+    ],
+    [{ "text": "Đây chính là điều Ongsa từng lo sợ." }],
+    [{ "text": "Và giờ đây, nỗi lo ấy đang thực sự trở thành hiện thực." }],
+    [{ "text": "Cô đang thay đổi." }],
+    [{ "text": "…Chỉ vì đã biết được người kia thật sự là ai…" }],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      {
+        "text": " Nhưng tớ không muốn cậu chỉ tồn tại trong trí tưởng tượng của tớ, Earth."
+      }
+    ],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      {
+        "text": " Dù trí tưởng tượng ấy có đẹp đẽ đến đâu, tớ cũng chẳng thể chạm tới được."
+      }
+    ],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      {
+        "text": " Nhưng còn cậu thì khác. Dù cậu có tệ hại đến mức nào, cậu vẫn là chính cậu."
+      }
+    ],
+    [
+      { "text": "SUN_SUN:", "bold": true },
+      { "text": " Chỉ cần là cậu, những chuyện khác chẳng còn quan trọng nữa." }
+    ],
+    [
+      {
+        "text": "…Chẳng phải chính cậu đã nói rằng mình có thể chấp nhận cô ấy sao?"
+      }
+    ],
+    [{ "text": "…Vậy tại sao bây giờ cậu lại thành ra thế này?" }],
+    [{ "text": "Đúng là điên thật rồi…" }],
+    [{ "text": "☼☼☼☼☼☼☼☼☼☼☼" }],
+    [{ "text": "“Tinh.”" }],
+    [
+      {
+        "text": "Nghe có người gọi tên mình, Tinh ngẩng đầu khỏi quyển bài tập mà cậu đang cặm cụi chép như chạy giặc, muốn xem ai vừa gọi."
+      }
+    ],
+    [
+      {
+        "text": "Nhưng khi nhìn thấy chủ nhân của giọng nói trong trẻo ấy, mặt Tinh lập tức tái mét."
+      }
+    ],
+    [
+      {
+        "text": "Không chỉ riêng Tinh có phản ứng như vậy, mà cả hai người bạn thân của cậu cũng chẳng khá hơn là bao."
+      }
+    ],
+    [
+      {
+        "text": "“À… Chào Sun. Có chuyện gì vậy?” Tinh cố điều chỉnh giọng nói sao cho tự nhiên nhất có thể, đồng thời cố tránh nhìn về phía Ongsa."
+      }
+    ],
+    [
+      {
+        "text": "“Tớ có thể mượn bạn cậu một lát được không? Lát nữa tớ sẽ đưa cậu ấy về.”"
+      }
+    ],
+    [
+      {
+        "text": "Trước khi hai người bạn thân kịp hoàn hồn hay làm được bất cứ điều gì, Sun đã kéo Ongsa đi mất, khiến cả Charoen lẫn Tinh đều đứng hình."
+      }
+    ],
+    [
+      {
+        "text": "“Ongsa tiêu đời rồi, Charoen à. Gọi ông cậu chuẩn bị nhà tang lễ cho nó đi!”"
+      }
+    ],
+    [{ "text": "☼☼☼☼☼☼☼☼☼☼☼" }],
+    [
+      {
+        "text": "Sun đưa Ongsa đến bên hông thư viện, nơi có một vài học sinh đang tụ tập."
+      }
+    ],
+    [
+      {
+        "text": "“Tại sao cậu không trả lời tin nhắn của tớ?” Sun quay lại hỏi."
+      }
+    ],
+    [
+      {
+        "text": "Sáng nay, Sun đã trả lời tin nhắn của Ongsa. Thế nhưng cho đến tận giờ nghỉ trưa, dù tin nhắn đã được đọc, Ongsa vẫn chưa trả lời cô."
+      }
+    ],
+    [{ "text": "“À… Tớ không biết phải nói gì.” Ongsa thành thật đáp." }],
+    [
+      {
+        "text": "“Cứ nói chuyện như trước đây thôi. Cứ như cách chúng ta vẫn thường nói chuyện ấy.”"
+      }
+    ],
+    [{ "text": "“Tớ…”" }],
+    [{ "text": "“Cậu muốn ngừng nói chuyện với tớ sao?”" }],
+    [
+      {
+        "text": "“Không. Tớ chỉ không biết phải nói chuyện gì thôi. Tớ vẫn chưa quen với chuyện này.”"
+      }
+    ],
+    [
+      {
+        "text": "“Tối qua cậu lại im bặt. Cậu đã hứa là sẽ không biến mất nữa mà.”"
+      }
+    ],
+    [
+      {
+        "text": "“Điện thoại của tớ… bị tịch thu rồi.” Ongsa cúi đầu, trông chẳng khác nào một đứa trẻ bị bắt quả tang làm chuyện sai trái."
+      }
+    ],
+    [{ "text": "“Sao lại thế?” Sun tò mò hỏi." }],
+    [
+      {
+        "text": "“À… Chuyện là… Hôm qua mẹ bắt gặp tớ trốn học thêm. Lúc về nhà, mẹ tịch thu điện thoại của tớ một đêm để phạt.”"
+      }
+    ],
+    [{ "text": "“Cậu hư thật đấy. Sao lại làm thế?”" }],
+    [{ "text": "“Tớ đi… uống cà phê.”" }],
+    [
+      {
+        "text": "Thật nực cười. Tại sao chỉ vì mấy lời nói đơn giản của cô gái này mà tim mình lại đập nhanh đến thế chứ?"
+      }
+    ],
+    [{ "text": "“Đưa điện thoại cho tớ.”" }],
+    [{ "text": "“Hả?” Ongsa ngơ ngác nhìn Sun." }],
+    [{ "text": "“Đưa điện thoại đây.”" }],
+    [{ "text": "“Cậu cũng định tịch thu điện thoại của tớ sao?”" }],
+    [{ "text": "“Tớ đâu phải mẹ cậu, sao phải làm thế? Đưa đây nào.”" }],
+    [{ "text": "“Được rồi…” Ongsa ngoan ngoãn đưa điện thoại cho Sun." }],
+    [
+      {
+        "text": "Có vẻ sau lần gặp mặt hôm qua, Sun đã trở nên mạnh mẽ và chủ động hơn trước rất nhiều."
+      }
+    ],
+    [{ "text": "“Mật khẩu là gì?”" }],
+    [{ "text": "“3004.”" }],
+    [{ "text": "“Giống của tớ luôn.” Sun ngạc nhiên nhận ra." }],
+    [{ "text": "“Ừ… Trùng hợp thật nhỉ?”" }],
+    [
+      {
+        "text": "Trùng hợp cái đầu cậu ấy. Rõ ràng mình đặt ngày sinh của cậu ấy làm mật khẩu mà."
+      }
+    ],
+    [{ "text": "Ongsa chỉ dám nghĩ thầm trong lòng." }],
+    [{ "text": "“3004.” Sun lặp lại mật khẩu trong lúc mở khóa điện thoại." }],
+    [
+      {
+        "text": "“Khoan đã!!” Ongsa đột nhiên hét lên khi chợt nhớ ra điều gì đó, nhưng đã quá muộn."
+      }
+    ],
+    [
+      {
+        "text": "Hình nền khóa màn hình vốn là ảnh một thần tượng Hàn Quốc đã được thay bằng hình ảnh của chính cô gái đang cầm chiếc điện thoại gây họa ấy, trong khi chủ nhân của nó đứng bên cạnh với gương mặt trắng bệch."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa quên mất mình đã đặt ảnh Sun làm hình nền màn hình chính."
+      }
+    ],
+    [{ "text": "Mà đó còn là bức ảnh cô lén chụp nữa chứ!" }],
+    [{ "text": "Xong đời rồi." }],
+    [{ "text": "Cô tiêu thật rồi." }],
+    [{ "text": "Oa… TOT" }],
+    [{ "text": "Thế nhưng Sun dường như chẳng bận tâm đến chuyện đó." }],
+    [
+      {
+        "text": "Cô nhanh nhẹn dùng những ngón tay thon dài bấm số điện thoại của mình rồi nhấn gọi."
+      }
+    ],
+    [{ "text": "Không lâu sau, nhạc chuông điện thoại của Sun vang lên." }],
+    [
+      {
+        "text": "Cô cúp máy, trả điện thoại lại cho Ongsa. Ongsa nhận lại điện thoại với vẻ mặt hoang mang chẳng kém gì lúc đưa nó cho Sun."
+      }
+    ],
+    [{ "text": "“Tiết cuối của cậu là tiết trống đúng không?”" }],
+    [{ "text": "“Sao cậu biết?” Ongsa kinh ngạc hỏi." }],
+    [{ "text": "“Tớ đã đến phòng giáo vụ xem thời khóa biểu rồi.”" }],
+    [{ "text": "“O_O!!”" }],
+    [
+      {
+        "text": "“Tớ nghe nói cô Pornpan nghỉ hôm nay. Tiết cuối tớ cũng được nghỉ. Tớ sẽ gọi cho cậu.”"
+      }
+    ],
+    [{ "text": "“OoO!!”" }],
+    [{ "text": "“Cậu đã lưu số của tớ rồi.”" }],
+    [{ "text": "“TOT!!”" }],
+    [{ "text": "Cuộc đời Ongsa coi như chấm hết." }],
+    [
+      {
+        "text": "Lúc nãy Sun gọi vào số của chính mình, nên cô đã nhìn thấy thông tin liên lạc của mình trong điện thoại Ongsa."
+      }
+    ],
+    [
+      {
+        "text": "Mà Ongsa còn đặt ảnh Sun làm ảnh đại diện cho số điện thoại ấy nữa chứ!"
+      }
+    ],
+    [
+      {
+        "text": "Giả trai để nói chuyện với người ta còn chưa đủ rắc rối hay sao? Tại sao số phận lại trêu ngươi cô đến mức này cơ chứ?!!"
+      }
+    ],
+    [{ "text": "Mẹ ơi, con muốn về nhàyyyy! Oa oa oa!" }],
+    [{ "text": "“Đừng có làm cái mặt đó nữa.”" }],
+    [{ "text": "“À… Chuyện là… Tớ… À…”" }],
+    [
+      {
+        "text": "“Tớ sẽ gọi cho cậu. Vào lớp đi. Chúng ta đã trễ tiết học buổi chiều năm phút rồi. Tớ đi đây.”"
+      }
+    ],
+    [{ "text": "Sun quay người bỏ đi, để lại Ongsa đứng đờ đẫn tại chỗ." }],
+    [{ "text": "Chuyện gì đang xảy ra vậy?" }],
+    [{ "text": "Cô đang nằm mơ sao?" }],
+    [{ "text": "Đây là cái quái gì thế này?" }],
+    [
+      {
+        "text": "Hai người còn chưa nói chuyện xong mà Sun đã bỏ về lớp mất rồi."
+      }
+    ],
+    [{ "text": "Sao cậu ấy vội vàng thế chứ?" }],
+    [
+      {
+        "text": "Ongsa thì chẳng thấy cần phải vội một chút nào, dù tiết tiếp theo là môn Hóa học…"
+      }
+    ],
+    [{ "text": "Khoan đã." }],
+    [{ "text": "Tiết buổi chiều là Hóa học!" }],
+    [{ "text": "Môn của cô giáo bốn mắt!" }],
+    [{ "text": "Ongsa, cậu tiêu đời thật rồi!!" }],
+    [{ "text": "☼☼☼☼☼☼☼☼☼☼☼" }],
+    [
+      {
+        "text": "“Em xin phép vào lớp ạ.” Ongsa nhỏ giọng lên tiếng, nhưng vẫn đủ lớn để cả lớp đang im phăng phắc nghe thấy."
+      }
+    ],
+    [
+      {
+        "text": "“Em đã trễ hơn mười phút rồi. Nếu chiếc đồng hồ không giúp em đến lớp đúng giờ được thì tháo nó ra đi.”"
+      }
+    ],
+    [{ "text": "“Em xin lỗi ạ.”" }],
+    [{ "text": "“Về chỗ ngồi đi.”" }],
+    [
+      {
+        "text": "“Em cảm ơn cô.” Ongsa tái mét mặt, bước về chỗ ngồi bên cạnh Tinh và Charoen."
+      }
+    ],
+    [
+      {
+        "text": "Sau khi chia tay Sun, Ongsa quay về chỗ hai người bạn thì phát hiện Tinh, Charoen và cả cặp sách của mình đều đã biến mất."
+      }
+    ],
+    [
+      {
+        "text": "Sau đó, Tinh gọi điện cho cô, báo rằng cô giáo bốn mắt đã đến lớp và bảo cô mau chóng quay lại."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa đã chạy nhanh hết sức có thể, vậy mà vẫn bị mắng như thường."
+      }
+    ],
+    [{ "text": "“Này… Tại sao Sun lại tìm cậu?” Tinh thì thầm hỏi." }],
+    [{ "text": "“Cậu ấy biết sự thật rồi à?” Charoen cũng tò mò không kém." }],
+    [{ "text": "“Ừ…” Ongsa đáp." }],
+    [
+      {
+        "text": "“Cái gì cơ?!! Thật á? Sao cậu ấy phát hiện ra được? Cậu ấy nói gì với cậu? Rồi còn…”"
+      }
+    ],
+    [
+      {
+        "text": "“Tinh! Nannapat! Charoenporn! Nếu muốn nói chuyện thì ra ngoài mà nói!”"
+      }
+    ],
+    [
+      {
+        "text": "Nghe mệnh lệnh của cô giáo bốn mắt, tất cả những câu hỏi còn lại lập tức bị chôn sâu tận đáy lòng."
+      }
+    ],
+    [{ "text": "“Cả lớp đứng lên chào cô…”" }],
+    [{ "text": "“Chúng em cảm ơn cô ạ!”" }],
+    [
+      {
+        "text": "Cuối cùng, hai tiết Hóa học của cô giáo bốn mắt cũng kết thúc."
+      }
+    ],
+    [{ "text": "Tinh và Charoen lập tức quay sang Ongsa." }],
+    [{ "text": "“Nào, kể mau!” Tinh lên tiếng trước." }],
+    [
+      {
+        "text": "“Hôm qua tớ đến quán cà phê gặp Sun, nên cậu ấy phát hiện ra tớ chính là người giả trai để nói chuyện với cậu ấy.”"
+      }
+    ],
+    [{ "text": "“Cậu đã thú nhận với Sun à?” Charoen hỏi." }],
+    [
+      {
+        "text": "“Không. Cậu ấy tự phát hiện ra. Tớ cũng chẳng biết bằng cách nào nữa. Lúc tớ đang ở quán cà phê, đột nhiên cậu ấy nhắn tin hỏi tớ đang ở đâu. Tớ hoảng quá nên bỏ đi, nhưng cậu ấy đuổi theo tớ.”"
+      }
+    ],
+    [{ "text": "“Rồi sao nữa? Sun đã nói gì?”" }],
+    [
+      {
+        "text": "“Cậu ấy hỏi tớ dạo này thế nào, rồi kể rằng mình đã khỏi cảm lạnh và phải đi khám bác sĩ mấy lần.”"
+      }
+    ],
+    [{ "text": "“Hả?” Tinh ngơ ngác." }],
+    [
+      {
+        "text": "Trong tình huống như thế mà hai người lại nói về chuyện đó sao?"
+      }
+    ],
+    [
+      {
+        "text": "“Sau đó, cậu ấy hỏi tại sao tớ biến mất. Tớ giải thích rằng tớ không thể chấp nhận bản thân vì đã làm chuyện như vậy, hơn nữa tớ cũng không muốn khiến cậu ấy tổn thương. Sun hỏi tại sao tớ lại tự quyết định mọi chuyện mà chẳng hỏi ý kiến cậu ấy. Đại khái là vậy. Rồi tớ hỏi liệu mình có thể bắt đầu lại từ đầu nếu cậu ấy không phiền hay không.”"
+      }
+    ],
+    [
+      {
+        "text": "“Thế Sun trả lời thế nào?” Tinh nóng lòng muốn biết phần tiếp theo."
+      }
+    ],
+    [{ "text": "Rrrrrrrrrrr!" }],
+    [
+      {
+        "text": "Tiếng chuông điện thoại của Ongsa vang lên đúng lúc, cắt ngang cuộc trò chuyện."
+      }
+    ],
+    [{ "text": "“Đợi tớ một chút.” Ongsa nói với hai người bạn." }],
+    [{ "text": "Cô nhận cuộc gọi rồi quay người sang một bên để nói chuyện." }],
+    [
+      {
+        "text": "“A lô… Tớ tan học rồi. Ừ… Bây giờ luôn á? Được rồi, tớ đến ngay. Tắt máy nhé.”"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa kết thúc cuộc gọi, cầm lấy cặp sách rồi quay sang hai người bạn."
+      }
+    ],
+    [{ "text": "“Tớ đi đây. Tớ có việc phải làm.”" }],
+    [
+      {
+        "text": "Trước khi Charoen và Tinh kịp phản ứng, Ongsa đã vội vã chạy về phía điểm hẹn vì sợ Sun phải chờ lâu."
+      }
+    ],
+    [
+      {
+        "text": "Hai người bạn chỉ biết nhìn theo trong hoang mang, vẫn chưa nhận được câu trả lời cho câu hỏi quan trọng nhất."
+      }
+    ],
+    [
+      {
+        "text": "“Ongsaaaaa!! Chết tiệt cậu!! Đến đoạn quan trọng nhất rồi mà cậu bỏ đi là sao hả?! Cậu định vô tình cắt ngang câu chuyện như thế thật đấy à, đồ đáng ghét?!”"
+      }
+    ],
+    [{ "text": "Tinh hét lớn, còn Charoen chỉ mệt mỏi nhìn theo Ongsa." }],
+    [
+      {
+        "text": "Thế nhưng cô gái bị mắng kia thậm chí còn chẳng thèm quay đầu lại."
+      }
+    ],
+    [{ "text": "☼☼☼☼☼☼☼☼☼☼☼" }],
+    [{ "text": "“Sun…”" }],
+    [
+      {
+        "text": "“Cậu đến rồi à? Ngồi đi.” Sun nói, nhích sang một bên để Ongsa có thể ngồi xuống chiếc ghế xích đu dài dành cho ba người."
+      }
+    ],
+    [
+      {
+        "text": "Hiện tại, hai cô gái đang ngồi ở hai đầu xa nhất của chiếc ghế, khoảng trống ở giữa đủ rộng để Tinh có thể đứng lên nhảy múa."
+      }
+    ],
+    [
+      {
+        "text": "“Tớ gọi cậu đến đây vì không muốn nói chuyện này qua tin nhắn hay điện thoại. Tớ muốn nói trực tiếp với cậu.” Sun mở lời."
+      }
+    ],
+    [{ "text": "“Tớ hiểu…”" }],
+    [
+      {
+        "text": "“Sau khi hai chúng ta về nhà hôm qua, tớ đã mất ngủ cả đêm vì cứ nghĩ mãi về những chuyện này. Đối với tớ, mọi thứ diễn ra quá đột ngột, hoàn toàn nằm ngoài dự đoán.”"
+      }
+    ],
+    [{ "text": "“Tớ biết.”" }],
+    [
+      {
+        "text": "“Suốt thời gian chúng ta nhắn tin cho nhau, tớ luôn cảm thấy rất vui. Tớ thật sự biết ơn vì có cậu ở bên cạnh. Chính vì cậu luôn đối xử với tớ như vậy nên tớ mới muốn tìm hiểu cậu nhiều hơn."
+      }
+    ],
+    [
+      {
+        "text": "“Ban đầu, tớ không hiểu tại sao cậu lại cố tránh né việc gặp mặt tớ. Nhưng bây giờ tớ hiểu rồi. Tớ biết cậu sợ mọi thứ sẽ thay đổi, sợ mối quan hệ của chúng ta không còn như trước nữa.”"
+      }
+    ],
+    [{ "text": "…" }],
+    [{ "text": "“Và mọi chuyện đúng là đã thay đổi như cậu dự đoán.”" }],
+    [
+      {
+        "text": "“Tớ đã suy nghĩ suốt cả đêm. Tớ là con gái. Cậu cũng là con gái. Liệu con gái có thể nảy sinh tình cảm vượt xa tình bạn với nhau không?”"
+      }
+    ],
+    [
+      {
+        "text": "“Tớ vẫn chưa chắc chắn về cảm xúc của mình dành cho cậu, cũng chẳng biết mối quan hệ của chúng ta rồi sẽ trở thành thế nào. Tớ không thể hình dung được tương lai của chúng ta…”"
+      }
+    ],
+    [{ "text": "…" }],
+    [{ "text": "“Tớ xin lỗi…”" }],
+    [{ "text": "Lời xin lỗi dịu dàng ấy khiến trái tim Ongsa run lên." }],
+    [
+      {
+        "text": "Tối qua, cô đã tự nhủ mình không nên hy vọng quá nhiều. Khi Sun đồng ý bắt đầu lại từ đầu, cậu ấy cũng chẳng nói rõ hai người sẽ bắt đầu lại theo cách nào."
+      }
+    ],
+    [
+      {
+        "text": "Dù đã lo lắng và chuẩn bị tinh thần từ tối hôm qua, khi thật sự nghe những lời ấy từ miệng Sun, Ongsa vẫn cảm thấy lòng mình nặng trĩu đến mức chẳng thể thốt nên lời."
+      }
+    ],
+    [{ "text": "“Cậu không cần xin lỗi đâu…”" }],
+    [{ "text": "…" }],
+    [
+      {
+        "text": "“…Tớ hiểu cậu, Sun. Tớ biết chuyện này rất khó khăn. Như cậu vừa nói, cậu không thể hình dung được tương lai của hai cô gái khi ở trong một mối quan hệ như thế này.”"
+      }
+    ],
+    [
+      {
+        "text": "“Thật ra, cậu thậm chí còn chẳng thể tưởng tượng nổi nó sẽ bắt đầu như thế nào.” Dù vô cùng đau lòng, Ongsa vẫn cố gắng giữ cho giọng nói của mình bình tĩnh."
+      }
+    ],
+    [{ "text": "“Nhưng khởi đầu ấy đang ở ngay đây… giữa hai chúng ta.”" }],
+    [
+      {
+        "text": "Ongsa bối rối khi thấy Sun nhích lại gần mình, thậm chí còn nắm lấy một bàn tay của cô."
+      }
+    ],
+    [
+      {
+        "text": "“Tớ không biết liệu mình có thể có tình cảm với cậu theo cách đó hay không. Tớ cũng chẳng biết mọi chuyện giữa chúng ta rồi sẽ đi đến đâu.”"
+      }
+    ],
+    [
+      {
+        "text": "“Nhưng tớ không muốn mọi thứ kết thúc ngay tại đây, càng không muốn chúng ta kết thúc chỉ vì lý do này.”"
+      }
+    ],
+    [
+      {
+        "text": "“Suốt thời gian nhắn tin với cậu, tớ đã có những cảm xúc rất tốt đẹp. Nhưng tớ vẫn không biết liệu như vậy đã đủ để gọi là tớ phải lòng cậu hay chưa.”"
+      }
+    ],
+    [
+      {
+        "text": "“Có lẽ tớ vẫn sẽ cảm thấy như thế, ngay cả khi cậu thật sự là Earth, là một chàng trai.”"
+      }
+    ],
+    [{ "text": "“Hay là chúng ta cứ từ từ tìm hiểu nhau nhé?”" }],
+    [
+      {
+        "text": "“Trước đây, chúng ta chỉ tìm hiểu nhau qua những dòng tin nhắn. Từ bây giờ, hãy tìm hiểu nhau ngoài đời thật.”"
+      }
+    ],
+    [
+      {
+        "text": "“Sun… Ý cậu là sao?” Ongsa chẳng còn tâm trí đâu để quan tâm người khác có nghĩ mình ngốc hay không. Cô hoàn toàn không hiểu nổi những lời khó hiểu của Sun."
+      }
+    ],
+    [
+      {
+        "text": "“Ý tớ là… Ừm… Chúng ta có thể thử một lần. Nếu không được thì lúc đó tính tiếp.”"
+      }
+    ],
+    [{ "text": "“À… Sao cậu phải dọa tớ bằng lời xin lỗi đó chứ?”" }],
+    [
+      {
+        "text": "“À, tớ còn chưa nói hết mà. Tớ đã bảo rằng mình không thể hình dung được tương lai của chúng ta, nên tớ muốn nói với cậu rằng…”"
+      }
+    ],
+    [
+      {
+        "text": "“Tớ xin lỗi, nhưng cậu có thể ở bên tớ cho đến khi tớ nhìn thấy được tương lai của hai chúng ta không?”"
+      }
+    ],
+    [{ "text": "(-///-)" }],
+    [{ "text": "Nếu tình yêu là một chuyến hành trình…" }],
+    [
+      {
+        "text": "Thì trên con đường mà hai cô gái đã đồng ý cùng nhau bước đi, dù chẳng biết cuối đường đang chờ đợi điều gì…"
+      }
+    ],
+    [{ "text": "…Hành trình ấy cuối cùng cũng đã bắt đầu." }],
+    [{ "text": "☼☼☼☼☼☼☼☼☼☼☼" }],
+    [
+      {
+        "text": "Trở lại giờ nghỉ trưa, sau khi chia tay Ongsa, Sun nhanh chóng quay về lớp học."
+      }
+    ],
+    [
+      {
+        "text": "Cô không vội vã vì sợ bị trễ giờ, mà bởi cô nghi ngờ mình sẽ chẳng thể giữ nổi bình tĩnh nếu cứ ở lại đó thêm nữa."
+      }
+    ],
+    [
+      {
+        "text": "Sun cố tỏ ra điềm tĩnh, giữ vẻ mặt nghiêm túc như thường ngày, nhưng Ongsa đã khiến cô hoàn toàn mất phương hướng."
+      }
+    ],
+    [
+      {
+        "text": "Lời nói của Ongsa, biểu cảm của Ongsa, đặc biệt là cách Ongsa nhìn cô…"
+      }
+    ],
+    [{ "text": "Làm sao cậu có thể đáng yêu đến thế chứ? (>////<)" }],
+    [
+      {
+        "text": "Sun đã suy nghĩ cả đêm trời, vậy mà chỉ trong vòng mười phút gặp mặt Ongsa, cô đã hoàn toàn thua cuộc."
+      }
+    ],
+    [{ "text": "Đúng là điên rồ hết sức!" }],
+    [
+      {
+        "text": "Sun vốn đã ngượng muốn chết khi phát hiện Ongsa đặt ảnh mình làm hình nền màn hình chính."
+      }
+    ],
+    [
+      {
+        "text": "Thế mà sau đó, cô còn phát hiện ra Ongsa cũng lưu số điện thoại của mình kèm theo ảnh đại diện nữa chứ."
+      }
+    ],
+    [
+      {
+        "text": "Nếu lúc ấy Sun không kiềm chế được bản thân rồi để lộ phản ứng thì sao?"
+      }
+    ],
+    [{ "text": "Chắc cô sẽ xấu hổ chết mất." }],
+    [{ "text": "Đúng là một người điên mà…" }],
+    [{ "text": "“Cô giáo đến chưa?” Sun hỏi khi vừa về đến lớp." }],
+    [
+      {
+        "text": "Thật ra đây chỉ là một câu hỏi mang tính hình thức. Nhìn khung cảnh hỗn loạn trong phòng, cô cũng đoán được câu trả lời rồi."
+      }
+    ],
+    [{ "text": "“Chưa. Cậu đi đâu thế?” Deer tò mò hỏi." }],
+    [
+      {
+        "text": "Trước đó, Sun đột nhiên nhờ cô mang cặp sách về lớp rồi bỏ đi đâu mất một lúc."
+      }
+    ],
+    [
+      {
+        "text": "“Tớ đi tìm Tinh.” Sun trả lời đúng sự thật… nhưng cũng không hoàn toàn là sự thật."
+      }
+    ],
+    [
+      {
+        "text": "“Ồ… Chuyện của hội học sinh à? Làm thành viên hội học sinh chắc bận rộn lắm nhỉ, mà cậu còn chưa chính thức trở thành thành viên nữa cơ.” Vee cảm thấy mệt thay cho Sun."
+      }
+    ],
+    [
+      {
+        "text": "Theo kết quả bầu cử từ một tuần trước, đội của Sun đã giành chiến thắng áp đảo."
+      }
+    ],
+    [
+      {
+        "text": "Điều đó đồng nghĩa với việc Sun sẽ trở thành một trong những thành viên của hội học sinh trong nhiệm kỳ sắp tới."
+      }
+    ],
+    [
+      {
+        "text": "Ai cũng biết hội học sinh của trường này có vô số công việc phải đảm nhận."
+      }
+    ],
+    [
+      {
+        "text": "“Ừ.” Sun gật đầu phụ họa, không muốn để bạn bè hỏi han quá nhiều."
+      }
+    ],
+    [
+      {
+        "text": "“Sun… Tớ muốn hỏi cậu một chuyện.” Kongkwan cẩn thận lên tiếng."
+      }
+    ],
+    [{ "text": "“Chuyện gì thế?”" }],
+    [{ "text": "“Cậu… đã quên được Earth chưa?”" }],
+    [
+      {
+        "text": "Kongkwan không phải kiểu người thích tò mò chuyện riêng của bạn bè. Nhưng những thay đổi rõ rệt trong cách cư xử của Sun khiến cô không khỏi thắc mắc."
+      }
+    ],
+    [{ "text": "“Ừ… Tớ nghĩ mình sẽ thử thích một người khác xem sao.”" }],
+    [{ "text": "“HẢẢẢẢẢẢ?!!!!”" }]
   ]
 }
