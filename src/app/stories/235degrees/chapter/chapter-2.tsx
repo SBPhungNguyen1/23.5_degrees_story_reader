@@ -8,7 +8,7 @@ import { Spacing } from "@/constants/theme";
 import { MAX_CONTENT_WIDTH, useResponsive } from "@/hooks/use-responsive";
 import { Chapter } from "@/types/chapter-type";
 import { StoryContent } from "@/types/story-content-type";
-import { CHAPTERS_LIST } from "@/utils/chapter-utils";
+import { CHAPTERS_LIST, STORY_NAME, STORY_SLUG } from "@/utils/chapter-utils";
 import { THEME_COLORS } from "@/utils/color-utils";
 import { router, type Href } from "expo-router";
 import { useState } from "react";
@@ -22,9 +22,6 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-// Dữ liệu mẫu — thay bằng dữ liệu thật (API / store) của bạn.
-const STORY_NAME = "Story";
-const STORY_SLUG = "235degrees";
 const CURRENT_SLUG = "chapter-2";
 
 const CHAPTERS: Chapter[] = CHAPTERS_LIST;
