@@ -14,4 +14,5 @@ export const CHAPTERS_LIST: Chapter[] = [
   { slug: "chapter-6", label: "chapter 6", title: "235_chapter6_title" },
   { slug: "chapter-7", label: "chapter 7", title: "235_chapter7_title" },
   { slug: "chapter-8", label: "chapter 8", title: "235_chapter8_title" },
+  { slug: "chapter-9", label: "chapter 9", title: "235_chapter9_title" },
 ];
