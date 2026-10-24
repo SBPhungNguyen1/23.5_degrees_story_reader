@@ -108,7 +108,7 @@ export default function StoriesDetail235Chapter1() {
           <View style={styles.playerBar}>
             <View style={styles.playerInner}>
               <AudioPlayer
-                source={require("../../../../../assets/audio/235degrees/chapter_10.mp3")}
+                source={require("../../../../../assets/audio/235degrees/chapter_12.mp3")}
                 colors={colors}
               />
             </View>
