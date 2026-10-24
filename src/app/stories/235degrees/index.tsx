@@ -6,7 +6,7 @@ import {
   webPointer,
 } from "@/hooks/use-responsive";
 import { Chapter } from "@/types/chapter-type";
-import { CHAPTERS_LIST } from "@/utils/chapter-utils";
+import { CHAPTERS_LIST, STORY_NAME } from "@/utils/chapter-utils";
 import { THEME_COLORS } from "@/utils/color-utils";
 import { Ionicons } from "@expo/vector-icons";
 import { router, type Href } from "expo-router";
@@ -28,10 +28,10 @@ type TabKey = "summary" | "chapters";
 
 // Dữ liệu mẫu — thay bằng dữ liệu thật (API / store) của bạn.
 const STORY = {
-  name: "235 Degrees",
-  coverUrl: undefined as string | undefined,
-  year: "2024",
-  status: "Đang cập nhật",
+  name: STORY_NAME,
+  cover: require("@/assets/images/hero/235_cover_hero.jpeg"),
+  year: "2018",
+  status: "completed",
   about:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   genres: ["Phiêu lưu", "Giả tưởng"],
@@ -40,7 +40,6 @@ const STORY = {
 
 const CHAPTERS: Chapter[] = CHAPTERS_LIST;
 
-// Đổ bóng: boxShadow cho web, shadow*/elevation cho native.
 const shadow = (
   offsetY: number,
   opacity: number,
@@ -82,18 +81,20 @@ export default function StoriesDetail235() {
     <ThemedView style={styles.container}>
       <SafeAreaView style={styles.safeArea} edges={["top", "left", "right"]}>
         <ScrollView
-          showsVerticalScrollIndicator={false}
+          style={styles.pageScroll}
           contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
+          keyboardShouldPersistTaps="handled"
         >
-          {/* Cột nội dung: full width trên mobile, tối đa 720 trên web/tablet */}
           <View style={styles.column}>
             {/* Thông tin truyện */}
             <View style={styles.hero}>
               <View style={styles.cover}>
-                {STORY.coverUrl ? (
+                {STORY.cover ? (
                   <Image
-                    source={{ uri: STORY.coverUrl }}
+                    source={STORY.cover}
                     style={styles.coverImage}
+                    resizeMode="cover"
                   />
                 ) : (
                   <Ionicons
@@ -106,7 +107,7 @@ export default function StoriesDetail235() {
 
               <View style={styles.heroCopy}>
                 <Text style={styles.storyName} numberOfLines={3}>
-                  {STORY.name}
+                  {t(STORY.name)}
                 </Text>
 
                 <View style={styles.metaList}>
@@ -126,7 +127,9 @@ export default function StoriesDetail235() {
                     <Text style={styles.metaLabel}>
                       {t("story.status", "Trạng thái")}
                     </Text>
-                    <Text style={styles.metaValue}>{STORY.status}</Text>
+                    <Text style={styles.metaValue}>
+                      {t(`story.${STORY.status}`)}
+                    </Text>
                   </View>
                 </View>
               </View>
@@ -144,7 +147,7 @@ export default function StoriesDetail235() {
             >
               <Ionicons name="book" size={18} color="#FFFFFF" />
               <Text style={styles.readButtonText}>
-                {t("story.startReading", "Đọc ngay")}
+                {t("common.startReading", "Đọc ngay")}
               </Text>
             </Pressable>
 
@@ -261,27 +264,36 @@ const createStyles = (COLORS: ThemeColors, r: Responsive) => {
     container: {
       flex: 1,
       backgroundColor: COLORS.background,
+      marginBottom: r.isDesktop ? 16 : 24,
+      paddingBottom: r.isDesktop ? 0 : 20,
     },
     safeArea: {
       flex: 1,
-      paddingBottom: Spacing.five,
-      marginBottom: 10,
+      minHeight: 0,
+    },
+    pageScroll: {
+      flex: 1,
+      width: "100%",
+      marginTop: -16,
     },
     scrollContent: {
-      paddingTop: r.isTablet ? 28 : 16,
-      paddingBottom: Spacing.four,
+      flexGrow: 1,
+      paddingTop: r.isDesktop ? 36 : r.isTablet ? 28 : 16,
+      paddingBottom: r.isDesktop ? 40 : Spacing.four,
     },
-    // Cột căn giữa, padding ngang nằm trong cột để maxWidth tính cả padding
+
     column: {
       width: "100%",
-      maxWidth: MAX_CONTENT_WIDTH,
+      maxWidth: r.isDesktop ? 960 : MAX_CONTENT_WIDTH,
       alignSelf: "center",
-      paddingHorizontal: Spacing.four,
-      gap: 18,
+      paddingHorizontal: r.isDesktop ? 28 : Spacing.four,
+      gap: r.isDesktop ? 22 : 18,
     },
     hero: {
       flexDirection: "row",
-      gap: r.isTablet ? 24 : 16,
+      alignItems: "flex-start",
+      gap: r.isDesktop ? 28 : r.isTablet ? 24 : 16,
+      width: "100%",
     },
     cover: {
       width: coverW,
@@ -299,13 +311,15 @@ const createStyles = (COLORS: ThemeColors, r: Responsive) => {
     },
     heroCopy: {
       flex: 1,
-      gap: r.isTablet ? 18 : 14,
+      minWidth: 0,
+      gap: r.isDesktop ? 18 : r.isTablet ? 18 : 14,
     },
     storyName: {
       color: COLORS.text,
-      fontSize: r.isDesktop ? 32 : r.isTablet ? 28 : 24,
+      fontSize: r.isDesktop ? 34 : r.isTablet ? 28 : 24,
       fontWeight: "800",
       letterSpacing: -0.5,
+      flexShrink: 1,
     },
     metaList: {
       gap: r.isTablet ? 12 : 9,
@@ -417,13 +431,13 @@ const createStyles = (COLORS: ThemeColors, r: Responsive) => {
       fontSize: 12,
       fontWeight: "600",
     },
-    // Mobile: 1 cột. Web/tablet: 2 cột.
     chapterList: {
       flexDirection: "column",
       gap: 10,
     },
     chapterItem: {
       width: "100%",
+      minWidth: 0,
       minHeight: 62,
       flexDirection: "row",
       alignItems: "center",

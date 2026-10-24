@@ -1,6 +1,6 @@
 import { Chapter } from "@/types/chapter-type";
 
-export const STORY_NAME = "Story";
+export const STORY_NAME = "235_degree_the_world_incline";
 export const STORY_SLUG = "235degrees";
 
 export const CHAPTERS_LIST: Chapter[] = [

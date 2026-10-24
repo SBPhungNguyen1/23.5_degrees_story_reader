@@ -4,7 +4,19 @@
     "settings": "Cài đặt",
     "language": "Ngôn ngữ",
     "save": "Lưu",
-    "cancel": "Hủy"
+    "cancel": "Hủy",
+    "startReading": "Bắt đầu đọc"
+  },
+  "story": {
+    "year": "Năm",
+    "chapterCount": "Số chương",
+    "status": "Trạng thái",
+    "completed": "Hoàn thành",
+    "about": "Giới thiệu",
+    "genre": "Thể loại",
+    "tags": "Thẻ",
+    "summary": "Tóm tắt",
+    "chapters": "Chương"
   },
   "home": {
     "title": "Thư viện của tôi",
@@ -17,6 +29,7 @@
     "previous_chapter": "Chương trước",
     "next_chapter": "Chương sau"
   },
+  "235_degree_the_world_incline": "23,5 Độ Nghiêng Trái Đất",
   "prologue": "Khởi đầu",
   "235_prologue_content": [
     [
@@ -26581,974 +26594,2856 @@
     [
       {
         "text": "Ongsa và Sun đã hẹn hò được một năm. Cả hai đã cùng nhau vượt qua biết bao chuyện, nhưng có một điều họ vẫn chưa từng cùng nhau trải qua…"
-      },
-      { "text": "Ngày Valentine.", "bold": true },
+      }
+    ],
+    [
+      {
+        "text": "Ngày Valentine.",
+        "bold": true
+      }
+    ],
+    [
       {
         "text": "Lý do là Valentine năm ngoái, Sun vẫn biết Ongsa dưới cái tên Earth, còn Ongsa thì trốn tránh cô bằng cách không trả lời tin nhắn. Ongsa biết hồi đó Sun chắc chắn đã tổn thương rất nhiều. Vì thế, năm nay cô muốn bù đắp cho bạn gái."
-      },
+      }
+    ],
+    [
       {
         "text": "Có điều, Ongsa chưa từng hẹn hò vào ngày Valentine nên chẳng biết các cặp đôi thường làm gì vào ngày này."
-      },
-      { "text": "Tinh, Charoenporn." },
+      }
+    ],
+    [
+      {
+        "text": "Tinh, Charoenporn."
+      }
+    ],
+    [
       {
         "text": "Gọi cả họ tên thế này là sao? Cậu định đọc kinh cầu nguyện à?",
         "italic": true
-      },
-      { "text": "Charoen hỏi." },
-      { "text": "Tớ cần hai cậu tư vấn." },
-      { "text": "Chuyện Sun à?", "italic": true },
-      { "text": "Tinh hỏi." },
-      { "text": "Sao cậu biết?" },
+      }
+    ],
+    [
+      {
+        "text": "Charoen hỏi."
+      }
+    ],
+    [
+      {
+        "text": "Tớ cần hai cậu tư vấn."
+      }
+    ],
+    [
+      {
+        "text": "Chuyện Sun à?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Tinh hỏi."
+      }
+    ],
+    [
+      {
+        "text": "Sao cậu biết?"
+      }
+    ],
+    [
       {
         "text": "Trong cuộc đời cậu có được mấy chuyện khiến cậu phải đau đầu đâu, Ongsa."
-      },
+      }
+    ],
+    [
       {
         "text": "Tinh nói đúng. Một đứa chẳng ra gì như Ongsa thì ngoài chuyện này ra, còn có vấn đề gì khác nữa đâu."
-      },
-      { "text": "Ừ. Chuyện Sun." },
-      { "text": "Nói đi." },
-      { "text": "Tháng Hai sắp đến rồi." },
-      { "text": "Rồi sao?" },
-      { "text": "Ngày Valentine." },
-      { "text": "Rồi sao?" },
-      { "text": "Tớ phải mua quà cho Sun." },
-      { "text": "Rồi sao nữa???" },
-      { "text": "Tớ nên mua gì cho cậu ấy?" },
-      { "text": "Cậu hỏi tớ á…? Cậu đang hỏi tớ thật đấy à…?" },
-      { "text": "Ừ… Ừ." },
-      { "text": "Sao cậu lại thế này hả, Ongsa?" },
+      }
+    ],
+    [
+      {
+        "text": "Ừ. Chuyện Sun."
+      }
+    ],
+    [
+      {
+        "text": "Nói đi."
+      }
+    ],
+    [
+      {
+        "text": "Tháng Hai sắp đến rồi."
+      }
+    ],
+    [
+      {
+        "text": "Rồi sao?"
+      }
+    ],
+    [
+      {
+        "text": "Ngày Valentine."
+      }
+    ],
+    [
+      {
+        "text": "Rồi sao?"
+      }
+    ],
+    [
+      {
+        "text": "Tớ phải mua quà cho Sun."
+      }
+    ],
+    [
+      {
+        "text": "Rồi sao nữa???"
+      }
+    ],
+    [
+      {
+        "text": "Tớ nên mua gì cho cậu ấy?"
+      }
+    ],
+    [
+      {
+        "text": "Cậu hỏi tớ á…? Cậu đang hỏi tớ thật đấy à…?"
+      }
+    ],
+    [
+      {
+        "text": "Ừ… Ừ."
+      }
+    ],
+    [
+      {
+        "text": "Sao cậu lại thế này hả, Ongsa?"
+      }
+    ],
+    [
       {
         "text": "Ongsa nhìn Tinh đầy khó hiểu. Sao chứ? Cô đã làm gì sai à? Sao Tinh lại nhìn cô bằng ánh mắt buồn bã đến thế?"
-      },
-      { "text": "Chúng ta làm bạn với nhau bao lâu rồi, Ongsa?" },
-      { "text": "Từ năm lớp Bảy." },
-      { "text": "Từ năm lớp Bảy. Tính ra đã năm năm rồi." },
-      { "text": "Đúng vậy." },
-      { "text": "Trong suốt năm năm qua…" },
-      { "text": "…" },
+      }
+    ],
+    [
+      {
+        "text": "Chúng ta làm bạn với nhau bao lâu rồi, Ongsa?"
+      }
+    ],
+    [
+      {
+        "text": "Từ năm lớp Bảy."
+      }
+    ],
+    [
+      {
+        "text": "Từ năm lớp Bảy. Tính ra đã năm năm rồi."
+      }
+    ],
+    [
+      {
+        "text": "Đúng vậy."
+      }
+    ],
+    [
+      {
+        "text": "Trong suốt năm năm qua…"
+      }
+    ],
+    [
+      {
+        "text": "…"
+      }
+    ],
+    [
       {
         "text": "Cậu đã bao giờ thấy tớ hẹn hò với ai chưa, Ongsa? Cậu bị làm sao mà lại đi hỏi tớ nên mua gì cho bạn gái hả, cái đồ tội lỗi này?!"
-      },
+      }
+    ],
+    [
       {
         "text": "Tinh mắng Ongsa một hồi lâu, đến khi cô nàng phải giơ tay xin dừng lại."
-      },
-      { "text": "Được rồi, được rồi. Tớ sai rồi. Xin lỗi." },
-      { "text": "Ừ. May mà cậu biết tự kiểm điểm." },
-      { "text": "Mua hoa đi.", "italic": true },
-      { "text": "Charoen lên tiếng sau khi im lặng nghe hai người cãi nhau." },
-      { "text": "…?" },
-      { "text": "Ongsa quay sang nhìn cô nàng khó hiểu." },
-      { "text": "Hoa ấy. Con gái thích được tặng hoa vào Valentine." },
-      { "text": "Tớ không thích.", "italic": true },
-      { "text": "Tinh nói." },
-      { "text": "Ừ. Tớ cũng không thích.", "italic": true },
-      { "text": "Ongsa hùa theo." },
+      }
+    ],
+    [
+      {
+        "text": "Được rồi, được rồi. Tớ sai rồi. Xin lỗi."
+      }
+    ],
+    [
+      {
+        "text": "Ừ. May mà cậu biết tự kiểm điểm."
+      }
+    ],
+    [
+      {
+        "text": "Mua hoa đi.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Charoen lên tiếng sau khi im lặng nghe hai người cãi nhau."
+      }
+    ],
+    [
+      {
+        "text": "…?"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa quay sang nhìn cô nàng khó hiểu."
+      }
+    ],
+    [
+      {
+        "text": "Hoa ấy. Con gái thích được tặng hoa vào Valentine."
+      }
+    ],
+    [
+      {
+        "text": "Tớ không thích.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Tinh nói."
+      }
+    ],
+    [
+      {
+        "text": "Ừ. Tớ cũng không thích.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa hùa theo."
+      }
+    ],
+    [
       {
         "text": "Charoen nhìn qua nhìn lại hai đứa bạn, tự hỏi rốt cuộc giữa Ongsa và Tinh thì ai nữ tính hơn ai."
-      },
+      }
+    ],
+    [
       {
         "text": "Mua thú nhồi bông đi. Loại to bằng cái nhà ấy. Tớ cá Sun sẽ hét lên cho xem.",
         "italic": true
-      },
-      { "text": "Tinh đề xuất." },
+      }
+    ],
+    [
+      {
+        "text": "Tinh đề xuất."
+      }
+    ],
+    [
       {
         "text": "Thú nhồi bông khổng lồ á? Tớ chỉ muốn biết Ongsa có vác nổi nó không thôi.",
         "italic": true
-      },
-      { "text": "Charoen nhận xét." },
-      { "text": "À, đúng nhỉ. Tớ quên mất cậu ta vô dụng thế nào." },
-      {
-        "text": "Ongsa liếc hai đứa bạn đang nói chuyện cứ như thể cô không có mặt ở đây."
-      },
-      {
-        "text": "Mua con nào nhỏ nhỏ thôi. Dễ thương một chút. Cậu đi tìm hiểu xem Sun thích thú nhồi bông loại nào."
-      },
-      { "text": "Nhưng tớ vẫn nhất quyết chọn hoa." },
-      { "text": "Thú nhồi bông." },
-      { "text": "Hoa." },
-      {
-        "text": "Được rồi, được rồi. Cảm ơn hai cậu đã giúp đỡ nhiệt tình. Để tớ tự quyết định sau."
-      },
-      {
-        "text": "Ongsa vội ngắt lời khi thấy hai người sắp sửa lao vào đánh nhau."
-      },
-      { "text": "Thú nhồi bông nhé, Ongsa. Tin tớ đi." },
-      {
-        "text": "Thú nhồi bông là quà sinh nhật!! Ongsa, Valentine nhất định phải có hoa!"
-      },
-      { "text": "…Có vẻ chuyện này chưa thể kết thúc dễ dàng rồi…" },
-      { "text": "☼☼☼☼☼☼☼☼☼☼☼" }
+      }
     ],
     [
-      { "text": "Haiz…" },
-      { "text": "…" },
-      { "text": "Haizzz…" },
-      { "text": "…" },
-      { "text": "Haizzzzz…" },
-      { "text": "Ongsa, cậu bị sao vậy? Cứ thở dài mãi." },
-      { "text": "Tớ đang đau đầu, Alpha." },
-      { "text": "Chuyện gì? Bài kiểm tra thể dục à?" },
-      { "text": "Không… Chuyện Sun." },
-      { "text": "Hai đứa cãi nhau à?" },
-      { "text": "Không. Tớ…" },
-      { "text": "…?" },
-      { "text": "Tớ không biết nên mua gì cho cậu ấy vào ngày Valentine." },
+      {
+        "text": "Charoen nhận xét."
+      }
+    ],
+    [
+      {
+        "text": "À, đúng nhỉ. Tớ quên mất cậu ta vô dụng thế nào."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa liếc hai đứa bạn đang nói chuyện cứ như thể cô không có mặt ở đây."
+      }
+    ],
+    [
+      {
+        "text": "Mua con nào nhỏ nhỏ thôi. Dễ thương một chút. Cậu đi tìm hiểu xem Sun thích thú nhồi bông loại nào."
+      }
+    ],
+    [
+      {
+        "text": "Nhưng tớ vẫn nhất quyết chọn hoa."
+      }
+    ],
+    [
+      {
+        "text": "Thú nhồi bông."
+      }
+    ],
+    [
+      {
+        "text": "Hoa."
+      }
+    ],
+    [
+      {
+        "text": "Được rồi, được rồi. Cảm ơn hai cậu đã giúp đỡ nhiệt tình. Để tớ tự quyết định sau."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa vội ngắt lời khi thấy hai người sắp sửa lao vào đánh nhau."
+      }
+    ],
+    [
+      {
+        "text": "Thú nhồi bông nhé, Ongsa. Tin tớ đi."
+      }
+    ],
+    [
+      {
+        "text": "Thú nhồi bông là quà sinh nhật!! Ongsa, Valentine nhất định phải có hoa!"
+      }
+    ],
+    [
+      {
+        "text": "…Có vẻ chuyện này chưa thể kết thúc dễ dàng rồi…"
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
+    ],
+    [
+      {
+        "text": "Haiz…"
+      }
+    ],
+    [
+      {
+        "text": "…"
+      }
+    ],
+    [
+      {
+        "text": "Haizzz…"
+      }
+    ],
+    [
+      {
+        "text": "…"
+      }
+    ],
+    [
+      {
+        "text": "Haizzzzz…"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa, cậu bị sao vậy? Cứ thở dài mãi."
+      }
+    ],
+    [
+      {
+        "text": "Tớ đang đau đầu, Alpha."
+      }
+    ],
+    [
+      {
+        "text": "Chuyện gì? Bài kiểm tra thể dục à?"
+      }
+    ],
+    [
+      {
+        "text": "Không… Chuyện Sun."
+      }
+    ],
+    [
+      {
+        "text": "Hai đứa cãi nhau à?"
+      }
+    ],
+    [
+      {
+        "text": "Không. Tớ…"
+      }
+    ],
+    [
+      {
+        "text": "…?"
+      }
+    ],
+    [
+      {
+        "text": "Tớ không biết nên mua gì cho cậu ấy vào ngày Valentine."
+      }
+    ],
+    [
       {
         "text": "Trời ạ!! Tớ cứ tưởng chuyện gì nghiêm trọng lắm. Còn ngồi nghe cậu nói đàng hoàng nữa chứ. Cứ mua đại thứ gì đi. Quà cáp có hàng triệu món để chọn mà."
-      },
-      { "text": "Alpha gắt lên, khiến em gái càng thêm nản lòng." },
-      { "text": "Tại sao ai cũng nghĩ chuyện này dễ dàng thế nhỉ?" },
+      }
+    ],
+    [
+      {
+        "text": "Alpha gắt lên, khiến em gái càng thêm nản lòng."
+      }
+    ],
+    [
+      {
+        "text": "Tại sao ai cũng nghĩ chuyện này dễ dàng thế nhỉ?"
+      }
+    ],
+    [
       {
         "text": "Đối với Ongsa, đây là chuyện cực kỳ khó khăn. Valentine là ngày quan trọng đối với các cặp đôi, một ngày đặc biệt dành cho những người đang yêu. Hơn nữa, đây còn là Valentine đầu tiên của hai người. Ongsa muốn biến nó thành một ngày thật đặc biệt."
-      },
-      { "text": "Nhưng làm thế nào mới khiến ngày ấy trở nên đặc biệt đây?" },
-      { "text": "Ongsa hoàn toàn mù tịt." },
-      { "text": "Giúp em nghĩ đi.", "italic": true },
-      { "text": "Ongsa nhờ vả." },
-      { "text": "Đồ đôi." },
-      { "text": "Đồ đôi á?" },
+      }
+    ],
+    [
+      {
+        "text": "Nhưng làm thế nào mới khiến ngày ấy trở nên đặc biệt đây?"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa hoàn toàn mù tịt."
+      }
+    ],
+    [
+      {
+        "text": "Giúp em nghĩ đi.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa nhờ vả."
+      }
+    ],
+    [
+      {
+        "text": "Đồ đôi."
+      }
+    ],
+    [
+      {
+        "text": "Đồ đôi á?"
+      }
+    ],
+    [
       {
         "text": "Áo đôi, dây chuyền đôi hoặc nhẫn đôi. Hai đứa yêu nhau lâu như vậy rồi, đã từng mua đồ đôi cho nhau chưa?"
-      },
+      }
+    ],
+    [
       {
         "text": "Cô em gái chậm rãi lắc đầu. Alpha đã đoán trước được câu trả lời này."
-      },
+      }
+    ],
+    [
       {
         "text": "Chị vẫn không hiểu nổi tại sao một cô gái xinh đẹp, hoàn hảo như Sun, người khiến một nửa nam sinh trong trường mê mẩn, lại mắc sai lầm khi đi yêu một đứa vô dụng như em gái mình."
-      },
-      { "text": "Lên mạng tìm đi. Có cả đống gợi ý." },
-      { "text": "Vậy em nên mua gì?" },
-      { "text": "Dùng đầu óc đi!!" },
-      { "text": "Alpha nói rồi bỏ đi, để lại Ongsa ngồi ngơ ngác nhìn theo." },
+      }
+    ],
+    [
+      {
+        "text": "Lên mạng tìm đi. Có cả đống gợi ý."
+      }
+    ],
+    [
+      {
+        "text": "Vậy em nên mua gì?"
+      }
+    ],
+    [
+      {
+        "text": "Dùng đầu óc đi!!"
+      }
+    ],
+    [
+      {
+        "text": "Alpha nói rồi bỏ đi, để lại Ongsa ngồi ngơ ngác nhìn theo."
+      }
+    ],
+    [
       {
         "text": "Tại sao cứ mỗi lần cô hỏi chuyện này, mọi người lại nổi giận thế nhỉ? Cô đã làm gì sai đâu?"
-      },
-      { "text": "Ongsa chẳng hiểu gì cả." },
-      { "text": "☼☼☼☼☼☼☼☼☼☼☼" }
+      }
+    ],
+    [
+      {
+        "text": "Ongsa chẳng hiểu gì cả."
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
     ],
     [
       {
         "text": "Ongsa nhìn hai người đang ngồi đối diện mình, hết nhìn người bên trái lại nhìn người bên phải, tự hỏi rốt cuộc tại sao cả ba lại tụ tập ở đây."
-      },
-      { "text": "Xin lỗi vì đột nhiên gọi hai cậu đến.", "italic": true },
-      { "text": "Người khởi xướng buổi gặp mặt lên tiếng." },
-      { "text": "Có chuyện gì vậy?", "italic": true },
-      { "text": "Cô gái còn lại hỏi." },
+      }
+    ],
+    [
+      {
+        "text": "Xin lỗi vì đột nhiên gọi hai cậu đến.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Người khởi xướng buổi gặp mặt lên tiếng."
+      }
+    ],
+    [
+      {
+        "text": "Có chuyện gì vậy?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Cô gái còn lại hỏi."
+      }
+    ],
+    [
       {
         "text": "Cô khá bất ngờ khi đàn chị, người đang có vẻ qua lại với bạn thân của mình, đột nhiên rủ cô đến một quán cà phê trong trung tâm thương mại nổi tiếng sau giờ học. Đã vậy, lúc đến nơi, cô còn thấy cả Ongsa, bạn gái của đàn chị và cũng là người cùng khối với mình. Lý do của buổi gặp mặt này thật khó hiểu."
-      },
-      { "text": "Tớ gọi Ongsa và Pinky đến vì… à… bởi vì…" },
-      { "text": "Cứ nói thẳng đi, Min.", "italic": true },
+      }
+    ],
+    [
+      {
+        "text": "Tớ gọi Ongsa và Pinky đến vì… à… bởi vì…"
+      }
+    ],
+    [
+      {
+        "text": "Cứ nói thẳng đi, Min.",
+        "italic": true
+      }
+    ],
+    [
       {
         "text": "Pinky thúc giục. Nếu cứ chờ đàn chị ngốc nghếch này tự lấy hết can đảm thì chắc trung tâm thương mại đóng cửa mất mà họ vẫn chưa bàn được chuyện gì."
-      },
-      { "text": "Tháng sau là Valentine rồi…", "italic": true },
-      { "text": "Min chậm rãi nói ra nỗi băn khoăn của mình." },
+      }
+    ],
+    [
+      {
+        "text": "Tháng sau là Valentine rồi…",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Min chậm rãi nói ra nỗi băn khoăn của mình."
+      }
+    ],
+    [
       {
         "text": "Và tớ… muốn rủ Bon đi chơi vào ngày hôm đó. Tớ cần hai cậu tư vấn xem nên làm gì."
-      },
-      { "text": "Ongsa ngơ ngác nhìn đàn chị." },
+      }
+    ],
+    [
+      {
+        "text": "Ongsa ngơ ngác nhìn đàn chị."
+      }
+    ],
+    [
       {
         "text": "Chị ấy chắc chứ? Đến bản thân Ongsa còn phải đi hỏi người khác cơ mà. Nếu biết Min muốn nói chuyện này, cô đã từ chối ngay từ đầu rồi."
-      },
+      }
+    ],
+    [
       {
         "text": "Pinky là bạn thân của Bon nên chắc biết cậu ấy thích gì. Còn Ongsa, em nghĩ chị có thể cho chị lời khuyên về cách rủ một người đi chơi, vì chị có kinh nghiệm rồi. Làm ơn giúp chị nhé."
-      },
+      }
+    ],
+    [
       {
         "text": "Nhìn ánh mắt khẩn khoản của Min, Ongsa mềm lòng. Cô hiểu cảm giác của đàn chị."
-      },
+      }
+    ],
+    [
       {
         "text": "Min học lớp Mười Hai, đang thích Ribbon, một đàn em lớp Mười Một và cũng là bạn thân của Pinky. Trước đây, Min từng hỏi Ongsa cách bắt chuyện với đàn em ấy."
-      },
+      }
+    ],
+    [
       {
         "text": "Ongsa chẳng đưa ra được lời khuyên gì đáng kể, chỉ kể cho Min nghe câu chuyện của mình với Sun. Cô cũng chẳng biết đàn chị đã làm cách nào để khiến đàn em chịu nói chuyện với mình."
-      },
+      }
+    ],
+    [
       {
         "text": "Có lẽ sẽ có người thắc mắc tại sao Min lại đi hỏi một đứa vô dụng như Ongsa."
-      },
+      }
+    ],
+    [
       {
         "text": "Đơn giản vì người Min thích là con gái, mà Min cũng là con gái."
-      },
-      { "text": "…Nghe quen quen đúng không?" },
+      }
+    ],
+    [
+      {
+        "text": "…Nghe quen quen đúng không?"
+      }
+    ],
+    [
       {
         "text": "Hồi đó, em rủ Sun đi chơi vì đúng lúc có cơ hội. Có người sắp cướp cậu ấy khỏi tay em nên em đột nhiên lấy hết can đảm. May mà Sun cũng thích em. Thế là bọn em hẹn hò luôn.",
         "italic": true
-      },
-      { "text": "Ongsa kể lại kinh nghiệm của mình cho đàn chị." },
+      }
+    ],
+    [
+      {
+        "text": "Ongsa kể lại kinh nghiệm của mình cho đàn chị."
+      }
+    ],
+    [
       {
         "text": "Nghĩ lại thì câu chuyện tình yêu của cô chẳng lãng mạn chút nào."
-      },
-      { "text": "Min đã tìm nhầm người để xin lời khuyên rồi." },
+      }
+    ],
+    [
+      {
+        "text": "Min đã tìm nhầm người để xin lời khuyên rồi."
+      }
+    ],
+    [
       {
         "text": "Ồ, vậy à…? Giờ chị phải làm sao đây? Pinky… Bon thích gì? Em có biết không?"
-      },
-      { "text": "Nếu Bon từ chối chị thì sao?", "italic": true },
+      }
+    ],
+    [
+      {
+        "text": "Nếu Bon từ chối chị thì sao?",
+        "italic": true
+      }
+    ],
+    [
       {
         "text": "Pinky thẳng thừng dội một gáo nước lạnh vào sự tự tin vốn đã ít ỏi của đàn chị."
-      },
+      }
+    ],
+    [
       {
         "text": "Ongsa quay sang nhìn Min, thấy vẻ mặt chị ấy lập tức xịu xuống. Rõ ràng Min cũng chẳng tự tin hơn cô là bao."
-      },
+      }
+    ],
+    [
       {
         "text": "Nếu chị cứ như thế này thì dù Bon có đồng ý hẹn hò, mối quan hệ của hai người cũng chẳng kéo dài được đâu."
-      },
-      { "text": "Khắc nghiệt thật đấy!" },
+      }
+    ],
+    [
+      {
+        "text": "Khắc nghiệt thật đấy!"
+      }
+    ],
+    [
       {
         "text": "Ongsa kinh ngạc nhìn Pinky. Dù hai người không thân thiết lắm, sự thẳng thắn của cô nàng vẫn khiến Ongsa sốc không nhẹ."
-      },
+      }
+    ],
+    [
       {
         "text": "Chị hỏi em Bon thích gì à? Em nói cho chị biết nhé… Bon thích chị. Nếu muốn hẹn hò với cậu ấy thì cứ nói thẳng ra. Hãy tự tin lên, Min. Chị nghĩ bạn em sẽ tùy tiện nói chuyện với bất kỳ ai chắc? Cậu ấy nói chuyện với chị vì cậu ấy thích chị. Chị có tỏ tình bằng cách nào thì cậu ấy cũng sẽ đồng ý thôi, nhưng chị phải can đảm hơn nữa. Bon thích người chân thành. Nếu thật lòng thích cậu ấy thì chị phải tự tin lên. Đừng cứ chờ cậu ấy chủ động. Như thế chẳng ngầu chút nào."
-      },
-      { "text": "Ủa?" },
+      }
+    ],
+    [
+      {
+        "text": "Ủa?"
+      }
+    ],
+    [
       {
         "text": "Pinky đang nói chuyện với Min chứ không phải Ongsa đúng không?"
-      },
-      { "text": "Chị biết mình kém cỏi mà. Chị sẽ cố gắng hơn…" },
+      }
+    ],
+    [
+      {
+        "text": "Chị biết mình kém cỏi mà. Chị sẽ cố gắng hơn…"
+      }
+    ],
+    [
       {
         "text": "Ongsa dùng ánh mắt bày tỏ sự đồng cảm với đàn chị đang buồn rười rượi vì bị bạn thân của người yêu tương lai mắng cho một trận."
-      },
+      }
+    ],
+    [
       {
         "text": "Chẳng ai muốn mình vô dụng cả, nhưng đôi khi chuyện này cũng đâu thể kiểm soát được."
-      },
+      }
+    ],
+    [
       {
         "text": "Nhưng Pinky phải giúp chị nghĩ xem nên mua gì tặng Bon vào Valentine đấy. Cả em nữa, Ongsa. Giúp chị đi!"
-      },
-      { "text": "Em còn chưa biết nên mua gì cho Sun nữa…", "italic": true },
-      { "text": "Ongsa lẩm bẩm." },
-      { "text": "Min tìm nhầm người để hỏi thật rồi. Đáng thương ghê." },
-      { "text": "Bon là người thích ăn uống. Cứ rủ cậu ấy đi ăn đi." },
+      }
+    ],
+    [
+      {
+        "text": "Em còn chưa biết nên mua gì cho Sun nữa…",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa lẩm bẩm."
+      }
+    ],
+    [
+      {
+        "text": "Min tìm nhầm người để hỏi thật rồi. Đáng thương ghê."
+      }
+    ],
+    [
+      {
+        "text": "Bon là người thích ăn uống. Cứ rủ cậu ấy đi ăn đi."
+      }
+    ],
+    [
       {
         "text": "Rủ đi ăn à…? Đi đâu? Quán thịt nướng hả? Có một quán ngon lắm."
-      },
+      }
+    ],
+    [
       {
         "text": "Ongsa nhìn Pinky đập tay lên trán rồi thở dài. Cũng phải thôi. Ngay cả một đứa vô dụng như cô cũng không đến mức rủ con gái đi hẹn hò ở quán thịt nướng."
-      },
-      { "text": "Min đúng là ngốc hết chỗ nói." },
+      }
+    ],
+    [
+      {
+        "text": "Min đúng là ngốc hết chỗ nói."
+      }
+    ],
+    [
       {
         "text": "Bon thích đồ ngọt, Min. Bánh ngọt với mấy món tráng miệng ấy."
-      },
-      { "text": "Ồ… Đồ ngọt hả? Được, được." },
+      }
+    ],
+    [
+      {
+        "text": "Ồ… Đồ ngọt hả? Được, được."
+      }
+    ],
+    [
       {
         "text": "Cuối cùng, cả ba thống nhất rằng Min sẽ rủ Ribbon đến một quán cà phê và lấy hết can đảm để tỏ tình, xin làm bạn gái của cô ấy ngay trong ngày hôm đó."
-      },
+      }
+    ],
+    [
       {
         "text": "May mà Min đã hỏi ý kiến Pinky. Còn Ongsa thì ngược lại, cô cảm thấy mình vô dụng hết sức, chẳng khác nào đến đây chỉ để uống nước miễn phí."
-      },
-      { "text": "Dù sao thì cô vẫn hy vọng Min sẽ thành công." },
-      { "text": "☼☼☼☼☼☼☼☼☼☼☼" }
+      }
+    ],
+    [
+      {
+        "text": "Dù sao thì cô vẫn hy vọng Min sẽ thành công."
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
     ],
     [
       {
         "text": "Chuyện tình cảm của đàn chị tạm thời được giải quyết. Giờ đến lượt Ongsa quay về với vấn đề của mình."
-      },
+      }
+    ],
+    [
       {
         "text": "Nghĩ lại thì cách làm của Min cũng khá hay. Nếu không nghĩ ra được gì thì cứ hỏi bạn bè thôi."
-      },
+      }
+    ],
+    [
       {
         "text": "Có lẽ bạn bè của Sun sẽ giúp cô nghĩ ra món quà phù hợp, nhưng… nên chọn ai đây?"
-      },
-      { "text": "Khó quá đi mất!" },
+      }
+    ],
+    [
+      {
+        "text": "Khó quá đi mất!"
+      }
+    ],
+    [
       {
         "text": "Sun thân với Tinh và Charoen, nhưng Ongsa gần như chẳng nói chuyện với những người bạn còn lại của cô ấy. Hồi hai người mới bắt đầu hẹn hò, mỗi lần gặp mặt, bạn bè Sun đều nhìn Ongsa bằng ánh mắt trêu chọc, khiến cô cứ vô thức giữ khoảng cách."
-      },
+      }
+    ],
+    [
       {
         "text": "Hơn nữa, cô cũng chẳng biết sau lần chia tay trước, bạn bè Sun đã hết giận cô vì làm tổn thương Sun hay chưa."
-      },
-      { "text": "Giờ phải làm sao đây?" },
-      { "text": "Cậu đợi lâu chưa?", "italic": true },
-      { "text": "Ongsa lại nhìn đồng hồ." },
-      { "text": "Cô đến sớm năm phút, nhưng người kia đã có mặt từ trước." },
-      { "text": "Một lúc rồi. Tớ háo hức quá nên đến sớm lắm." },
-      { "text": "Ồ…", "italic": true },
-      { "text": "Ongsa ngơ ngác gật đầu." },
+      }
+    ],
+    [
+      {
+        "text": "Giờ phải làm sao đây?"
+      }
+    ],
+    [
+      {
+        "text": "Cậu đợi lâu chưa?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa lại nhìn đồng hồ."
+      }
+    ],
+    [
+      {
+        "text": "Cô đến sớm năm phút, nhưng người kia đã có mặt từ trước."
+      }
+    ],
+    [
+      {
+        "text": "Một lúc rồi. Tớ háo hức quá nên đến sớm lắm."
+      }
+    ],
+    [
+      {
+        "text": "Ồ…",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa ngơ ngác gật đầu."
+      }
+    ],
+    [
       {
         "text": "Người phải háo hức là cô mới đúng chứ? Sao đối phương lại là người phấn khích hơn vậy?"
-      },
-      { "text": "Tớ lên kế hoạch hết rồi." },
+      }
+    ],
+    [
+      {
+        "text": "Tớ lên kế hoạch hết rồi."
+      }
+    ],
+    [
       {
         "text": "Ongsa còn chưa kịp ngồi ngay ngắn, cô gái trước mặt đã đưa ra một tờ giấy ghi đầy chữ."
-      },
+      }
+    ],
+    [
       {
         "text": "Đây này. Tớ đã suy nghĩ cả đêm rồi. Đảm bảo không thiếu thứ gì."
-      },
+      }
+    ],
+    [
       {
         "text": "Ongsa cúi xuống nhìn tờ giấy mà chủ nhân khẳng định là không thiếu sót bất cứ thứ gì."
-      },
-      { "text": "Quả thật, chẳng thiếu gì cả." },
+      }
+    ],
+    [
+      {
+        "text": "Quả thật, chẳng thiếu gì cả."
+      }
+    ],
+    [
       {
         "text": "Trên giấy liệt kê đầy đủ những việc Ongsa cần làm và những thứ phải chuẩn bị cho ngày Valentine sắp tới. Nhiều đến mức có lẽ chẳng còn gì để bổ sung nữa."
-      },
-      { "text": "Deer, cậu chắc kế hoạch này ổn chứ?", "italic": true },
-      { "text": "Ongsa hỏi." },
+      }
+    ],
+    [
+      {
+        "text": "Deer, cậu chắc kế hoạch này ổn chứ?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa hỏi."
+      }
+    ],
+    [
       {
         "text": "Trong số tất cả bạn bè của Sun, cô đã chọn hỏi ý kiến Deer. Có lẽ Deer là người mà cô cảm thấy tin tưởng nhất."
-      },
+      }
+    ],
+    [
       {
         "text": "Sau khi Ongsa nhắn tin hỏi xin lời khuyên, Deer nhiệt tình đồng ý giúp đỡ, còn tốt bụng liệt kê chi tiết từng thứ cô cần chuẩn bị. Thế nên mới có buổi gặp mặt hôm nay."
-      },
+      }
+    ],
+    [
       {
         "text": "Tuy nhiên, sau khi đọc xong danh sách của Deer, Ongsa bắt đầu nghi ngờ tính khả thi của kế hoạch."
-      },
+      }
+    ],
+    [
       {
         "text": "Kế hoạch của Deer thật sự quá sức đối với một đứa vô dụng như cô."
-      },
+      }
+    ],
+    [
       {
         "text": "Tất nhiên rồi. Con gái thích bất ngờ lắm, Ongsa, nhất là vào những ngày quan trọng. Càng hoành tráng càng tốt!",
         "italic": true
-      },
-      {
-        "text": "Deer nói cứ như thể người đối diện mình không phải cũng là con gái vậy."
-      },
-      {
-        "text": "Dù sao thì Ongsa cũng chẳng thể phản bác. Con gái nào mà chẳng thích được tạo bất ngờ, kể cả cô."
-      },
-      { "text": "Được rồi!!" },
-      { "text": "Vì Sun, cô sẽ thử hết sức mình!!!" },
-      { "text": "☼☼☼☼☼☼☼☼☼☼☼" }
+      }
     ],
     [
-      { "text": "Bố." },
-      { "text": "Sao thế, con yêu?", "italic": true },
+      {
+        "text": "Deer nói cứ như thể người đối diện mình không phải cũng là con gái vậy."
+      }
+    ],
+    [
+      {
+        "text": "Dù sao thì Ongsa cũng chẳng thể phản bác. Con gái nào mà chẳng thích được tạo bất ngờ, kể cả cô."
+      }
+    ],
+    [
+      {
+        "text": "Được rồi!!"
+      }
+    ],
+    [
+      {
+        "text": "Vì Sun, cô sẽ thử hết sức mình!!!"
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
+    ],
+    [
+      {
+        "text": "Bố."
+      }
+    ],
+    [
+      {
+        "text": "Sao thế, con yêu?",
+        "italic": true
+      }
+    ],
+    [
       {
         "text": "Nop ngạc nhiên khi thấy cô con gái út bước vào phòng làm việc của mình."
-      },
+      }
+    ],
+    [
       {
         "text": "Cả hai cô con gái đều chưa từng bước chân vào căn phòng này."
-      },
-      { "text": "Bố dạy con chơi guitar nhé…", "italic": true },
+      }
+    ],
+    [
+      {
+        "text": "Bố dạy con chơi guitar nhé…",
+        "italic": true
+      }
+    ],
+    [
       {
         "text": "Ongsa khẽ nói, nhưng trong căn phòng yên tĩnh, giọng cô vẫn đủ rõ ràng."
-      },
+      }
+    ],
+    [
       {
         "text": "Chơi guitar à? Sao tự nhiên con lại muốn học? Trước đây bố muốn dạy thì con cứ lắc đầu nguầy nguậy mà."
-      },
-      { "text": "Ch… Chuyện là…", "italic": true },
-      { "text": "Ongsa cứng họng." },
+      }
+    ],
+    [
+      {
+        "text": "Ch… Chuyện là…",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cứng họng."
+      }
+    ],
+    [
       {
         "text": "Làm sao cô có thể nói với bố rằng mình muốn học guitar để chơi cho Sun nghe chứ? Ngượng chết mất!"
-      },
+      }
+    ],
+    [
       {
         "text": "Nop quan sát con gái đang cúi đầu, vành tai đỏ bừng, rồi tự suy đoán."
-      },
-      { "text": "Muốn chơi cho một cô gái nghe à?" },
-      { "text": "Bố!!" },
-      { "text": "Ongsa hét lên." },
-      { "text": "Là cô nào?" },
-      { "text": "Còn ai nữa chứ?!!" },
+      }
+    ],
+    [
+      {
+        "text": "Muốn chơi cho một cô gái nghe à?"
+      }
+    ],
+    [
+      {
+        "text": "Bố!!"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa hét lên."
+      }
+    ],
+    [
+      {
+        "text": "Là cô nào?"
+      }
+    ],
+    [
+      {
+        "text": "Còn ai nữa chứ?!!"
+      }
+    ],
+    [
       {
         "text": "Ồ… Vậy là con thật sự muốn chơi cho một cô gái nghe à? Hahaha!"
-      },
-      { "text": "Bố!! Con không học nữa đâu!" },
-      { "text": "Ongsa càng thêm xấu hổ khi bị bố bắt bài." },
+      }
+    ],
+    [
+      {
+        "text": "Bố!! Con không học nữa đâu!"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa càng thêm xấu hổ khi bị bố bắt bài."
+      }
+    ],
+    [
       {
         "text": "Ngoài đám bạn ở trường, bố cô cũng rất thích trêu chọc chuyện của cô với Sun. Ngày nào ông cũng kiếm cớ chọc cô, hễ có cơ hội là không bỏ qua."
-      },
+      }
+    ],
+    [
       {
         "text": "Thôi nào. Bố sẽ dạy con. Bố sẽ dạy thật giỏi để Sun mê con như điếu đổ luôn."
-      },
-      { "text": "Đấy! Lại trêu cô nữa rồi." },
+      }
+    ],
+    [
+      {
+        "text": "Đấy! Lại trêu cô nữa rồi."
+      }
+    ],
+    [
       {
         "text": "Cũng không cần đến mức đó đâu. Con chỉ muốn học một bài thôi."
-      },
-      { "text": "Một bài à? Bài gì?" },
+      }
+    ],
+    [
+      {
+        "text": "Một bài à? Bài gì?"
+      }
+    ],
+    [
       {
         "text": "Ongsa lấy tờ giấy Deer đưa hôm qua từ trong túi ra để xem cô nàng đã chọn bài hát nào."
-      },
+      }
+    ],
+    [
       {
         "text": "Hôm qua, cô sốc trước danh sách dài dằng dặc nên chưa đọc hết các chi tiết."
-      },
+      }
+    ],
+    [
       {
         "text": "Trời đất. Đây là kế hoạch tạo bất ngờ Valentine hay cầu hôn vậy? Chi tiết nhiều thế!"
-      },
-      { "text": "Bố ơiiii!! Đừng có nhìn trộm!" },
-      { "text": "Ongsa lại hét lên khi bố cô rướn cổ đọc tờ giấy trên tay." },
+      }
+    ],
+    [
+      {
+        "text": "Bố ơiiii!! Đừng có nhìn trộm!"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa lại hét lên khi bố cô rướn cổ đọc tờ giấy trên tay."
+      }
+    ],
+    [
       {
         "text": "Thật ra, ông chẳng cần ghé sát cũng biết đó là gì, vì Deer đã viết tiêu đề thật to ngay chính giữa tờ giấy."
-      },
+      }
+    ],
+    [
       {
         "text": "Chi tiết kế hoạch tạo bất ngờ cho Sun vào ngày Valentine.",
         "italic": true
-      },
+      }
+    ],
+    [
       {
         "text": "Được rồi, được rồi. Đàn guitar của bố ở trong phòng ngủ. Con đi lấy đi. Bố sắp làm xong việc rồi, lát nữa bố dạy."
-      },
+      }
+    ],
+    [
       {
         "text": "Sao đàn lại ở trong phòng bố? Hôm trước con còn thấy nó ở đây mà."
-      },
+      }
+    ],
+    [
       {
         "text": "Bố không thể chơi guitar cho mẹ con nghe đôi khi à? Đâu phải chỉ có con mới muốn làm thế vì một cô gái."
-      },
+      }
+    ],
+    [
       {
         "text": "Bố cứ trêu con mãi! Con không thèm nói chuyện với bố nữa. Hứ!!"
-      },
-      { "text": "Ongsa lườm Nop rồi quay người đi lấy đàn như lời ông bảo." },
+      }
+    ],
+    [
+      {
+        "text": "Ongsa lườm Nop rồi quay người đi lấy đàn như lời ông bảo."
+      }
+    ],
+    [
       {
         "text": "Dù vừa hét lên như thế, Ongsa vẫn nghĩ bố mình là một người rất lãng mạn."
-      },
+      }
+    ],
+    [
       {
         "text": "Bố mẹ cô đã kết hôn gần hai mươi năm, vậy mà bố vẫn chơi guitar cho mẹ nghe."
-      },
-      { "text": "Không biết đến bao giờ cô mới lãng mạn được như bố đây…?" },
-      { "text": "☼☼☼☼☼☼☼☼☼☼☼" }
+      }
+    ],
+    [
+      {
+        "text": "Không biết đến bao giờ cô mới lãng mạn được như bố đây…?"
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
     ],
     [
       {
         "text": "Chơi guitar không dễ, nhưng cũng chẳng khó như Ongsa tưởng tượng."
-      },
-      {
-        "text": "Dù những ngón tay sưng lên vì bấm dây đàn, Ongsa vẫn thấy vui khi thử làm một điều mới mẻ. Sau hai tuần, cô đã có thể chơi được bài hát mà cả nhóm chọn. Thỉnh thoảng cô vẫn mắc lỗi, nhưng như vậy cũng đủ tốt đối với một đứa vô dụng như cô rồi."
-      },
-      {
-        "text": "Chơi guitar chắc sẽ không thành vấn đề. Cô vẫn còn thời gian để luyện tập trước Valentine."
-      },
-      { "text": "Vấn đề nằm ở những thứ còn lại trong danh sách." },
-      {
-        "text": "Có cả đống thứ cần chuẩn bị. Tìm đủ mọi thứ đã khó, làm sao cô có đủ tiền mua tất cả đây?"
-      },
-      {
-        "text": "Ongsa cố gắng tiết kiệm từng đồng xu, nhưng có vẻ vẫn chẳng đủ. Có lẽ cô phải mượn tiền Alpha mất thôi."
-      },
-      { "text": "Ongsa." },
-      { "text": "Dạ, mẹ?" },
-      { "text": "Còn hai tuần nữa là Valentine rồi nhỉ?" },
-      { "text": "Dạ." },
-      { "text": "Ongsa tự hỏi sao mẹ lại đột nhiên hỏi chuyện này." },
-      { "text": "Mẹ nghe nói con định chơi guitar cho Sun nghe." },
-      { "text": "Bố ơiiii!!!" },
-      { "text": "Ongsa lập tức hét lên, dù bố chẳng có mặt ở đây." },
-      {
-        "text": "Cô đã dặn ông phải giữ bí mật rồi mà! Sao ông lại kể với mẹ chứ?"
-      },
-      {
-        "text": "Tha cho bố con đi. Mẹ tự hỏi bố con mà. Mẹ thấy tối nào con cũng ở trong phòng làm việc nên tò mò không biết con đang làm gì, thế là hỏi."
-      },
-      { "text": "Hứ!" },
-      { "text": "Dù mẹ đã giải thích, Ongsa vẫn giận bố như thường." },
-      { "text": "Mẹ nghe nói con đang chuẩn bị rất nhiều thứ để tạo bất ngờ." },
-      { "text": "Đấy! Ông kể hết cho mẹ rồi." },
-      {
-        "text": "Đúng là hết nói nổi. Sau này Ongsa sẽ không kể gì với bố nữa. Cứ chờ mà xem!"
-      },
-      { "text": "Con phải chuẩn bị nhiều thứ như vậy. Có đủ tiền không?" },
-      { "text": "Wow… Mẹ nói trúng tim đen rồi." },
-      {
-        "text": "Ongsa càng căng thẳng hơn. Nếu mẹ biết cô đã tiêu hết tiền tiết kiệm để chuẩn bị bất ngờ cho Sun, chắc chắn bà sẽ mắng cô."
-      },
-      { "text": "À… Chuyện đó…" },
-      { "text": "Ongsa cố giải thích, nhưng đầu óc đột nhiên đình công." },
-      {
-        "text": "Mẹ cho con tiền tiêu vặt để mua đồ ăn ở trường. Đừng nhịn ăn để dành tiền làm việc khác."
-      },
-      { "text": "Đấy! Ongsa bị mắng rồi." },
-      {
-        "text": "Con đã nhỏ con thế này, người thì toàn xương. Nếu không ăn uống đầy đủ thì lấy gì nuôi não?"
-      },
-      {
-        "text": "Chắc mẹ đã để ý thấy gần đây cô ăn tối như chết đói, nên đoán rằng cô nhịn bữa trưa để dành tiền chuẩn bị quà cho Sun."
-      },
-      { "text": "Đừng bỏ bữa nữa, nghe chưa?" },
-      { "text": "Dạ…" },
-      {
-        "text": "Ongsa cúi đầu đầy tội lỗi, không biết nên làm gì với cuộc đời mình nữa."
-      },
-      {
-        "text": "Cô còn chẳng biết sau khi nhịn ăn bao nhiêu bữa thì số tiền tiết kiệm có đủ mua hết mọi thứ hay không. Giờ lại bị mẹ phát hiện rồi."
-      },
-      { "text": "Kế hoạch thế là thất bại!" },
-      { "text": "Còn cái này… Mẹ cho con." },
-      {
-        "text": "Ongsa ngẩng đầu lên khi nghe mẹ nói. Bà đang chìa ra trước mặt cô hai tờ tiền màu xám."
-      },
-      {
-        "text": "Cứ xem như đây là lời xin lỗi của mẹ vì đã khiến con và Sun cãi nhau."
-      },
-      { "text": "Mẹ… Nhiều quá rồi ạ." },
-      {
-        "text": "Cầm lấy đi. Mẹ muốn cho con, mà chỉ lần này thôi. Lần sau mẹ không cho nữa đâu."
-      },
-      { "text": "…" },
-      { "text": "Đây là Valentine đầu tiên của hai đứa, đúng không?" },
-      { "text": "Dạ." },
-      {
-        "text": "Vậy thì con phải làm cho người ta ấn tượng đấy, Ongsa. Đừng có mua hoa sen thiêng rồi dẫn người ta đến quán mì gà ven đường như bố con đã làm."
-      },
-      {
-        "text": "Nghe có vẻ mẹ vẫn còn nhớ rất rõ Valentine đầu tiên của mình theo một cách chẳng mấy vui vẻ (- -\")"
-      },
-      { "text": "☼☼☼☼☼☼☼☼☼☼☼" }
+      }
     ],
     [
-      { "text": "Cuối cùng, ngày ấy cũng đến!" },
+      {
+        "text": "Dù những ngón tay sưng lên vì bấm dây đàn, Ongsa vẫn thấy vui khi thử làm một điều mới mẻ. Sau hai tuần, cô đã có thể chơi được bài hát mà cả nhóm chọn. Thỉnh thoảng cô vẫn mắc lỗi, nhưng như vậy cũng đủ tốt đối với một đứa vô dụng như cô rồi."
+      }
+    ],
+    [
+      {
+        "text": "Chơi guitar chắc sẽ không thành vấn đề. Cô vẫn còn thời gian để luyện tập trước Valentine."
+      }
+    ],
+    [
+      {
+        "text": "Vấn đề nằm ở những thứ còn lại trong danh sách."
+      }
+    ],
+    [
+      {
+        "text": "Có cả đống thứ cần chuẩn bị. Tìm đủ mọi thứ đã khó, làm sao cô có đủ tiền mua tất cả đây?"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cố gắng tiết kiệm từng đồng xu, nhưng có vẻ vẫn chẳng đủ. Có lẽ cô phải mượn tiền Alpha mất thôi."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa."
+      }
+    ],
+    [
+      {
+        "text": "Dạ, mẹ?"
+      }
+    ],
+    [
+      {
+        "text": "Còn hai tuần nữa là Valentine rồi nhỉ?"
+      }
+    ],
+    [
+      {
+        "text": "Dạ."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa tự hỏi sao mẹ lại đột nhiên hỏi chuyện này."
+      }
+    ],
+    [
+      {
+        "text": "Mẹ nghe nói con định chơi guitar cho Sun nghe."
+      }
+    ],
+    [
+      {
+        "text": "Bố ơiiii!!!"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa lập tức hét lên, dù bố chẳng có mặt ở đây."
+      }
+    ],
+    [
+      {
+        "text": "Cô đã dặn ông phải giữ bí mật rồi mà! Sao ông lại kể với mẹ chứ?"
+      }
+    ],
+    [
+      {
+        "text": "Tha cho bố con đi. Mẹ tự hỏi bố con mà. Mẹ thấy tối nào con cũng ở trong phòng làm việc nên tò mò không biết con đang làm gì, thế là hỏi."
+      }
+    ],
+    [
+      {
+        "text": "Hứ!"
+      }
+    ],
+    [
+      {
+        "text": "Dù mẹ đã giải thích, Ongsa vẫn giận bố như thường."
+      }
+    ],
+    [
+      {
+        "text": "Mẹ nghe nói con đang chuẩn bị rất nhiều thứ để tạo bất ngờ."
+      }
+    ],
+    [
+      {
+        "text": "Đấy! Ông kể hết cho mẹ rồi."
+      }
+    ],
+    [
+      {
+        "text": "Đúng là hết nói nổi. Sau này Ongsa sẽ không kể gì với bố nữa. Cứ chờ mà xem!"
+      }
+    ],
+    [
+      {
+        "text": "Con phải chuẩn bị nhiều thứ như vậy. Có đủ tiền không?"
+      }
+    ],
+    [
+      {
+        "text": "Wow… Mẹ nói trúng tim đen rồi."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa càng căng thẳng hơn. Nếu mẹ biết cô đã tiêu hết tiền tiết kiệm để chuẩn bị bất ngờ cho Sun, chắc chắn bà sẽ mắng cô."
+      }
+    ],
+    [
+      {
+        "text": "À… Chuyện đó…"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cố giải thích, nhưng đầu óc đột nhiên đình công."
+      }
+    ],
+    [
+      {
+        "text": "Mẹ cho con tiền tiêu vặt để mua đồ ăn ở trường. Đừng nhịn ăn để dành tiền làm việc khác."
+      }
+    ],
+    [
+      {
+        "text": "Đấy! Ongsa bị mắng rồi."
+      }
+    ],
+    [
+      {
+        "text": "Con đã nhỏ con thế này, người thì toàn xương. Nếu không ăn uống đầy đủ thì lấy gì nuôi não?"
+      }
+    ],
+    [
+      {
+        "text": "Chắc mẹ đã để ý thấy gần đây cô ăn tối như chết đói, nên đoán rằng cô nhịn bữa trưa để dành tiền chuẩn bị quà cho Sun."
+      }
+    ],
+    [
+      {
+        "text": "Đừng bỏ bữa nữa, nghe chưa?"
+      }
+    ],
+    [
+      {
+        "text": "Dạ…"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cúi đầu đầy tội lỗi, không biết nên làm gì với cuộc đời mình nữa."
+      }
+    ],
+    [
+      {
+        "text": "Cô còn chẳng biết sau khi nhịn ăn bao nhiêu bữa thì số tiền tiết kiệm có đủ mua hết mọi thứ hay không. Giờ lại bị mẹ phát hiện rồi."
+      }
+    ],
+    [
+      {
+        "text": "Kế hoạch thế là thất bại!"
+      }
+    ],
+    [
+      {
+        "text": "Còn cái này… Mẹ cho con."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa ngẩng đầu lên khi nghe mẹ nói. Bà đang chìa ra trước mặt cô hai tờ tiền màu xám."
+      }
+    ],
+    [
+      {
+        "text": "Cứ xem như đây là lời xin lỗi của mẹ vì đã khiến con và Sun cãi nhau."
+      }
+    ],
+    [
+      {
+        "text": "Mẹ… Nhiều quá rồi ạ."
+      }
+    ],
+    [
+      {
+        "text": "Cầm lấy đi. Mẹ muốn cho con, mà chỉ lần này thôi. Lần sau mẹ không cho nữa đâu."
+      }
+    ],
+    [
+      {
+        "text": "…"
+      }
+    ],
+    [
+      {
+        "text": "Đây là Valentine đầu tiên của hai đứa, đúng không?"
+      }
+    ],
+    [
+      {
+        "text": "Dạ."
+      }
+    ],
+    [
+      {
+        "text": "Vậy thì con phải làm cho người ta ấn tượng đấy, Ongsa. Đừng có mua hoa sen thiêng rồi dẫn người ta đến quán mì gà ven đường như bố con đã làm."
+      }
+    ],
+    [
+      {
+        "text": "Nghe có vẻ mẹ vẫn còn nhớ rất rõ Valentine đầu tiên của mình theo một cách chẳng mấy vui vẻ (- -\")"
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
+    ],
+    [
+      {
+        "text": "Cuối cùng, ngày ấy cũng đến!"
+      }
+    ],
+    [
       {
         "text": "Ongsa phấn khích vô cùng. Cô hy vọng kế hoạch sẽ thành công."
-      },
+      }
+    ],
+    [
       {
         "text": "Ongsa mượn phòng hội học sinh để chuẩn bị bất ngờ cho Sun. Vì người đứng sau toàn bộ kế hoạch này là Deer, một cô nàng rất thích đọc tiểu thuyết mà Ongsa không hề hay biết, nên mọi thứ được chuẩn bị vô cùng hoành tráng và lộng lẫy."
-      },
+      }
+    ],
+    [
       {
         "text": "Tinh nhìn cô bạn thân đang khuân từng đống đồ vào phòng hội học sinh, không khỏi cảm thán."
-      },
+      }
+    ],
+    [
       {
         "text": "Wow, đây là quà Valentine hay túi đồ cứu trợ dành cho người bị lũ cuốn trôi vậy?"
-      },
+      }
+    ],
+    [
       {
         "text": "Tinh không muốn châm chọc hay ghen tị đâu, nhưng cậu thấy chạnh lòng thật sự."
-      },
+      }
+    ],
+    [
       {
         "text": "Ongsa đã đủ đáng ghét vì là đứa duy nhất trong nhóm có người yêu rồi, giờ còn bắt cả nhóm giúp mình chuẩn bị bất ngờ cho bạn gái nữa."
-      },
+      }
+    ],
+    [
       {
         "text": "Đúng là đồ nhẫn tâm! Chẳng có chút lòng thương cảm nào dành cho hội độc thân cả."
-      },
-      { "text": "Chuyện này nhất định phải trả thù!" },
+      }
+    ],
+    [
+      {
+        "text": "Chuyện này nhất định phải trả thù!"
+      }
+    ],
+    [
       {
         "text": "Nếu yêu đương mà vất vả thế này thì thà độc thân cả đời còn hơn.",
         "italic": true
-      },
+      }
+    ],
+    [
       {
         "text": "Charoen càu nhàu, nhưng vẫn nhận lấy đống đồ của Ongsa để trang trí căn phòng."
-      },
+      }
+    ],
+    [
       {
         "text": "Kế hoạch của Ongsa quá hoành tráng, nên việc chuẩn bị mọi thứ cũng tốn kha khá thời gian."
-      },
-      { "text": "☼☼☼☼☼☼☼☼☼☼☼" }
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
     ],
     [
       {
         "text": "Sun hơi bực mình vì Peem đột nhiên gọi cô đến phòng hội học sinh sau giờ học, bảo rằng có vấn đề với tài liệu dự án đã trình lên nhà trường."
-      },
-      { "text": "Vấn đề là cô đã có hẹn với Ongsa rồi." },
+      }
+    ],
+    [
+      {
+        "text": "Vấn đề là cô đã có hẹn với Ongsa rồi."
+      }
+    ],
+    [
       {
         "text": "Dù đã gọi điện báo trước rằng có thể mình sẽ đến muộn, Sun vẫn không muốn để bạn gái phải đợi lâu."
-      },
-      { "text": "…Dù sao hôm nay cũng là một ngày quan trọng mà…" },
+      }
+    ],
+    [
+      {
+        "text": "…Dù sao hôm nay cũng là một ngày quan trọng mà…"
+      }
+    ],
+    [
       {
         "text": "Khi Sun đẩy cửa bước vào, cô lập tức cảm thấy có gì đó khác thường."
-      },
-      { "text": "Phòng hội học sinh quen thuộc của cô đâu có như thế này!" },
+      }
+    ],
+    [
+      {
+        "text": "Phòng hội học sinh quen thuộc của cô đâu có như thế này!"
+      }
+    ],
+    [
       {
         "text": "Bóng bay rải khắp sàn nhà, những dải ruy băng đủ màu cầu vồng được treo dọc theo các bức tường. Chiếc bàn họp ở giữa phòng đã được thay bằng một chiếc ghế dài mà Sun nhớ là của căng tin."
-      },
+      }
+    ],
+    [
       {
         "text": "Nhìn khung cảnh trước mắt, Sun có thể đoán được chuyện gì sắp xảy ra."
-      },
-      { "text": "Cô chưa bao giờ nghĩ Ongsa sẽ làm những chuyện thế này." },
-      { "text": "Bạn gái cô…" },
+      }
+    ],
+    [
+      {
+        "text": "Cô chưa bao giờ nghĩ Ongsa sẽ làm những chuyện thế này."
+      }
+    ],
+    [
+      {
+        "text": "Bạn gái cô…"
+      }
+    ],
+    [
       {
         "text": "Không để Sun phải chờ lâu, Ongsa bước ra từ góc phòng, trên tay cầm một cây đàn guitar."
-      },
-      { "text": "Ongsa biết chơi guitar sao?" },
-      { "text": "Sun chưa từng biết chuyện này." },
-      { "text": "À… Sun." },
+      }
+    ],
+    [
+      {
+        "text": "Ongsa biết chơi guitar sao?"
+      }
+    ],
+    [
+      {
+        "text": "Sun chưa từng biết chuyện này."
+      }
+    ],
+    [
+      {
+        "text": "À… Sun."
+      }
+    ],
+    [
       {
         "text": "Sun biết mặt mình đang đỏ lên, nhưng cô gái đứng trước mặt còn đỏ hơn cả cô. Mặt Ongsa đỏ bừng trước cả khi kịp làm gì."
-      },
+      }
+    ],
+    [
       {
         "text": "Nhìn cô nàng cứ xoắn xuýt cả lên, Sun lại muốn trêu một chút."
-      },
-      { "text": "Sao thế, bạn gái của tớ?" },
-      { "text": "(-//////-)" },
-      { "text": "Có chuyện gì nào? Tớ đang nghe đây. Muốn nói gì thì nói đi." },
+      }
+    ],
+    [
+      {
+        "text": "Sao thế, bạn gái của tớ?"
+      }
+    ],
+    [
+      {
+        "text": "(-//////-)"
+      }
+    ],
+    [
+      {
+        "text": "Có chuyện gì nào? Tớ đang nghe đây. Muốn nói gì thì nói đi."
+      }
+    ],
+    [
       {
         "text": "Thay vì trả lời, Ongsa nắm tay Sun rồi dẫn cô đến chiếc ghế dài ở giữa phòng. Cả hai cùng ngồi xuống."
-      },
-      { "text": "Cậu định chơi guitar cho tớ nghe à, bé yêu?", "italic": true },
-      { "text": "Sun hỏi." },
+      }
+    ],
+    [
+      {
+        "text": "Cậu định chơi guitar cho tớ nghe à, bé yêu?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Sun hỏi."
+      }
+    ],
+    [
       {
         "text": "Bình thường Sun chẳng mấy khi nói chuyện ngọt ngào như vậy, trừ lúc muốn làm nũng hoặc trêu Ongsa."
-      },
-      { "text": "Giống như bây giờ đây." },
-      { "text": "Ongsa đỏ mặt trông đáng yêu thật đấy." },
-      { "text": "Ừ." },
-      { "text": "Tớ không biết cậu biết chơi guitar đấy." },
-      { "text": "Tớ không biết chơi đâu." },
-      { "text": "Ồ…" },
-      { "text": "Nhưng tớ sẽ thử vì cậu." },
-      { "text": "(-////-)" },
-      { "text": "Cậu đừng nhìn tớ được không?" },
-      { "text": "Hả?" },
-      { "text": "Cậu nhìn tớ như vậy làm tớ ngại." },
-      { "text": "Đúng là Ongsa." },
+      }
+    ],
+    [
+      {
+        "text": "Giống như bây giờ đây."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa đỏ mặt trông đáng yêu thật đấy."
+      }
+    ],
+    [
+      {
+        "text": "Ừ."
+      }
+    ],
+    [
+      {
+        "text": "Tớ không biết cậu biết chơi guitar đấy."
+      }
+    ],
+    [
+      {
+        "text": "Tớ không biết chơi đâu."
+      }
+    ],
+    [
+      {
+        "text": "Ồ…"
+      }
+    ],
+    [
+      {
+        "text": "Nhưng tớ sẽ thử vì cậu."
+      }
+    ],
+    [
+      {
+        "text": "(-////-)"
+      }
+    ],
+    [
+      {
+        "text": "Cậu đừng nhìn tớ được không?"
+      }
+    ],
+    [
+      {
+        "text": "Hả?"
+      }
+    ],
+    [
+      {
+        "text": "Cậu nhìn tớ như vậy làm tớ ngại."
+      }
+    ],
+    [
+      {
+        "text": "Đúng là Ongsa."
+      }
+    ],
+    [
       {
         "text": "Hai người hẹn hò đã mấy tháng rồi mà cô nàng vẫn chẳng khá khẩm hơn chút nào."
-      },
-      { "text": "Được thôi." },
-      { "text": "Sun không nhìn nữa, nhưng lại tựa đầu lên vai Ongsa." },
-      { "text": "…" },
-      { "text": "Bắt đầu đi. Tớ nghe đây." },
+      }
+    ],
+    [
+      {
+        "text": "Được thôi."
+      }
+    ],
+    [
+      {
+        "text": "Sun không nhìn nữa, nhưng lại tựa đầu lên vai Ongsa."
+      }
+    ],
+    [
+      {
+        "text": "…"
+      }
+    ],
+    [
+      {
+        "text": "Bắt đầu đi. Tớ nghe đây."
+      }
+    ],
+    [
       {
         "text": "Ongsa mất một lúc mới bình tĩnh lại, sau đó bắt đầu gảy đàn."
-      },
-      { "text": "♫…Tớ biết và hiểu rằng cậu cũng biết và hiểu" },
-      { "text": "Con người tớ của hiện tại vẫn chưa phải phiên bản tốt nhất…" },
+      }
+    ],
+    [
+      {
+        "text": "♫…Tớ biết và hiểu rằng cậu cũng biết và hiểu"
+      }
+    ],
+    [
+      {
+        "text": "Con người tớ của hiện tại vẫn chưa phải phiên bản tốt nhất…"
+      }
+    ],
+    [
       {
         "text": "Sun không chắc những câu hát đầu tiên là lời bài hát hay lời Ongsa đang muốn thú nhận với mình."
-      },
-      { "text": "♫…Tớ biết và hiểu rằng đôi khi cậu không thể chịu nổi" },
-      { "text": "Những tính cách của tớ" },
-      { "text": "Đôi khi tớ quá thoải mái khi được là chính mình" },
-      { "text": "Tớ hy vọng cậu sẽ không rời xa tớ" },
-      { "text": "Tớ muốn trở nên tốt hơn để cậu cảm thấy an tâm" },
-      { "text": "Mỗi ngày, vì cậu, tớ đều có thể cố gắng" },
-      { "text": "Tớ muốn trở nên tốt hơn để cậu hiểu rằng" },
-      { "text": "Tớ sẽ trở thành một người tốt hơn" },
-      { "text": "Không cần buồn bã hay phải ước mong điều gì cả" },
-      { "text": "Tớ thật lòng yêu cậu, không hề nói dối" },
-      { "text": "Cậu có thể nhìn ra rằng tớ không đùa đâu" },
-      { "text": "Hãy nhìn thẳng vào mắt tớ" },
-      { "text": "Cậu nghĩ tớ sẽ lừa dối cậu sao?" },
-      { "text": "Dù chính tớ cũng đang bối rối" },
-      { "text": "Tớ vẫn sẽ không vòng vo quanh co" },
-      { "text": "Nhưng hãy tin tớ" },
-      { "text": "Tin tớ đi" },
-      { "text": "Hãy cho tớ một cơ hội" },
-      { "text": "Đôi khi tớ quá thoải mái khi được là chính mình" },
-      { "text": "Tớ hy vọng cậu sẽ không rời xa tớ" },
-      { "text": "Tớ muốn trở nên tốt hơn để cậu cảm thấy an tâm" },
-      { "text": "Mỗi ngày, vì cậu, tớ đều có thể cố gắng" },
-      { "text": "Tớ muốn trở nên tốt hơn để cậu hiểu rằng" },
-      { "text": "Tớ sẽ trở thành một người tốt hơn" },
-      { "text": "Không cần buồn bã hay phải ước mong điều gì cả" },
-      { "text": "Dù khó khăn đến đâu, tớ cũng không sợ" },
-      { "text": "Bởi vì tất cả là vì cậu, người tớ yêu" },
-      { "text": "Dù mệt mỏi đến đâu, tớ cũng sẽ thay đổi theo hướng tốt hơn" },
-      { "text": "Tớ sẽ không ngốc nghếch như trước nữa" },
-      { "text": "Sẽ không mất quá nhiều thời gian hay trở thành công cốc" },
-      { "text": "Xin hãy tin tớ" },
-      { "text": "Tớ muốn trở nên tốt hơn để cậu cảm thấy an tâm" },
-      { "text": "Mỗi ngày, vì cậu, tớ đều có thể cố gắng" },
-      { "text": "Tớ muốn trở nên tốt hơn để cậu hiểu rằng" },
-      { "text": "Tớ sẽ trở thành một người tốt hơn" },
-      { "text": "Không cần buồn bã hay phải ước mong điều gì cả… ♪" },
+      }
+    ],
+    [
+      {
+        "text": "♫…Tớ biết và hiểu rằng đôi khi cậu không thể chịu nổi"
+      }
+    ],
+    [
+      {
+        "text": "Những tính cách của tớ"
+      }
+    ],
+    [
+      {
+        "text": "Đôi khi tớ quá thoải mái khi được là chính mình"
+      }
+    ],
+    [
+      {
+        "text": "Tớ hy vọng cậu sẽ không rời xa tớ"
+      }
+    ],
+    [
+      {
+        "text": "Tớ muốn trở nên tốt hơn để cậu cảm thấy an tâm"
+      }
+    ],
+    [
+      {
+        "text": "Mỗi ngày, vì cậu, tớ đều có thể cố gắng"
+      }
+    ],
+    [
+      {
+        "text": "Tớ muốn trở nên tốt hơn để cậu hiểu rằng"
+      }
+    ],
+    [
+      {
+        "text": "Tớ sẽ trở thành một người tốt hơn"
+      }
+    ],
+    [
+      {
+        "text": "Không cần buồn bã hay phải ước mong điều gì cả"
+      }
+    ],
+    [
+      {
+        "text": "Tớ thật lòng yêu cậu, không hề nói dối"
+      }
+    ],
+    [
+      {
+        "text": "Cậu có thể nhìn ra rằng tớ không đùa đâu"
+      }
+    ],
+    [
+      {
+        "text": "Hãy nhìn thẳng vào mắt tớ"
+      }
+    ],
+    [
+      {
+        "text": "Cậu nghĩ tớ sẽ lừa dối cậu sao?"
+      }
+    ],
+    [
+      {
+        "text": "Dù chính tớ cũng đang bối rối"
+      }
+    ],
+    [
+      {
+        "text": "Tớ vẫn sẽ không vòng vo quanh co"
+      }
+    ],
+    [
+      {
+        "text": "Nhưng hãy tin tớ"
+      }
+    ],
+    [
+      {
+        "text": "Tin tớ đi"
+      }
+    ],
+    [
+      {
+        "text": "Hãy cho tớ một cơ hội"
+      }
+    ],
+    [
+      {
+        "text": "Đôi khi tớ quá thoải mái khi được là chính mình"
+      }
+    ],
+    [
+      {
+        "text": "Tớ hy vọng cậu sẽ không rời xa tớ"
+      }
+    ],
+    [
+      {
+        "text": "Tớ muốn trở nên tốt hơn để cậu cảm thấy an tâm"
+      }
+    ],
+    [
+      {
+        "text": "Mỗi ngày, vì cậu, tớ đều có thể cố gắng"
+      }
+    ],
+    [
+      {
+        "text": "Tớ muốn trở nên tốt hơn để cậu hiểu rằng"
+      }
+    ],
+    [
+      {
+        "text": "Tớ sẽ trở thành một người tốt hơn"
+      }
+    ],
+    [
+      {
+        "text": "Không cần buồn bã hay phải ước mong điều gì cả"
+      }
+    ],
+    [
+      {
+        "text": "Dù khó khăn đến đâu, tớ cũng không sợ"
+      }
+    ],
+    [
+      {
+        "text": "Bởi vì tất cả là vì cậu, người tớ yêu"
+      }
+    ],
+    [
+      {
+        "text": "Dù mệt mỏi đến đâu, tớ cũng sẽ thay đổi theo hướng tốt hơn"
+      }
+    ],
+    [
+      {
+        "text": "Tớ sẽ không ngốc nghếch như trước nữa"
+      }
+    ],
+    [
+      {
+        "text": "Sẽ không mất quá nhiều thời gian hay trở thành công cốc"
+      }
+    ],
+    [
+      {
+        "text": "Xin hãy tin tớ"
+      }
+    ],
+    [
+      {
+        "text": "Tớ muốn trở nên tốt hơn để cậu cảm thấy an tâm"
+      }
+    ],
+    [
+      {
+        "text": "Mỗi ngày, vì cậu, tớ đều có thể cố gắng"
+      }
+    ],
+    [
+      {
+        "text": "Tớ muốn trở nên tốt hơn để cậu hiểu rằng"
+      }
+    ],
+    [
+      {
+        "text": "Tớ sẽ trở thành một người tốt hơn"
+      }
+    ],
+    [
+      {
+        "text": "Không cần buồn bã hay phải ước mong điều gì cả… ♪"
+      }
+    ],
+    [
       {
         "text": "Bài hát: อยากจะดีกว่านี้ / Yahk Ja Dee Gwah Nee (Tớ Muốn Trở Nên Tốt Hơn) – Aun Jessada.",
         "italic": true
-      },
-      { "text": "Tiếng hát và tiếng đàn guitar dần lắng xuống." },
-      {
-        "text": "Người vừa hát khẽ nghiêng đầu, nhìn cô gái đang lắng nghe mình bằng ánh mắt đầy hy vọng."
-      },
-      { "text": "Sun ngồi thẳng dậy, nhìn Ongsa chăm chú rồi lên tiếng." },
-      { "text": "Tuyệt thật đấy…" },
-      { "text": "(-//////-)" },
-      {
-        "text": "Tuyệt thật khi cậu nghĩ ra chuyện hát tặng tớ. Cậu không biết giọng mình hát lệch tông dữ lắm à?"
-      },
-      { "text": "(T^T)" },
-      {
-        "text": "Bình thường Ongsa toàn phá hỏng bầu không khí, nên hôm nay Sun quyết định trả đũa cô một chút."
-      },
-      {
-        "text": "Tuy nhiên, cô vẫn không khỏi cảm thấy tội nghiệp cho bạn gái."
-      },
-      { "text": "Nhưng tớ thích mà." },
-      { "text": "Cậu thích tớ á?" },
-      { "text": "Đúng là hết nói nổi." },
-      { "text": "Tớ thích bài hát, không phải cậu!!" },
-      { "text": "Haiz… Tiếc thật đấy." },
-      { "text": "Nhưng tớ yêu cậu." },
-      { "text": "(-/////-)" },
-      { "text": "Một phát trúng tim!" },
-      { "text": "Tớ có quà cho cậu, Sun." },
-      {
-        "text": "Ongsa lấy lại bình tĩnh, chuyển chủ đề rồi lấy món quà đã chuẩn bị ra."
-      },
-      { "text": "Chúc mừng Valentine!" },
-      { "text": "Ongsa đưa ra trước mặt Sun một bó hoa khổng lồ." },
-      {
-        "text": "Sun vội nhận lấy vì tay Ongsa đang run lên. Chắc cô nàng hồi hộp quá rồi."
-      },
-      { "text": "Ừm… Tớ không biết nên mua gì cho cậu nên đã hỏi Deer…" },
-      {
-        "text": "Vừa nghe Ongsa nhắc đến Deer, Sun lập tức hiểu tại sao cô nàng lại chuẩn bị mọi thứ hoành tráng đến vậy."
-      },
-      {
-        "text": "Trong số bao nhiêu người, Ongsa lại đi hỏi một cô nàng suốt ngày mơ mộng như Deer."
-      },
-      {
-        "text": "Chắc chắn ý tưởng này đến từ một trong những cuốn tiểu thuyết của cô nàng rồi."
-      },
-      { "text": "Đây là hoa gì vậy?", "italic": true },
-      { "text": "Sun hỏi." },
-      {
-        "text": "Bó hoa không phải hoa hồng, hoa ly hay hoa tulip, những loại hoa phổ biến vào ngày Valentine. Sun cũng chẳng biết nhiều về hoa nên không thể nhận ra loại hoa trong tay mình."
-      },
-      { "text": "Đọc tấm thiệp đi." },
-      { "text": "Ongsa trả lời." },
-      {
-        "text": "Nếu Ongsa không nhắc, Sun có lẽ còn chẳng để ý đến tấm thiệp nhỏ đang treo trên bó hoa."
-      },
-      { "text": "…Theo ngôn ngữ của các loài hoa, hoa đồng tiền có nghĩa là:" },
-      { "text": "Cậu là mặt trời của cuộc đời tớ." },
-      { "text": "Ngại quá đi mất…" },
-      {
-        "text": "Đúng vậy, Sun đang ngượng đến mức chẳng biết giấu mặt vào đâu. Cô biết mình đang đỏ mặt vì lời nhắn trên tấm thiệp của Ongsa."
-      },
-      { "text": "Đúng là một cô nàng ngốc nghếch." },
-      { "text": "Sun chưa bao giờ nghĩ Ongsa lại có mặt này." },
-      { "text": "Đây là quà của cậu." },
-      { "text": "Ongsa đưa cho Sun một chiếc hộp nhỏ." },
-      {
-        "text": "Chiếc hộp bé đến mức Sun còn chẳng nhận ra Ongsa đã mang nó theo cùng bó hoa."
-      },
-      {
-        "text": "Sun quan sát món quà, cố đoán xem bên trong chiếc hộp vuông nhỏ bằng lòng bàn tay có thể chứa thứ gì."
-      },
-      { "text": "Tớ mở được không?" },
-      { "text": "Được." },
-      {
-        "text": "Sun nhẹ nhàng tháo lớp giấy gói. Bên trong là một chiếc hộp giấy mỏng. Cô mở ra, thấy một chiếc hộp nhung đỏ thường dùng để đựng trang sức."
-      },
-      {
-        "text": "Tớ đã mất khá nhiều thời gian để chọn, may mà có Charoen giúp. Tớ nghĩ món này hợp với cậu nhất."
-      },
-      {
-        "text": "Ongsa nhanh chóng giải thích trước, có vẻ sợ Sun sẽ không thích món quà."
-      },
-      {
-        "text": "Chẳng lẽ Ongsa không biết rằng Sun thích mọi thứ cô chọn sao?"
-      },
-      { "text": "…Bởi vì Sun thích người tặng quà mà…" },
-      {
-        "text": "Nhìn kích thước chiếc hộp thì chắc là nhẫn rồi. Xem nào, không biết Ongsa có đo đúng cỡ ngón tay cô không."
-      },
-      { "text": "Ongsa…" },
-      { "text": "Sun sững sờ khi nhìn thấy thứ bên trong." },
-      {
-        "text": "Thế nào…? Cậu không thích à? Tớ thấy nó hợp với cậu lắm mà. Ganesha là vị thần của thành công. Có ngài phù hộ thì mọi việc cậu làm đều sẽ thuận lợi."
-      },
-      {
-        "text": "Giải thích hay lắm, nhưng ai đã dạy cô đem đồ linh thiêng tặng bạn gái vào ngày Valentine vậy hả?!!!"
-      },
-      {
-        "text": "Hahaha. Tớ đùa thôi. Bố tớ đi làm công đức cùng công ty rồi mang món này về cho cậu."
-      },
-      { "text": "Cái đồ đáng ghét này!!!" },
-      { "text": "Ongsa đúng là chuyên gia khiến người khác đau đầu." },
-      { "text": "Còn quà của tớ dành cho cậu là cái này." },
-      { "text": "Ongsa thò tay vào túi váy rồi lấy ra một món đồ." },
-      { "text": "…Một chiếc vòng tay…" },
-      { "text": "Đưa tay đây. Tớ đeo cho cậu." },
-      { "text": "…" },
-      { "text": "Sun không nói gì, nhưng vẫn ngoan ngoãn làm theo." },
-      { "text": "Dễ thương đúng không?", "italic": true },
-      { "text": "Ongsa còn tự khen mình." },
-      { "text": "Ý cậu là cậu chọn nó giỏi lắm à?" },
-      { "text": "Không, tớ đâu nói về chiếc vòng…" },
-      { "text": "…" },
-      { "text": "Tớ đang nói về bản thân tớ." },
-      { "text": "Sun đột nhiên muốn quay lại cuộc sống độc thân (- -\")" },
-      { "text": "Thế… quà của tớ đâu?", "italic": true },
-      { "text": "Ongsa chìa hai tay ra trước mặt Sun." },
-      { "text": "Không có." },
-      { "text": "Ơ… Sao lại không có? Tớ là bạn gái cậu mà. Cậu quên rồi à?" },
-      { "text": "Trong túi tớ. Về nhà rồi tớ đưa cho cậu." },
-      { "text": "Không. Tớ muốn nhận ngay bây giờ.", "italic": true },
-      { "text": "Ongsa mè nheo." },
-      { "text": "Cậu nghĩ như vậy đáng yêu lắm à?", "italic": true },
-      { "text": "Sun trêu lại." },
-      { "text": "Cậu có yêu tớ không?" },
-      { "text": "Hứ!!" },
-      { "text": "Quà của tớ đâu? Quà của tớ!!" },
-      { "text": "Về nhà rồi tớ đưa." },
-      { "text": "Tớ muốn ngay bây giờ cơ!" },
-      { "text": "Ongsa tiếp tục mè nheo." },
-      { "text": "Vậy tớ đi lấy nhé." },
-      { "text": "Đừng đi." },
-      { "text": "Hả?!!" },
-      { "text": "Sun chẳng biết phải chiều bạn gái thế nào nữa." },
-      { "text": "Cho tớ thứ gì cậu có thể cho ngay bây giờ đi." },
-      { "text": "Ongsa, cậu muốn gì?" },
-      { "text": "Ongsa làm ra vẻ tinh nghịch rồi chỉ vào má mình." },
-      { "text": "Không.", "italic": true },
-      { "text": "Sun lập tức từ chối." },
-      {
-        "text": "Tớ đã chuẩn bị rất nhiều thứ để tạo bất ngờ cho cậu. Mệt muốn chết luôn."
-      },
-      { "text": "Ai bảo cậu làm chứ?" },
-      {
-        "text": "Tối qua tớ ngủ muộn, sáng nay còn phải dậy sớm đi lấy hoa nữa."
-      },
-      { "text": "Ongsa tiếp tục than thở với vẻ mặt buồn bã." },
-      {
-        "text": "Chưa hết đâu, ngày nào tớ cũng luyện guitar với bố. Ngón tay tớ đầy vết thương, nhưng tớ vẫn chịu đựng vì muốn chơi đàn cho bạn gái nghe. Dù bạn gái bảo tớ hát lệch tông, tớ vẫn muốn làm điều đó."
-      },
-      { "text": "Cô nàng chẳng hề có ý định dừng lại." },
-      {
-        "text": "Tớ đã làm bao nhiêu chuyện, cứ nghĩ bạn gái sẽ vui vẻ, cảm động hay đại loại thế. Nhưng không! Chẳng có gì cả. Buồn thật đấy!"
-      },
-      { "text": "Đúng là làm quá!" },
-      { "text": "Chụt~" },
-      {
-        "text": "Sun chiều lòng hôn lên má Ongsa một cái trước khi cô nàng kịp diễn sâu hơn nữa."
-      },
-      { "text": "Bạn gái của tớ hài lòng chưa? Đừng than thở nữa." },
-      { "text": "Chưa. Tớ còn muốn ở đây nữa cơ.", "italic": true },
-      { "text": "Ongsa chỉ vào môi mình." },
-      { "text": "Cậu tham lam quá đấy." },
-      { "text": "Đi màaaa." },
-      { "text": "Không!!" },
-      { "text": "Sun vẫn kiên quyết từ chối." },
-      {
-        "text": "Không sao cả. Nếu Sun không chịu hôn cô thì Ongsa có thể tự mình trao món quà này."
-      },
-      {
-        "text": "Dù có vô dụng thật, cô cũng đã là phiên bản nâng cấp rồi. Không đời nào cô lại ngồi ngốc ở đây rồi để cơ hội trôi qua mất."
-      },
-      {
-        "text": "Nghĩ vậy, cô nàng vô dụng chủ động nghiêng người về phía cô gái xinh đẹp của thế hệ."
-      },
-      { "text": "Cậu định làm gì?" },
-      { "text": "Tặng quà cho cậu." },
-      {
-        "text": "Ongsa cười toe toét, từ từ tiến lại gần, dùng ánh mắt mê hoặc Sun."
-      },
-      {
-        "text": "Ongsa có thể kém cỏi ở nhiều chuyện, nhưng chuyện này thì không!"
-      },
-      { "text": "RRRrrrrrrrrrrrrrr…" },
-      {
-        "text": "Giống như trong những cuốn tiểu thuyết khác, một chiếc điện thoại bất ngờ rung lên phá hỏng bầu không khí."
-      },
-      {
-        "text": "Sun ngượng ngùng đẩy Ongsa ra khi nhận ra hai người vừa làm gì. Cả hai quay sang tìm chiếc điện thoại, nhưng hóa ra đó chẳng phải điện thoại của ai trong số họ."
-      },
-      { "text": "Cánh cửa mở ra." },
-      { "text": "Sun và Ongsa đồng loạt quay đầu nhìn người vừa bước vào." },
-      { "text": "Ôồồ, điện thoại của tớ đây rồi. Tớ tìm mãi!" },
-      {
-        "text": "Giọng the thé của Tinh khiến Ongsa biết ngay đây chẳng phải chuyện tình cờ."
-      },
-      { "text": "Tớ đi đây. Hai người cứ tiếp tục nhé. Tớ sẽ khóa cửa giúp." },
-      { "text": "Tinh nói xong liền biến mất." },
-      {
-        "text": "Ongsa quay sang Sun, nhưng cô gái kia lại tránh ánh mắt cô trước khi lên tiếng."
-      },
-      { "text": "Tớ đi lấy quà cho cậu." },
-      {
-        "text": "Chưa kịp để Ongsa trả lời, Sun đã nhanh chóng chạy ra khỏi phòng."
-      },
-      {
-        "text": "Cơ hội mà Ongsa chờ đợi suốt một tháng trời đã bị phá hỏng chỉ vì một tiếng chuông điện thoại."
-      },
-      { "text": "TINH, ĐỒ CHẾT TIỆT!!!" },
-      { "text": "☼☼☼☼☼☼☼☼☼☼☼" }
+      }
     ],
     [
-      { "text": "Ongsa, hôm qua Sun tặng cậu cái gì vậy?", "italic": true },
+      {
+        "text": "Tiếng hát và tiếng đàn guitar dần lắng xuống."
+      }
+    ],
+    [
+      {
+        "text": "Người vừa hát khẽ nghiêng đầu, nhìn cô gái đang lắng nghe mình bằng ánh mắt đầy hy vọng."
+      }
+    ],
+    [
+      {
+        "text": "Sun ngồi thẳng dậy, nhìn Ongsa chăm chú rồi lên tiếng."
+      }
+    ],
+    [
+      {
+        "text": "Tuyệt thật đấy…"
+      }
+    ],
+    [
+      {
+        "text": "(-//////-)"
+      }
+    ],
+    [
+      {
+        "text": "Tuyệt thật khi cậu nghĩ ra chuyện hát tặng tớ. Cậu không biết giọng mình hát lệch tông dữ lắm à?"
+      }
+    ],
+    [
+      {
+        "text": "(T^T)"
+      }
+    ],
+    [
+      {
+        "text": "Bình thường Ongsa toàn phá hỏng bầu không khí, nên hôm nay Sun quyết định trả đũa cô một chút."
+      }
+    ],
+    [
+      {
+        "text": "Tuy nhiên, cô vẫn không khỏi cảm thấy tội nghiệp cho bạn gái."
+      }
+    ],
+    [
+      {
+        "text": "Nhưng tớ thích mà."
+      }
+    ],
+    [
+      {
+        "text": "Cậu thích tớ á?"
+      }
+    ],
+    [
+      {
+        "text": "Đúng là hết nói nổi."
+      }
+    ],
+    [
+      {
+        "text": "Tớ thích bài hát, không phải cậu!!"
+      }
+    ],
+    [
+      {
+        "text": "Haiz… Tiếc thật đấy."
+      }
+    ],
+    [
+      {
+        "text": "Nhưng tớ yêu cậu."
+      }
+    ],
+    [
+      {
+        "text": "(-/////-)"
+      }
+    ],
+    [
+      {
+        "text": "Một phát trúng tim!"
+      }
+    ],
+    [
+      {
+        "text": "Tớ có quà cho cậu, Sun."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa lấy lại bình tĩnh, chuyển chủ đề rồi lấy món quà đã chuẩn bị ra."
+      }
+    ],
+    [
+      {
+        "text": "Chúc mừng Valentine!"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa đưa ra trước mặt Sun một bó hoa khổng lồ."
+      }
+    ],
+    [
+      {
+        "text": "Sun vội nhận lấy vì tay Ongsa đang run lên. Chắc cô nàng hồi hộp quá rồi."
+      }
+    ],
+    [
+      {
+        "text": "Ừm… Tớ không biết nên mua gì cho cậu nên đã hỏi Deer…"
+      }
+    ],
+    [
+      {
+        "text": "Vừa nghe Ongsa nhắc đến Deer, Sun lập tức hiểu tại sao cô nàng lại chuẩn bị mọi thứ hoành tráng đến vậy."
+      }
+    ],
+    [
+      {
+        "text": "Trong số bao nhiêu người, Ongsa lại đi hỏi một cô nàng suốt ngày mơ mộng như Deer."
+      }
+    ],
+    [
+      {
+        "text": "Chắc chắn ý tưởng này đến từ một trong những cuốn tiểu thuyết của cô nàng rồi."
+      }
+    ],
+    [
+      {
+        "text": "Đây là hoa gì vậy?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Sun hỏi."
+      }
+    ],
+    [
+      {
+        "text": "Bó hoa không phải hoa hồng, hoa ly hay hoa tulip, những loại hoa phổ biến vào ngày Valentine. Sun cũng chẳng biết nhiều về hoa nên không thể nhận ra loại hoa trong tay mình."
+      }
+    ],
+    [
+      {
+        "text": "Đọc tấm thiệp đi."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa trả lời."
+      }
+    ],
+    [
+      {
+        "text": "Nếu Ongsa không nhắc, Sun có lẽ còn chẳng để ý đến tấm thiệp nhỏ đang treo trên bó hoa."
+      }
+    ],
+    [
+      {
+        "text": "…Theo ngôn ngữ của các loài hoa, hoa đồng tiền có nghĩa là:"
+      }
+    ],
+    [
+      {
+        "text": "Cậu là mặt trời của cuộc đời tớ."
+      }
+    ],
+    [
+      {
+        "text": "Ngại quá đi mất…"
+      }
+    ],
+    [
+      {
+        "text": "Đúng vậy, Sun đang ngượng đến mức chẳng biết giấu mặt vào đâu. Cô biết mình đang đỏ mặt vì lời nhắn trên tấm thiệp của Ongsa."
+      }
+    ],
+    [
+      {
+        "text": "Đúng là một cô nàng ngốc nghếch."
+      }
+    ],
+    [
+      {
+        "text": "Sun chưa bao giờ nghĩ Ongsa lại có mặt này."
+      }
+    ],
+    [
+      {
+        "text": "Đây là quà của cậu."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa đưa cho Sun một chiếc hộp nhỏ."
+      }
+    ],
+    [
+      {
+        "text": "Chiếc hộp bé đến mức Sun còn chẳng nhận ra Ongsa đã mang nó theo cùng bó hoa."
+      }
+    ],
+    [
+      {
+        "text": "Sun quan sát món quà, cố đoán xem bên trong chiếc hộp vuông nhỏ bằng lòng bàn tay có thể chứa thứ gì."
+      }
+    ],
+    [
+      {
+        "text": "Tớ mở được không?"
+      }
+    ],
+    [
+      {
+        "text": "Được."
+      }
+    ],
+    [
+      {
+        "text": "Sun nhẹ nhàng tháo lớp giấy gói. Bên trong là một chiếc hộp giấy mỏng. Cô mở ra, thấy một chiếc hộp nhung đỏ thường dùng để đựng trang sức."
+      }
+    ],
+    [
+      {
+        "text": "Tớ đã mất khá nhiều thời gian để chọn, may mà có Charoen giúp. Tớ nghĩ món này hợp với cậu nhất."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa nhanh chóng giải thích trước, có vẻ sợ Sun sẽ không thích món quà."
+      }
+    ],
+    [
+      {
+        "text": "Chẳng lẽ Ongsa không biết rằng Sun thích mọi thứ cô chọn sao?"
+      }
+    ],
+    [
+      {
+        "text": "…Bởi vì Sun thích người tặng quà mà…"
+      }
+    ],
+    [
+      {
+        "text": "Nhìn kích thước chiếc hộp thì chắc là nhẫn rồi. Xem nào, không biết Ongsa có đo đúng cỡ ngón tay cô không."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa…"
+      }
+    ],
+    [
+      {
+        "text": "Sun sững sờ khi nhìn thấy thứ bên trong."
+      }
+    ],
+    [
+      {
+        "text": "Thế nào…? Cậu không thích à? Tớ thấy nó hợp với cậu lắm mà. Ganesha là vị thần của thành công. Có ngài phù hộ thì mọi việc cậu làm đều sẽ thuận lợi."
+      }
+    ],
+    [
+      {
+        "text": "Giải thích hay lắm, nhưng ai đã dạy cô đem đồ phong thuỷ tặng bạn gái vào ngày Valentine vậy hả?!!!"
+      }
+    ],
+    [
+      {
+        "text": "Hahaha. Tớ đùa thôi. Bố tớ đi làm công đức cùng công ty rồi mang món này về cho cậu."
+      }
+    ],
+    [
+      {
+        "text": "Cái đồ đáng ghét này!!!"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa đúng là chuyên gia khiến người khác đau đầu."
+      }
+    ],
+    [
+      {
+        "text": "Còn quà của tớ dành cho cậu là cái này."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa thò tay vào túi váy rồi lấy ra một món đồ."
+      }
+    ],
+    [
+      {
+        "text": "…Một chiếc vòng tay…"
+      }
+    ],
+    [
+      {
+        "text": "Đưa tay đây. Tớ đeo cho cậu."
+      }
+    ],
+    [
+      {
+        "text": "…"
+      }
+    ],
+    [
+      {
+        "text": "Sun không nói gì, nhưng vẫn ngoan ngoãn làm theo."
+      }
+    ],
+    [
+      {
+        "text": "Dễ thương đúng không?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa còn tự khen mình."
+      }
+    ],
+    [
+      {
+        "text": "Ý cậu là cậu chọn nó giỏi lắm à?"
+      }
+    ],
+    [
+      {
+        "text": "Không, tớ đâu nói về chiếc vòng…"
+      }
+    ],
+    [
+      {
+        "text": "…"
+      }
+    ],
+    [
+      {
+        "text": "Tớ đang nói về bản thân tớ."
+      }
+    ],
+    [
+      {
+        "text": "Sun đột nhiên muốn quay lại cuộc sống độc thân (- -\")"
+      }
+    ],
+    [
+      {
+        "text": "Thế… quà của tớ đâu?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa chìa hai tay ra trước mặt Sun."
+      }
+    ],
+    [
+      {
+        "text": "Không có."
+      }
+    ],
+    [
+      {
+        "text": "Ơ… Sao lại không có? Tớ là bạn gái cậu mà. Cậu quên rồi à?"
+      }
+    ],
+    [
+      {
+        "text": "Trong túi tớ. Về nhà rồi tớ đưa cho cậu."
+      }
+    ],
+    [
+      {
+        "text": "Không. Tớ muốn nhận ngay bây giờ.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa mè nheo."
+      }
+    ],
+    [
+      {
+        "text": "Cậu nghĩ như vậy đáng yêu lắm à?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Sun trêu lại."
+      }
+    ],
+    [
+      {
+        "text": "Cậu có yêu tớ không?"
+      }
+    ],
+    [
+      {
+        "text": "Hứ!!"
+      }
+    ],
+    [
+      {
+        "text": "Quà của tớ đâu? Quà của tớ!!"
+      }
+    ],
+    [
+      {
+        "text": "Về nhà rồi tớ đưa."
+      }
+    ],
+    [
+      {
+        "text": "Tớ muốn ngay bây giờ cơ!"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa tiếp tục mè nheo."
+      }
+    ],
+    [
+      {
+        "text": "Vậy tớ đi lấy nhé."
+      }
+    ],
+    [
+      {
+        "text": "Đừng đi."
+      }
+    ],
+    [
+      {
+        "text": "Hả?!!"
+      }
+    ],
+    [
+      {
+        "text": "Sun chẳng biết phải chiều bạn gái thế nào nữa."
+      }
+    ],
+    [
+      {
+        "text": "Cho tớ thứ gì cậu có thể cho ngay bây giờ đi."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa, cậu muốn gì?"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa làm ra vẻ tinh nghịch rồi chỉ vào má mình."
+      }
+    ],
+    [
+      {
+        "text": "Không.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Sun lập tức từ chối."
+      }
+    ],
+    [
+      {
+        "text": "Tớ đã chuẩn bị rất nhiều thứ để tạo bất ngờ cho cậu. Mệt muốn chết luôn."
+      }
+    ],
+    [
+      {
+        "text": "Ai bảo cậu làm chứ?"
+      }
+    ],
+    [
+      {
+        "text": "Tối qua tớ ngủ muộn, sáng nay còn phải dậy sớm đi lấy hoa nữa."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa tiếp tục than thở với vẻ mặt buồn bã."
+      }
+    ],
+    [
+      {
+        "text": "Chưa hết đâu, ngày nào tớ cũng luyện guitar với bố. Ngón tay tớ đầy vết thương, nhưng tớ vẫn chịu đựng vì muốn chơi đàn cho bạn gái nghe. Dù bạn gái bảo tớ hát lệch tông, tớ vẫn muốn làm điều đó."
+      }
+    ],
+    [
+      {
+        "text": "Cô nàng chẳng hề có ý định dừng lại."
+      }
+    ],
+    [
+      {
+        "text": "Tớ đã làm bao nhiêu chuyện, cứ nghĩ bạn gái sẽ vui vẻ, cảm động hay đại loại thế. Nhưng không! Chẳng có gì cả. Buồn thật đấy!"
+      }
+    ],
+    [
+      {
+        "text": "Đúng là làm quá!"
+      }
+    ],
+    [
+      {
+        "text": "Chụt~"
+      }
+    ],
+    [
+      {
+        "text": "Sun chiều lòng hôn lên má Ongsa một cái trước khi cô nàng kịp diễn sâu hơn nữa."
+      }
+    ],
+    [
+      {
+        "text": "Bạn gái của tớ hài lòng chưa? Đừng than thở nữa."
+      }
+    ],
+    [
+      {
+        "text": "Chưa. Tớ còn muốn ở đây nữa cơ.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa chỉ vào môi mình."
+      }
+    ],
+    [
+      {
+        "text": "Cậu tham lam quá đấy."
+      }
+    ],
+    [
+      {
+        "text": "Đi màaaa."
+      }
+    ],
+    [
+      {
+        "text": "Không!!"
+      }
+    ],
+    [
+      {
+        "text": "Sun vẫn kiên quyết từ chối."
+      }
+    ],
+    [
+      {
+        "text": "Không sao cả. Nếu Sun không chịu hôn cô thì Ongsa có thể tự mình trao món quà này."
+      }
+    ],
+    [
+      {
+        "text": "Dù có vô dụng thật, cô cũng đã là phiên bản nâng cấp rồi. Không đời nào cô lại ngồi ngốc ở đây rồi để cơ hội trôi qua mất."
+      }
+    ],
+    [
+      {
+        "text": "Nghĩ vậy, cô nàng vô dụng chủ động nghiêng người về phía cô gái xinh đẹp của thế hệ."
+      }
+    ],
+    [
+      {
+        "text": "Cậu định làm gì?"
+      }
+    ],
+    [
+      {
+        "text": "Tặng quà cho cậu."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa cười toe toét, từ từ tiến lại gần, dùng ánh mắt mê hoặc Sun."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa có thể kém cỏi ở nhiều chuyện, nhưng chuyện này thì không!"
+      }
+    ],
+    [
+      {
+        "text": "RRRrrrrrrrrrrrrrr…"
+      }
+    ],
+    [
+      {
+        "text": "Giống như trong những cuốn tiểu thuyết khác, một chiếc điện thoại bất ngờ rung lên phá hỏng bầu không khí."
+      }
+    ],
+    [
+      {
+        "text": "Sun ngượng ngùng đẩy Ongsa ra khi nhận ra hai người vừa làm gì. Cả hai quay sang tìm chiếc điện thoại, nhưng hóa ra đó chẳng phải điện thoại của ai trong số họ."
+      }
+    ],
+    [
+      {
+        "text": "Cánh cửa mở ra."
+      }
+    ],
+    [
+      {
+        "text": "Sun và Ongsa đồng loạt quay đầu nhìn người vừa bước vào."
+      }
+    ],
+    [
+      {
+        "text": "Ôồồ, điện thoại của tớ đây rồi. Tớ tìm mãi!"
+      }
+    ],
+    [
+      {
+        "text": "Giọng the thé của Tinh khiến Ongsa biết ngay đây chẳng phải chuyện tình cờ."
+      }
+    ],
+    [
+      {
+        "text": "Tớ đi đây. Hai người cứ tiếp tục nhé. Tớ sẽ khóa cửa giúp."
+      }
+    ],
+    [
+      {
+        "text": "Tinh nói xong liền biến mất."
+      }
+    ],
+    [
+      {
+        "text": "Ongsa quay sang Sun, nhưng cô gái kia lại tránh ánh mắt cô trước khi lên tiếng."
+      }
+    ],
+    [
+      {
+        "text": "Tớ đi lấy quà cho cậu."
+      }
+    ],
+    [
+      {
+        "text": "Chưa kịp để Ongsa trả lời, Sun đã nhanh chóng chạy ra khỏi phòng."
+      }
+    ],
+    [
+      {
+        "text": "Cơ hội mà Ongsa chờ đợi suốt một tháng trời đã bị phá hỏng chỉ vì một tiếng chuông điện thoại."
+      }
+    ],
+    [
+      {
+        "text": "TINH, ĐỒ CHẾT TIỆT!!!"
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
+    ],
+    [
+      {
+        "text": "Ongsa, hôm qua Sun tặng cậu cái gì vậy?",
+        "italic": true
+      }
+    ],
+    [
       {
         "text": "Charoen hỏi khi ba người bạn thân đang trên đường đến căng tin."
-      },
-      { "text": "Thịt heo chiên giòn." },
-      { "text": "Hả?!! Thịt heo chiên giòn á?" },
-      { "text": "Ừ, thịt heo chiên giòn. Sao thế?", "italic": true },
-      { "text": "Ongsa hỏi lại." },
+      }
+    ],
+    [
+      {
+        "text": "Thịt heo chiên giòn."
+      }
+    ],
+    [
+      {
+        "text": "Hả?!! Thịt heo chiên giòn á?"
+      }
+    ],
+    [
+      {
+        "text": "Ừ, thịt heo chiên giòn. Sao thế?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa hỏi lại."
+      }
+    ],
+    [
       {
         "text": "Hôm qua, khi biết món quà Sun tặng mình là thịt heo chiên giòn, Ongsa đã không kìm được nước mắt."
-      },
-      { "text": "Là thịt heo chiên giòn đấy!" },
-      { "text": "Thịt heo chiên giòn do chính tay Sun làm!" },
-      { "text": "Hơn nữa, món đó còn ngon tuyệt cú mèo." },
-      { "text": "Không có gì. Tớ chỉ hỏi thôi.", "italic": true },
-      { "text": "Charoen đáp, dù vẫn cảm thấy chuyện này thật kỳ lạ." },
+      }
+    ],
+    [
+      {
+        "text": "Là thịt heo chiên giòn đấy!"
+      }
+    ],
+    [
+      {
+        "text": "Thịt heo chiên giòn do chính tay Sun làm!"
+      }
+    ],
+    [
+      {
+        "text": "Hơn nữa, món đó còn ngon tuyệt cú mèo."
+      }
+    ],
+    [
+      {
+        "text": "Không có gì. Tớ chỉ hỏi thôi.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Charoen đáp, dù vẫn cảm thấy chuyện này thật kỳ lạ."
+      }
+    ],
+    [
       {
         "text": "Bây giờ người ta tặng người yêu thịt heo chiên giòn vào Valentine luôn à?"
-      },
+      }
+    ],
+    [
       {
         "text": "Thế giới phát triển nhanh quá, Charoen theo không kịp nữaaaa."
-      },
-      { "text": "Tớ thấy cứ kỳ kỳ thế nào ấy…", "italic": true },
-      { "text": "Ongsa nói, vừa liếc nhìn xung quanh." },
-      { "text": "Kỳ chỗ nào?", "italic": true },
-      { "text": "Charoen hỏi." },
+      }
+    ],
+    [
+      {
+        "text": "Tớ thấy cứ kỳ kỳ thế nào ấy…",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa nói, vừa liếc nhìn xung quanh."
+      }
+    ],
+    [
+      {
+        "text": "Kỳ chỗ nào?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Charoen hỏi."
+      }
+    ],
+    [
       {
         "text": "Tớ cứ có cảm giác ai đó đang nhìn mình. Mặt tớ có dính gì à?",
         "italic": true
-      },
-      { "text": "Ongsa quay sang hai người bạn." },
-      { "text": "Trước khi họ kịp trả lời, có người gọi tên cả ba." },
-      { "text": "Tinh, Charoen, Ongsa!" },
-      { "text": "Pai, chào chị!", "italic": true },
+      }
+    ],
+    [
+      {
+        "text": "Ongsa quay sang hai người bạn."
+      }
+    ],
+    [
+      {
+        "text": "Trước khi họ kịp trả lời, có người gọi tên cả ba."
+      }
+    ],
+    [
+      {
+        "text": "Tinh, Charoen, Ongsa!"
+      }
+    ],
+    [
+      {
+        "text": "Pai, chào chị!",
+        "italic": true
+      }
+    ],
+    [
       {
         "text": "Ba người bạn thân lên tiếng khi nhìn thấy người vừa gọi mình."
-      },
-      { "text": "Đúng lúc quá. Chị đang định gọi mấy đứa đây." },
-      { "text": "Có chuyện gì vậy, Pai?", "italic": true },
-      { "text": "Tinh hỏi." },
-      { "text": "Kỳ nghỉ sắp tới mấy đứa có kế hoạch gì chưa?" },
+      }
+    ],
+    [
+      {
+        "text": "Đúng lúc quá. Chị đang định gọi mấy đứa đây."
+      }
+    ],
+    [
+      {
+        "text": "Có chuyện gì vậy, Pai?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Tinh hỏi."
+      }
+    ],
+    [
+      {
+        "text": "Kỳ nghỉ sắp tới mấy đứa có kế hoạch gì chưa?"
+      }
+    ],
+    [
       {
         "text": "Có trại do hội học sinh và trung tâm học thêm tổ chức. Sao vậy chị?"
-      },
+      }
+    ],
+    [
       {
         "text": "Thầy Vichit đang cần người trông các em lớp Bảy và lớp Mười trong buổi trại định hướng sau Songkran. Nếu mấy đứa rảnh thì giúp thầy một tay được không? Năm nào chị cũng tham gia, nhưng năm nay chị tốt nghiệp rồi nên không thể giúp thầy nữa."
-      },
+      }
+    ],
+    [
       {
         "text": "Bọn em phải hỏi ý kiến gia đình trước đã. Sau đó sẽ nhắn chị nhé.",
         "italic": true
-      },
-      { "text": "Tinh thay mặt cả nhóm trả lời." },
-      { "text": "Được. Có câu trả lời thì báo chị sau nhé. Chị đi đây." },
+      }
+    ],
+    [
+      {
+        "text": "Tinh thay mặt cả nhóm trả lời."
+      }
+    ],
+    [
+      {
+        "text": "Được. Có câu trả lời thì báo chị sau nhé. Chị đi đây."
+      }
+    ],
+    [
       {
         "text": "Chị khóa trên nói xong liền quay người rời đi. Nhưng rồi chị chợt nhớ ra điều gì đó, lập tức quay ngược lại."
-      },
+      }
+    ],
+    [
       {
         "text": "À… Ongsa, hôm qua em đỉnh thật đấy. Trước đây chị cứ thắc mắc tại sao Sun lại thích em. Giờ chị hiểu rồi, em ngầu lắm luôn! Chị đi đây. Gặp lại sau nhé!"
-      },
+      }
+    ],
+    [
       {
         "text": "Người chị thân thiết giơ ngón tay cái với Ongsa rồi rời đi, để lại cô nàng ngơ ngác chẳng hiểu chị đang nói gì."
-      },
+      }
+    ],
+    [
       {
         "text": "Ongsa quay sang định hỏi Tinh và Charoen, nhưng thấy cả hai cứ bồn chồn, lúng túng."
-      },
-      { "text": "Chắc chắn có gì đó đáng ngờ." },
-      { "text": "Chẳng lẽ cô đã bỏ lỡ chuyện gì rồi?" },
-      { "text": "Hai cậu có chuyện gì muốn thú nhận không?", "italic": true },
-      { "text": "Ongsa hỏi." },
-      { "text": "Tớ chẳng liên quan gì hết.", "italic": true },
-      { "text": "Charoen lập tức đáp." },
-      { "text": "Còn cậu thì sao, Tinh?", "italic": true },
-      { "text": "Ongsa chuyển mục tiêu." },
-      { "text": "Hứa là sẽ không nói cho tớ biết nhé." },
-      { "text": "Đây rồi!!" },
+      }
+    ],
+    [
       {
-        "text": "Được, tớ hứa sẽ không nói. Giờ kể xem cậu đã làm gì đi.",
+        "text": "Chắc chắn có gì đó đáng ngờ."
+      }
+    ],
+    [
+      {
+        "text": "Chẳng lẽ cô đã bỏ lỡ chuyện gì rồi?"
+      }
+    ],
+    [
+      {
+        "text": "Hai cậu có chuyện gì muốn thú nhận không?",
         "italic": true
-      },
-      { "text": "Ongsa hứa." },
+      }
+    ],
+    [
+      {
+        "text": "Ongsa hỏi."
+      }
+    ],
+    [
+      {
+        "text": "Tớ chẳng liên quan gì hết.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Charoen lập tức đáp."
+      }
+    ],
+    [
+      {
+        "text": "Còn cậu thì sao, Tinh?",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa chuyển mục tiêu."
+      }
+    ],
+    [
+      {
+        "text": "Hứa là sẽ không giận nhé?"
+      }
+    ],
+    [
+      {
+        "text": "Đây rồi!!"
+      }
+    ],
+    [
+      {
+        "text": "Được, tớ hứa sẽ không giận. Giờ kể xem cậu đã làm gì đi.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Ongsa hứa."
+      }
+    ],
+    [
       {
         "text": "Ừm… Hôm qua, lúc tớ bảo để quên điện thoại ở đó, thật ra tớ nói dối. Tớ cố tình để nó lại."
-      },
-      { "text": "Cũng chẳng ngoài dự đoán." },
+      }
+    ],
+    [
+      {
+        "text": "Cũng chẳng ngoài dự đoán."
+      }
+    ],
+    [
       {
         "text": "Ongsa đã đoán Tinh chắc chắn có âm mưu gì đó để phá đám cô. Có khi cậu ta còn đứng bên ngoài rình xem nữa."
-      },
-      { "text": "Tớ quay phim cậu rồi." },
-      { "text": "HẢ?!!!!" },
-      { "text": "Chuyện này vượt xa mọi dự đoán của Ongsa." },
+      }
+    ],
+    [
+      {
+        "text": "Tớ quay phim cậu rồi."
+      }
+    ],
+    [
+      {
+        "text": "HẢ?!!!!"
+      }
+    ],
+    [
+      {
+        "text": "Chuyện này vượt xa mọi dự đoán của Ongsa."
+      }
+    ],
+    [
       {
         "text": "Đừng nói với tớ là cậu quay lại hết mọi thứ rồi chiếu cho cả hội học sinh xem đấy nhé?!"
-      },
-      { "text": "Không, không. Tớ không làm thế.", "italic": true },
-      { "text": "Tinh vội phủ nhận." },
-      { "text": "Thế thì…" },
+      }
+    ],
+    [
+      {
+        "text": "Không, không. Tớ không làm thế.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Tinh vội phủ nhận."
+      }
+    ],
+    [
+      {
+        "text": "Thế thì…"
+      }
+    ],
+    [
       {
         "text": "Tớ phát trực tiếp trên Facebook. Lúc cậu sắp hôn Sun, tớ gọi vào số của mình rồi nhanh chóng chạy đến lấy điện thoại."
-      },
-      { "text": "TRỜI ĐẤT QUỶ THẦN ƠI!!!!" },
-      { "text": "Cậu đã hứa sẽ không nói với tớ mà!" },
+      }
+    ],
+    [
       {
-        "text": "Đúng!! Tớ hứa sẽ không nói, nhưng tớ đâu có hứa là sẽ không giết cậu. Chết đi, cái đồ bạn bè khốn nạn!!!"
-      },
+        "text": "TRỜI ĐẤT QUỶ THẦN ƠI!!!!"
+      }
+    ],
+    [
+      {
+        "text": "Cậu đã hứa sẽ không giận tớ mà!"
+      }
+    ],
+    [
+      {
+        "text": "Đúng!! Tớ hứa sẽ không giận, nhưng tớ đâu có hứa là sẽ không giết cậu. Chết đi, cái đồ bạn bè khốn nạn!!!"
+      }
+    ],
+    [
       {
         "text": "ÁÁÁÁÁ, Ongsa! Đừng bóp cổ tớ! Khụ, khụ! Charoen, cứu tớ với!"
-      },
-      { "text": "Gieo nhân nào gặt quả nấy.", "italic": true },
-      { "text": "Charoen nhìn cảnh tượng trước mắt với vẻ thương hại." },
-      { "text": "Có lẽ hôm nay Tinh khó mà sống sót được rồi." },
+      }
+    ],
+    [
+      {
+        "text": "Gieo nhân nào gặt quả nấy.",
+        "italic": true
+      }
+    ],
+    [
+      {
+        "text": "Charoen nhìn cảnh tượng trước mắt với vẻ thương hại."
+      }
+    ],
+    [
+      {
+        "text": "Có lẽ hôm nay Tinh khó mà sống sót được rồi."
+      }
+    ],
+    [
       {
         "text": "Còn Ongsa thì chắc chắn sẽ lại trở thành chủ đề bàn tán của cả trường thêm vài ngày nữa…"
-      },
-      { "text": "☼☼☼☼☼☼☼☼☼☼☼" }
+      }
+    ],
+    [
+      {
+        "text": "☼☼☼☼☼☼☼☼☼☼☼"
+      }
     ]
   ],
   "235_special_part_3_title": "Ngoại truyện đặc biệt: 3",

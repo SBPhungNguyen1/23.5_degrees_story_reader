@@ -1,11 +1,17 @@
 import { ThemedView } from "@/components/themed-view";
 import { Spacing } from "@/constants/theme";
+import {
+  MAX_CONTENT_WIDTH,
+  useResponsive,
+  webPointer,
+} from "@/hooks/use-responsive";
 import { THEME_COLORS } from "@/utils/color-utils";
 import { Ionicons } from "@expo/vector-icons";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
   Appearance,
+  Platform,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -48,6 +54,8 @@ const themeOptions: ThemeOptionItem[] = [
 
 export default function Settings() {
   const { t, i18n } = useTranslation();
+  const r = useResponsive();
+
   const [selectedTheme, setSelectedTheme] = useState<ThemeOption>("system");
 
   const selectTheme = (theme: ThemeOption) => {
@@ -56,10 +64,8 @@ export default function Settings() {
   };
 
   const colorScheme = useColorScheme();
-
   const colors = THEME_COLORS[colorScheme === "dark" ? "dark" : "light"];
-
-  const styles = createStyles(colors);
+  const styles = createStyles(colors, r);
 
   const selectedLanguage = i18n.resolvedLanguage?.startsWith("vi")
     ? "vi"
@@ -69,220 +75,298 @@ export default function Settings() {
     <ThemedView style={styles.container}>
       <SafeAreaView style={styles.safeArea} edges={["top"]}>
         <ScrollView
-          showsVerticalScrollIndicator={false}
+          style={styles.pageScroll}
           contentContainerStyle={styles.scrollContent}
+          showsVerticalScrollIndicator={false}
         >
-          <View style={styles.headingRow}>
-            <View>
-              <Text style={styles.eyebrow}>PREFERENCES</Text>
-              <Text style={styles.title}>
-                {t("settings.title", "Settings")}
-              </Text>
-              <Text style={styles.subtitle}>
-                Make the app feel right for you.
-              </Text>
-            </View>
-          </View>
+          <View style={styles.column}>
+            {/* Page heading */}
+            <View style={styles.headingRow}>
+              <View style={styles.headingCopy}>
+                <Text style={styles.eyebrow}>PREFERENCES</Text>
 
-          <View style={styles.sectionCard}>
-            <View style={styles.sectionHeading}>
-              <View style={styles.sectionIcon}>
-                <Ionicons
-                  name="color-palette-outline"
-                  size={19}
-                  color={colors.primary}
-                />
-              </View>
-              <View style={styles.sectionHeadingText}>
-                <Text style={styles.sectionTitle}>Theme</Text>
-                <Text style={styles.sectionDescription}>
-                  Choose how the app looks
+                <Text style={styles.title}>
+                  {t("settings.title", "Settings")}
+                </Text>
+
+                <Text style={styles.subtitle}>
+                  {t("settings.subtitle", "Make the app feel right for you.")}
                 </Text>
               </View>
             </View>
 
-            <View style={styles.themeList}>
-              {themeOptions.map((option) => {
-                const isSelected = selectedTheme === option.value;
-
-                return (
-                  <Pressable
-                    key={option.value}
-                    accessibilityRole="radio"
-                    accessibilityState={{ checked: isSelected }}
-                    onPress={() => selectTheme(option.value)}
-                    style={({ pressed }) => [
-                      styles.themeOption,
-                      isSelected && styles.themeOptionSelected,
-                      pressed && styles.pressed,
-                    ]}
-                  >
-                    <View
-                      style={[
-                        styles.optionIcon,
-                        isSelected && styles.optionIconSelected,
-                      ]}
-                    >
-                      <Ionicons
-                        name={option.icon}
-                        size={20}
-                        color={isSelected ? colors.primary : colors.muted}
-                      />
-                    </View>
-                    <View style={styles.optionCopy}>
-                      <Text style={styles.optionTitle}>{option.label}</Text>
-                      <Text style={styles.optionDescription}>
-                        {option.description}
-                      </Text>
-                    </View>
-                    <View
-                      style={[
-                        styles.radioOuter,
-                        isSelected && styles.radioOuterSelected,
-                      ]}
-                    >
-                      {isSelected && <View style={styles.radioInner} />}
-                    </View>
-                  </Pressable>
-                );
-              })}
-            </View>
-          </View>
-
-          <View style={styles.sectionCard}>
-            <View style={styles.sectionHeading}>
-              <View style={styles.sectionIcon}>
-                <Ionicons
-                  name="language-outline"
-                  size={19}
-                  color={colors.primary}
-                />
-              </View>
-              <View style={styles.sectionHeadingText}>
-                <Text style={styles.sectionTitle}>
-                  {t("common.language", "Language")}
-                </Text>
-                <Text style={styles.sectionDescription}>
-                  Select your preferred language
-                </Text>
-              </View>
-            </View>
-
-            <View style={styles.languageRow}>
-              <Pressable
-                accessibilityRole="radio"
-                accessibilityState={{ checked: selectedLanguage === "en" }}
-                onPress={() => changeAppLanguage("en")}
-                style={({ pressed }) => [
-                  styles.languageOption,
-                  selectedLanguage === "en" && styles.languageOptionSelected,
-                  pressed && styles.pressed,
-                ]}
-              >
-                <Text style={styles.flag}>🇬🇧</Text>
-                <View style={styles.languageCopy}>
-                  <Text style={styles.languageName}>English</Text>
-                  <Text style={styles.languageNative}>English</Text>
-                </View>
-                {selectedLanguage === "en" && (
+            {/* Theme settings */}
+            <View style={styles.sectionCard}>
+              <View style={styles.sectionHeading}>
+                <View style={styles.sectionIcon}>
                   <Ionicons
-                    name="checkmark-circle"
-                    size={21}
+                    name="color-palette-outline"
+                    size={19}
                     color={colors.primary}
                   />
-                )}
-              </Pressable>
-
-              <Pressable
-                accessibilityRole="radio"
-                accessibilityState={{ checked: selectedLanguage === "vi" }}
-                onPress={() => changeAppLanguage("vi")}
-                style={({ pressed }) => [
-                  styles.languageOption,
-                  selectedLanguage === "vi" && styles.languageOptionSelected,
-                  pressed && styles.pressed,
-                ]}
-              >
-                <Text style={styles.flag}>🇻🇳</Text>
-                <View style={styles.languageCopy}>
-                  <Text style={styles.languageName}>Tiếng Việt</Text>
-                  <Text style={styles.languageNative}>Vietnamese</Text>
                 </View>
-                {selectedLanguage === "vi" && (
+
+                <View style={styles.sectionHeadingText}>
+                  <Text style={styles.sectionTitle}>
+                    {t("settings.theme", "Theme")}
+                  </Text>
+                  <Text style={styles.sectionDescription}>
+                    {t("settings.themeDescription", "Choose how the app looks")}
+                  </Text>
+                </View>
+              </View>
+
+              <View style={styles.themeList}>
+                {themeOptions.map((option) => {
+                  const isSelected = selectedTheme === option.value;
+
+                  return (
+                    <Pressable
+                      key={option.value}
+                      accessibilityRole="radio"
+                      accessibilityState={{
+                        checked: isSelected,
+                      }}
+                      onPress={() => selectTheme(option.value)}
+                      style={({ pressed }) => [
+                        styles.themeOption,
+                        isSelected && styles.themeOptionSelected,
+                        webPointer,
+                        pressed && styles.pressed,
+                      ]}
+                    >
+                      <View
+                        style={[
+                          styles.optionIcon,
+                          isSelected && styles.optionIconSelected,
+                        ]}
+                      >
+                        <Ionicons
+                          name={option.icon}
+                          size={20}
+                          color={isSelected ? colors.primary : colors.muted}
+                        />
+                      </View>
+
+                      <View style={styles.optionCopy}>
+                        <Text style={styles.optionTitle}>
+                          {t(
+                            `settings.themeOptions.${option.value}`,
+                            option.label
+                          )}
+                        </Text>
+
+                        <Text style={styles.optionDescription}>
+                          {t(
+                            `settings.themeDescriptions.${option.value}`,
+                            option.description
+                          )}
+                        </Text>
+                      </View>
+
+                      <View
+                        style={[
+                          styles.radioOuter,
+                          isSelected && styles.radioOuterSelected,
+                        ]}
+                      >
+                        {isSelected && <View style={styles.radioInner} />}
+                      </View>
+                    </Pressable>
+                  );
+                })}
+              </View>
+            </View>
+
+            {/* Language settings */}
+            <View style={styles.sectionCard}>
+              <View style={styles.sectionHeading}>
+                <View style={styles.sectionIcon}>
                   <Ionicons
-                    name="checkmark-circle"
-                    size={21}
+                    name="language-outline"
+                    size={19}
                     color={colors.primary}
                   />
+                </View>
+
+                <View style={styles.sectionHeadingText}>
+                  <Text style={styles.sectionTitle}>
+                    {t("common.language", "Language")}
+                  </Text>
+
+                  <Text style={styles.sectionDescription}>
+                    {t(
+                      "settings.languageDescription",
+                      "Select your preferred language"
+                    )}
+                  </Text>
+                </View>
+              </View>
+
+              <View style={styles.languageList}>
+                <Pressable
+                  accessibilityRole="radio"
+                  accessibilityState={{
+                    checked: selectedLanguage === "en",
+                  }}
+                  onPress={() => changeAppLanguage("en")}
+                  style={({ pressed }) => [
+                    styles.languageOption,
+                    selectedLanguage === "en" && styles.languageOptionSelected,
+                    webPointer,
+                    pressed && styles.pressed,
+                  ]}
+                >
+                  <Text style={styles.flag}>🇬🇧</Text>
+
+                  <View style={styles.languageCopy}>
+                    <Text style={styles.languageName}>English</Text>
+                    <Text style={styles.languageNative}>English</Text>
+                  </View>
+
+                  {selectedLanguage === "en" && (
+                    <Ionicons
+                      name="checkmark-circle"
+                      size={21}
+                      color={colors.primary}
+                    />
+                  )}
+                </Pressable>
+
+                <Pressable
+                  accessibilityRole="radio"
+                  accessibilityState={{
+                    checked: selectedLanguage === "vi",
+                  }}
+                  onPress={() => changeAppLanguage("vi")}
+                  style={({ pressed }) => [
+                    styles.languageOption,
+                    selectedLanguage === "vi" && styles.languageOptionSelected,
+                    webPointer,
+                    pressed && styles.pressed,
+                  ]}
+                >
+                  <Text style={styles.flag}>🇻🇳</Text>
+
+                  <View style={styles.languageCopy}>
+                    <Text style={styles.languageName}>Tiếng Việt</Text>
+                    <Text style={styles.languageNative}>Vietnamese</Text>
+                  </View>
+
+                  {selectedLanguage === "vi" && (
+                    <Ionicons
+                      name="checkmark-circle"
+                      size={21}
+                      color={colors.primary}
+                    />
+                  )}
+                </Pressable>
+              </View>
+            </View>
+
+            {/* About */}
+            <View style={styles.sectionCard}>
+              <View style={styles.sectionHeading}>
+                <View style={styles.sectionIcon}>
+                  <Ionicons
+                    name="information-circle-outline"
+                    size={19}
+                    color={colors.primary}
+                  />
+                </View>
+
+                <View style={styles.sectionHeadingText}>
+                  <Text style={styles.sectionTitle}>
+                    {t("settings.about", "About")}
+                  </Text>
+
+                  <Text style={styles.sectionDescription}>
+                    {t(
+                      "settings.aboutDescription",
+                      "A little bit about this app"
+                    )}
+                  </Text>
+                </View>
+              </View>
+
+              <Text style={styles.aboutText}>
+                {t(
+                  "settings.aboutContent",
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                 )}
-              </Pressable>
-            </View>
-          </View>
+              </Text>
 
-          <View style={styles.sectionCard}>
-            <View style={styles.sectionHeading}>
-              <View style={styles.sectionIcon}>
-                <Ionicons
-                  name="information-circle-outline"
-                  size={19}
-                  color={colors.primary}
-                />
-              </View>
-              <View style={styles.sectionHeadingText}>
-                <Text style={styles.sectionTitle}>About</Text>
-                <Text style={styles.sectionDescription}>
-                  A little bit about this app
+              <View style={styles.versionRow}>
+                <Text style={styles.versionLabel}>
+                  {t("settings.version", "Version")}
                 </Text>
+
+                <Text style={styles.versionValue}>1.0.0</Text>
               </View>
             </View>
 
-            <Text style={styles.aboutText}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            <Text style={styles.bottomNote}>
+              ©{new Date().getFullYear()} ·{" "}
+              {t("settings.allRightsReserved", "All rights reserved")} ·{" "}
+              {t("settings.developedBy", "Developed by")} BonKP
             </Text>
-            <View style={styles.versionRow}>
-              <Text style={styles.versionLabel}>Version</Text>
-              <Text style={styles.versionValue}>1.0.0</Text>
-            </View>
           </View>
-
-          <Text style={styles.bottomNote}>
-            ©{new Date().getFullYear()} · All rights reserved · Developed by
-            BonKP
-          </Text>
         </ScrollView>
       </SafeAreaView>
     </ThemedView>
   );
 }
 
-// const styles = StyleSheet.create({
 type ThemeColors = typeof THEME_COLORS.light;
+type Responsive = ReturnType<typeof useResponsive>;
 
-const createStyles = (COLORS: ThemeColors) =>
+const createStyles = (COLORS: ThemeColors, r: Responsive) =>
   StyleSheet.create({
     container: {
       flex: 1,
       backgroundColor: COLORS.background,
+      marginTop: r.isDesktop ? 20 : 0,
+      paddingTop: r.isDesktop ? 28 : 0,
     },
+
     safeArea: {
       flex: 1,
+      minHeight: 0,
       paddingHorizontal: Spacing.four,
-      paddingBottom: +Spacing.one,
+      paddingBottom: Spacing.one,
     },
+
+    pageScroll: {
+      flex: 1,
+      width: "100%",
+    },
+
     scrollContent: {
-      paddingTop: 14,
-      paddingBottom: 0,
-      gap: 18,
+      flexGrow: 1,
+      paddingTop: r.isDesktop ? 28 : r.isTablet ? 22 : 14,
+      paddingBottom: Spacing.three,
     },
+
+    // Mobile gần full width; tablet/web căn giữa, tối đa 720px.
+    column: {
+      width: "100%",
+      maxWidth: MAX_CONTENT_WIDTH,
+      alignSelf: "center",
+      gap: r.isDesktop ? 22 : 18,
+    },
+
     headingRow: {
       flexDirection: "row",
       alignItems: "center",
       justifyContent: "space-between",
       marginBottom: 2,
     },
+
+    headingCopy: {
+      flex: 1,
+      minWidth: 0,
+    },
+
     eyebrow: {
       color: COLORS.primary,
       fontSize: 11,
@@ -290,68 +374,83 @@ const createStyles = (COLORS: ThemeColors) =>
       letterSpacing: 1.8,
       marginBottom: 5,
     },
+
     title: {
       color: COLORS.text,
-      fontSize: 29,
+      fontSize: r.isDesktop ? 32 : r.isTablet ? 30 : 29,
       fontWeight: "800",
       letterSpacing: -0.7,
     },
+
     subtitle: {
       color: COLORS.muted,
-      fontSize: 13,
+      fontSize: r.isTablet ? 14 : 13,
+      lineHeight: r.isTablet ? 21 : 19,
       marginTop: 5,
     },
-    headingIcon: {
-      width: 48,
-      height: 48,
-      borderRadius: 16,
-      alignItems: "center",
-      justifyContent: "center",
-      backgroundColor: COLORS.primarySoft,
-    },
+
     sectionCard: {
       backgroundColor: COLORS.surface,
       borderRadius: 20,
-      padding: 17,
+      padding: r.isTablet ? 22 : 17,
       borderWidth: 1,
       borderColor: COLORS.border,
       gap: 16,
-      shadowColor: "#16382B",
-      shadowOffset: { width: 0, height: 5 },
-      shadowOpacity: 0.045,
-      shadowRadius: 12,
-      elevation: 2,
+
+      ...(Platform.OS === "web"
+        ? {
+            boxShadow: "0px 5px 12px rgba(22, 56, 43, 0.045)",
+          }
+        : {
+            shadowColor: "#16382B",
+            shadowOffset: { width: 0, height: 5 },
+            shadowOpacity: 0.045,
+            shadowRadius: 12,
+            elevation: 2,
+          }),
     },
+
     sectionHeading: {
       flexDirection: "row",
       alignItems: "center",
       gap: 11,
     },
+
     sectionIcon: {
       width: 40,
       height: 40,
+      flexShrink: 0,
       borderRadius: 13,
       backgroundColor: COLORS.iconBg,
       alignItems: "center",
       justifyContent: "center",
     },
+
     sectionHeadingText: {
       flex: 1,
+      minWidth: 0,
       gap: 3,
     },
+
     sectionTitle: {
       color: COLORS.text,
       fontSize: 16,
-      fontWeight: "700", // đã sửa: "750" không hợp lệ
+      fontWeight: "700",
     },
+
     sectionDescription: {
       color: COLORS.muted,
       fontSize: 12,
+      lineHeight: 18,
     },
+
     themeList: {
       gap: 9,
     },
+
     themeOption: {
+      width: "100%",
+      minWidth: 0,
       minHeight: 67,
       borderWidth: 1,
       borderColor: COLORS.border,
@@ -363,56 +462,74 @@ const createStyles = (COLORS: ThemeColors) =>
       gap: 11,
       backgroundColor: COLORS.surface,
     },
+
     themeOptionSelected: {
       borderColor: COLORS.primary,
       backgroundColor: COLORS.surfaceSelected,
     },
+
     optionIcon: {
       width: 40,
       height: 40,
+      flexShrink: 0,
       borderRadius: 12,
       backgroundColor: COLORS.surfaceSecondary,
       alignItems: "center",
       justifyContent: "center",
     },
+
     optionIconSelected: {
       backgroundColor: COLORS.primarySoft,
     },
+
     optionCopy: {
       flex: 1,
+      minWidth: 0,
       gap: 3,
     },
+
     optionTitle: {
       color: COLORS.text,
       fontSize: 14,
       fontWeight: "700",
     },
+
     optionDescription: {
       color: COLORS.muted,
       fontSize: 11,
+      lineHeight: 16,
+      flexShrink: 1,
     },
+
     radioOuter: {
       width: 20,
       height: 20,
+      flexShrink: 0,
       borderRadius: 10,
       borderWidth: 1.5,
       borderColor: COLORS.radioBorder,
       alignItems: "center",
       justifyContent: "center",
     },
+
     radioOuterSelected: {
       borderColor: COLORS.primary,
     },
+
     radioInner: {
       width: 10,
       height: 10,
       borderRadius: 5,
       backgroundColor: COLORS.primary,
     },
-    languageRow: {
+
+    languageList: {
       gap: 9,
     },
+
     languageOption: {
+      width: "100%",
+      minWidth: 0,
       minHeight: 66,
       borderWidth: 1,
       borderColor: COLORS.border,
@@ -424,31 +541,40 @@ const createStyles = (COLORS: ThemeColors) =>
       gap: 12,
       backgroundColor: COLORS.surface,
     },
+
     languageOptionSelected: {
       borderColor: COLORS.primary,
       backgroundColor: COLORS.surfaceSelected,
     },
+
     flag: {
       fontSize: 25,
+      flexShrink: 0,
     },
+
     languageCopy: {
       flex: 1,
+      minWidth: 0,
       gap: 3,
     },
+
     languageName: {
       color: COLORS.text,
       fontSize: 14,
       fontWeight: "700",
     },
+
     languageNative: {
       color: COLORS.muted,
       fontSize: 11,
     },
+
     aboutText: {
       color: COLORS.aboutText,
-      fontSize: 13,
-      lineHeight: 21,
+      fontSize: r.isTablet ? 14 : 13,
+      lineHeight: r.isTablet ? 23 : 21,
     },
+
     versionRow: {
       borderTopWidth: 1,
       borderTopColor: COLORS.border,
@@ -457,19 +583,23 @@ const createStyles = (COLORS: ThemeColors) =>
       alignItems: "center",
       justifyContent: "space-between",
     },
+
     versionLabel: {
       color: COLORS.muted,
       fontSize: 12,
     },
+
     versionValue: {
       color: COLORS.primary,
       fontSize: 12,
       fontWeight: "700",
     },
+
     bottomNote: {
       color: COLORS.bottomNote,
       textAlign: "center",
       fontSize: 11,
+      lineHeight: 17,
       paddingTop: 1,
       paddingBottom: Spacing.three,
     },

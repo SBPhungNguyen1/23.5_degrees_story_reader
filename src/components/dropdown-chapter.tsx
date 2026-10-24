@@ -47,7 +47,7 @@ export default function DropdownChapter({
     >
       <View style={styles.storyBarCopy}>
         <Text style={styles.storyBarName} numberOfLines={1}>
-          {STORY_NAME}
+          {t(STORY_NAME)}
         </Text>
         <Text style={styles.storyBarChapter} numberOfLines={1}>
           {current.title

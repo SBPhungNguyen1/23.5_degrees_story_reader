@@ -4,7 +4,19 @@
     "settings": "Settings",
     "language": "Language",
     "save": "Save",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "startReading": "Start reading"
+  },
+  "story": {
+    "year": "Year",
+    "chapterCount": "Chapter count",
+    "status": "Status",
+    "completed": "Completed",
+    "about": "About",
+    "genre": "Genre",
+    "tags": "Tags",
+    "summary": "Summary",
+    "chapters": "Chapters"
   },
   "home": {
     "title": "My Library",
@@ -17,6 +29,7 @@
     "previous_chapter": "Previous chapter",
     "next_chapter": "Next chapter"
   },
+  "235_degree_the_world_incline": "23,5 Degree the World Incline",
   "prologue": "Prologue",
   "235_prologue_content": [
     [
