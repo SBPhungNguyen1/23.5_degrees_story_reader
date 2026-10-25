@@ -1,8 +1,11 @@
 import { THEME_COLORS } from "@/utils/color-utils";
 import { Stack } from "expo-router";
+import { useTranslation } from "react-i18next";
 import { useColorScheme } from "react-native";
 
 export default function StoriesLayout() {
+  const { t } = useTranslation();
+
   const colorScheme = useColorScheme();
   const colors = THEME_COLORS[colorScheme === "dark" ? "dark" : "light"];
 
@@ -25,7 +28,7 @@ export default function StoriesLayout() {
       <Stack.Screen
         name="235degrees/index"
         options={{
-          title: "Chi tiết truyện",
+          title: t("stories.detailTitle", "Chi tiết truyện"),
           headerShown: true,
         }}
       />

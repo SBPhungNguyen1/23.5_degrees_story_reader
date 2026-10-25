@@ -7,6 +7,33 @@
     "cancel": "Hủy",
     "startReading": "Bắt đầu đọc"
   },
+  "settings": {
+    "languageDescription": "Chọn ngôn ngữ bạn thích",
+    "eyebrow": "TÙY CHỈNH",
+    "title": "Cài đặt",
+    "subtitle": "Tùy chỉnh ứng dụng theo cách bạn thích.",
+    "theme": "Giao diện",
+    "themeDescription": "Chọn giao diện hiển thị của ứng dụng",
+    "themeOptions": {
+      "light": "Sáng",
+      "dark": "Tối",
+      "system": "Theo hệ thống"
+    },
+    "themeDescriptions": {
+      "light": "Giao diện sáng, rõ ràng và dễ nhìn",
+      "dark": "Dịu mắt khi sử dụng trong điều kiện thiếu sáng",
+      "system": "Tự động theo cài đặt thiết bị của bạn"
+    }
+  },
+  "library": {
+    "eyebrow": "BẮT ĐẦU KHÁM PHÁ",
+    "title": "Thư viện",
+    "subtitle": "Nơi những câu chuyện bắt đầu."
+  },
+  "stories": {
+    "detailTitle": "Chi tiết truyện",
+    "readChapterTitle": "Đọc truyện"
+  },
   "story": {
     "year": "Năm",
     "chapterCount": "Số chương",
@@ -20,17 +47,28 @@
   },
   "home": {
     "title": "Thư viện của tôi",
-    "description": "Khám phá những nội dung yêu thích"
+    "description": "Khám phá những nội dung yêu thích",
+    "welcomeEyebrow": "ĐÔI LỜI GỬI BẠN",
+    "welcomeTitle": "Chào mừng bạn!",
+    "welcomeMessage": "Chúc bạn có những khoảng thời gian đọc và nghe truyện thật vui vẻ.",
+    "thankYou": "Cảm ơn bạn đã luôn yêu thương và ủng hộ ứng dụng.",
+    "signature": "Chúc bạn có những trải nghiệm thật đẹp ♡"
   },
   "index": {
     "home": "Trang chủ",
     "explore": "Khám phá",
     "library": "Thư viện",
+    "settings": "Cài đặt",
     "previous_chapter": "Chương trước",
-    "next_chapter": "Chương sau"
+    "next_chapter": "Chương sau",
+    "about": "Giới thiệu ứng dụng",
+    "about_title": "Một chút chia sẻ về ứng dụng này",
+    "about_content": "Ứng dụng này được tạo ra để lưu giữ những câu chuyện mình yêu thích, đặc biệt là '23,5 Độ Nghiêng Trái Đất', vì tôi không thể tìm thấy truyện nữa. Bản dịch tiếng Việt là bản dịch của tôi, có tham khảo các bản dịch của những dịch giả khác. Đây là dự án cá nhân xuất phát từ tình yêu đọc truyện và mong muốn lưu giữ những câu chuyện tôi trân quý."
   },
   "235_degree_the_world_incline": "23,5 Độ Nghiêng Trái Đất",
-    "235_degree_the_world_inclide_description": "Ongsa, một cô gái nhút nhát và có phần vụng về, đem lòng thích Sun, cô bạn nổi tiếng và luôn tỏa sáng như chính tên gọi của mình. Vì không đủ can đảm để bày tỏ tình cảm trực tiếp, Ongsa quyết định tiếp cận Sun qua mạng xã hội bằng một tài khoản ẩn danh mang tên Earth. Từ những tin nhắn vụng về đến những rung động đầu đời, Ongsa dần bước vào một hành trình tình yêu vừa ngọt ngào, hài hước, vừa đầy những bối rối của tuổi thanh xuân.",
+  "235_degree_the_world_inclide_description": "Ongsa, một cô gái nhút nhát và có phần vụng về, đem lòng thích Sun, cô bạn nổi tiếng và luôn tỏa sáng như chính tên gọi của mình. Vì không đủ can đảm để bày tỏ tình cảm trực tiếp, Ongsa quyết định tiếp cận Sun qua mạng xã hội bằng một tài khoản ẩn danh mang tên Earth. Từ những tin nhắn vụng về đến những rung động đầu đời, Ongsa dần bước vào một hành trình tình yêu vừa ngọt ngào, hài hước, vừa đầy những bối rối của tuổi thanh xuân.",
+  "235_brief": "Một câu chuyện về tình bạn, tình yêu và hành trình trưởng thành.",
+
   "genre_content": {
     "romance": "Tình cảm",
     "school_life": "Học đường",

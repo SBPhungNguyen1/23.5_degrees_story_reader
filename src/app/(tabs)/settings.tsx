@@ -83,8 +83,9 @@ export default function Settings() {
             {/* Page heading */}
             <View style={styles.headingRow}>
               <View style={styles.headingCopy}>
-                <Text style={styles.eyebrow}>PREFERENCES</Text>
-
+                <Text style={styles.eyebrow}>
+                  {t("settings.eyebrow", "PREFERENCES")}
+                </Text>
                 <Text style={styles.title}>
                   {t("settings.title", "Settings")}
                 </Text>
@@ -277,21 +278,18 @@ export default function Settings() {
 
                 <View style={styles.sectionHeadingText}>
                   <Text style={styles.sectionTitle}>
-                    {t("settings.about", "About")}
+                    {t("index.about", "About")}
                   </Text>
 
                   <Text style={styles.sectionDescription}>
-                    {t(
-                      "settings.aboutDescription",
-                      "A little bit about this app"
-                    )}
+                    {t("index.about_title", "A little bit about this app")}
                   </Text>
                 </View>
               </View>
 
               <Text style={styles.aboutText}>
                 {t(
-                  "settings.aboutContent",
+                  "index.about_content",
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                 )}
               </Text>

@@ -32,7 +32,7 @@ const STORIES: Story[] = [
   {
     id: STORY_SLUG,
     name: STORY_NAME,
-    info: "A story about friendship, love, and growing up.",
+    info: "235_brief",
     cover: require("@/assets/images/hero/235_cover_hero.jpeg"),
   },
 ];
@@ -82,7 +82,7 @@ export default function Library() {
         </Text>
 
         <Text style={styles.storyInfo} numberOfLines={2}>
-          {item.info}
+          {t(item.info)}
         </Text>
       </View>
 
@@ -96,8 +96,9 @@ export default function Library() {
         <View style={styles.column}>
           <View style={styles.headingRow}>
             <View style={styles.headingCopy}>
-              <Text style={styles.eyebrow}>LET'S GET TO</Text>
-
+              <Text style={styles.eyebrow}>
+                {t("library.eyebrow", "LET'S GET TO")}
+              </Text>
               <Text style={styles.title}>{t("library.title", "Library")}</Text>
 
               <Text style={styles.subtitle}>
