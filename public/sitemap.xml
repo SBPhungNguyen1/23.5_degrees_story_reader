@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/</loc>
+  </url>
+
+  <!-- Story page -->
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees</loc>
+  </url>
+
+  <!-- Prologue and introduction -->
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/prologue</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/intro</loc>
+  </url>
+
+  <!-- Chapters 1-16 -->
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-1</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-2</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-3</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-4</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-5</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-6</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-7</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-8</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-9</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-10</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-11</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-12</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-13</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-14</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-15</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/chapter-16</loc>
+  </url>
+
+  <!-- Extra and special chapters -->
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/extra</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/special-part-2</loc>
+  </url>
+  <url>
+    <loc>https://235degreesstoryreader.vercel.app/stories/235degrees/chapter/special-part-3</loc>
+  </url>
+
+</urlset>
