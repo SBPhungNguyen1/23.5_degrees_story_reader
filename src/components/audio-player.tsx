@@ -1,7 +1,12 @@
 import { useResponsive, webPointer } from "@/hooks/use-responsive";
 import { Ionicons } from "@expo/vector-icons";
 import Slider from "@react-native-community/slider";
-import { useAudioPlayer, useAudioPlayerStatus } from "expo-audio";
+import {
+  setAudioModeAsync,
+  useAudioPlayer,
+  useAudioPlayerStatus,
+} from "expo-audio";
+import { useEffect } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
 type AudioPlayerProps = {
@@ -28,6 +33,14 @@ export function AudioPlayer({ source, colors }: AudioPlayerProps) {
   const playSize = isTablet ? 42 : 54;
   const playIconSize = isTablet ? 21 : 27;
 
+  useEffect(() => {
+    void setAudioModeAsync({
+      playsInSilentMode: true,
+      shouldPlayInBackground: true,
+      interruptionMode: "doNotMix",
+    }).catch(console.error);
+  }, []);
+
   const player = useAudioPlayer(source);
   const status = useAudioPlayerStatus(player);
 
@@ -44,6 +57,13 @@ export function AudioPlayer({ source, colors }: AudioPlayerProps) {
       player.pause();
       return;
     }
+
+    // screen lock
+    player.setActiveForLockScreen(true, {
+      title: "23.5 Degree the World Incline",
+      artist: "Story Reader",
+      albumTitle: "Audiobook",
+    });
 
     // Phát lại từ đầu nếu audio đã chạy đến cuối.
     if (duration > 0 && position >= duration) {

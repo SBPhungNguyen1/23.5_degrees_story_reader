@@ -1,14 +1,15 @@
 {
   "expo": {
     "name": "23.5 Degrees — Story Reader",
-    "slug": "story_app_react_native_v1",
+    "slug": "pj-235-degrees-story-reader",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "storyappreactnativev1",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/images/splash-screen-icon.png"
+      "icon": "./assets/images/splash-screen-icon.png",
+      "infoPlist": {}
     },
     "android": {
       "adaptiveIcon": {
@@ -17,9 +18,17 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ],
+      "package": "com.anonymous.story_app_react_native_v1"
     },
     "web": {
+      "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
@@ -34,12 +43,28 @@
         }
       ],
       "expo-localization",
-      "expo-audio",
+      [
+        "expo-audio",
+        {
+          "enableBackgroundPlayback": true
+        }
+      ],
       "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "3b0d3875-ab23-4a5e-b639-ebc5d596f569"
+      }
+    },
+    "owner": "sbphungnguyens-team"
   }
 }
