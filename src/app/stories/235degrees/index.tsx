@@ -32,10 +32,9 @@ const STORY = {
   cover: require("@/assets/images/hero/235_cover_hero.jpeg"),
   year: "2018",
   status: "completed",
-  about:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  genres: ["Phiêu lưu", "Giả tưởng"],
-  tags: ["hành động", "bí ẩn", "tình bạn", "trưởng thành"],
+  about: "235_degree_the_world_inclide_description",
+  genres: ["romance", "school_life", "comedy", "gl"],
+  tags: ["romance", "schoollife", "comedy", "gl"],
 };
 
 const CHAPTERS: Chapter[] = CHAPTERS_LIST;
@@ -186,7 +185,7 @@ export default function StoriesDetail235() {
                   <Text style={styles.blockLabel}>
                     {t("story.about", "Giới thiệu")}
                   </Text>
-                  <Text style={styles.aboutText}>{STORY.about}</Text>
+                  <Text style={styles.aboutText}>{t(STORY.about)}</Text>
                 </View>
 
                 <View style={styles.block}>
@@ -196,7 +195,9 @@ export default function StoriesDetail235() {
                   <View style={styles.chipRow}>
                     {STORY.genres.map((genre) => (
                       <View key={genre} style={styles.chipPrimary}>
-                        <Text style={styles.chipPrimaryText}>{genre}</Text>
+                        <Text style={styles.chipPrimaryText}>
+                          {t(`genre_content.${genre}`)}
+                        </Text>
                       </View>
                     ))}
                   </View>
