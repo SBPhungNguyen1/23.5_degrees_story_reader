@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "story_app_react_native_v1",
+    "name": "23.5 Degrees — Story Reader",
     "slug": "story_app_react_native_v1",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "scheme": "storyappreactnativev1",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/images/splash-screen-icon.png"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,13 +28,14 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#F8F5F0",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 120
         }
       ],
       "expo-localization",
-      "expo-audio"
+      "expo-audio",
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true,
