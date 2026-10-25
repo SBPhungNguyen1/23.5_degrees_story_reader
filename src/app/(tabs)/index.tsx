@@ -13,6 +13,22 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import type { Metadata } from "expo-router/server";
+
+export function generateMetadata(): Metadata {
+  return {
+    title: "23.5 Degrees – Read 23.5 Độ Nghiêng Trái Đất Online",
+    description:
+      "Discover 23.5 Degrees (23.5 Độ Nghiêng Trái Đất), a beloved Thai girls’ love story. Read the story online and explore its chapters on 23.5 Degrees Story Reader.",
+    openGraph: {
+      title: "23.5 Degrees — Story Reader",
+      description:
+        "Read 23.5 Degrees (23.5 Độ Nghiêng Trái Đất) online and explore the story chapter by chapter.",
+      type: "website",
+    },
+  };
+}
+
 export default function HomeScreen() {
   const { t } = useTranslation();
   const r = useResponsive();

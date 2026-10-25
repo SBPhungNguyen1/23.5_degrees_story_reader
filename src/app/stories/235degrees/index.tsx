@@ -24,6 +24,22 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+import type { Metadata } from "expo-router/server";
+
+export function generateMetadata(): Metadata {
+  return {
+    title: "23.5 Degrees (23.5 Độ Nghiêng Trái Đất) – Story & Chapters",
+    description:
+      "Explore 23.5 Degrees, also known as 23.5 Độ Nghiêng Trái Đất. Discover the story, browse its chapters, and enjoy reading on 23.5 Degrees Story Reader.",
+    openGraph: {
+      title: "23.5 Degrees (23.5 Độ Nghiêng Trái Đất)",
+      description:
+        "Explore the story and its chapters on 23.5 Degrees Story Reader.",
+      type: "website",
+    },
+  };
+}
+
 type TabKey = "summary" | "chapters";
 
 // Dữ liệu mẫu — thay bằng dữ liệu thật (API / store) của bạn.
