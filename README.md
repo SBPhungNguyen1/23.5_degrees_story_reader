@@ -98,6 +98,8 @@ Rather than building a large platform, I wanted to create a lightweight, persona
 
 This project is a way to combine my interest in software development with my love for stories.
 
+![Story Hero](./image-1.png)
+
 ## ⚠️ Disclaimer
 
 This is a non-commercial, fan-made project created for personal and educational purposes.
