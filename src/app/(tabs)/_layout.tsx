@@ -7,7 +7,6 @@ import AppTabs from "@/components/app-tabs";
 
 SplashScreen.preventAutoHideAsync();
 
-// add: a comment
 export default function TabLayout() {
   const colorScheme = useColorScheme();
   return (
